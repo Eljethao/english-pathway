@@ -1,0 +1,13 @@
+{
+  "slug": "reading-instructions-procedures",
+  "level": "B1",
+  "verdict": "meets",
+  "cefrAlignment": "Matches B1 (CEFR CV reading instructions: can understand clearly written, straightforward instructions for a piece of equipment and follow a procedure): booking guides, product instructions and a workplace procedure of 200–245 words, with sequence, condition and warning language.",
+  "examFidelity": "The texts and question types fit TOEFL Read in Daily Life and TOEIC Part 7. The flow-chart uses the IELTS 'NO MORE THAN TWO WORDS AND/OR A NUMBER' format correctly, and every key fits the limit. The tips agree with exams.ts.",
+  "itemsChecked": 25,
+  "fixes": [
+    "Moved the correct option in four MCQs (ex1 q1 and q4, ex4 q3 and q4) because too many keys were in position B."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can follow the real order of steps when before, after, once and until reverse the word order, notice conditions and warnings, and transfer a procedure to a flow-chart."
+}

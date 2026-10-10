@@ -1,0 +1,18 @@
+{
+  "slug": "listening-multiple-choice-distractors",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 (following the line of argument in discussions, recognising speaker viewpoints and changes of mind in standard speech): 84–251-word clips with suggested-then-rejected ideas, past-versus-present information and attributed opinions demand B2 inferencing.",
+  "examFidelity": "IELTS Part 2 three-option MCQ, Part 3 'choose TWO' and matching with extra options are accurate in format and in answer order. The Part 3 tip ('two or three speakers') was narrowed and is now aligned with exams.ts.",
+  "itemsChecked": 16,
+  "fixes": [
+    "IELTS tip in Learn: 'two or three speakers' changed to 'two or more speakers (for example, two students and a tutor) discuss a study topic', in line with exams.ts",
+    "Model walkthrough Q3: 'a written report is never discussed' was inaccurate ('published reports' are mentioned), so it is now taught as a word-match distractor",
+    "ex2 Q1 explanation: corrected the claim that 'offices' is never heard as a use of the building; it now says offices were the old use of the top-floor space"
+  ],
+  "openConcerns": [
+    "For 'choose TWO', the item count treats each question as one item (three questions, six marks). In ex3 Q1, the option 'useful contacts in the industry' is never mentioned. This is acceptable, but it is less demanding than an IELTS-style distractor.",
+    "TTS gives Lena/Omar and Mia/Jack different voices, but the tone of polite rejections ('That's interesting, but …') was not checked by ear."
+  ],
+  "learnerOutcome": "A learner who does this lesson well can recognise six common distractor types and track which option speakers finally confirm in multiple-choice, choose-TWO and matching tasks."
+}

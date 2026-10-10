@@ -1,0 +1,16 @@
+{
+  "slug": "writing-b1-review-test",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "A fair B1 review: the auto-checked items sample the course's grammar, cohesion, register and spelling, and the 150-word letter and 100-word paragraph match the B1 production descriptors.",
+  "examFidelity": "IELTS GT Task 1 (150 words, 20 minutes), the Task 2 weighting and the TOEIC opinion essay (30 minutes, 300 words) are stated in line with exams.ts. 45 minutes is within the 35–45 range, and the planned parts add up to about 40 minutes.",
+  "itemsChecked": 22,
+  "fixes": [
+    "The 'weak to strong' explanation was wrong: it said However replaced a comma splice and called 'one' an article. It now names each change correctly (new sentence with However, a colon instead of the comma splice, a word before a singular noun, plural verb and word order).",
+    "ex2 gap 1: added ''ve been'.",
+    "ex2 gap 2: added 'Nonetheless', 'Despite this' and 'In spite of this'.",
+    "ex2 gap 5: added ''m meeting', ''m going to meet', 'will meet' and ''ll meet'."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can check their control of the B1 course language under time, write a full GT-style letter and an opinion paragraph, and see which lessons to review."
+}

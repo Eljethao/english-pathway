@@ -1,0 +1,16 @@
+{
+  "slug": "writing-multiple-charts",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1 written production (selecting and synthesising data from two sources into a clear, well-structured report): the models use precise proportional language (more than eightfold, percentage points) and accurate complex sentences.",
+  "examFidelity": "Accurate IELTS Academic Task 1 format (20 minutes, 150+ words, two visuals); band 7/8 Task Achievement claims checked against the May 2023 public descriptors and correct; every figure in both model answers and all calculations verified against the chart and table data.",
+  "itemsChecked": 23,
+  "fixes": [
+    "Changed the suggested length (170–220 words) to 170–230 so that it is consistent with the 230-word model answer",
+    "Added 'forty five' as an accepted answer in the gap fill"
+  ],
+  "openConcerns": [
+    "The 20-minute timed write plus four other exercises realistically takes longer than the 25 minutes listed (the minutes value is fixed by the content guide)."
+  ],
+  "learnerOutcome": "Learners can plan a two-visual Task 1 report with an overview that covers both visuals, select key features and link the visuals accurately without claiming causes."
+}

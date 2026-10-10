@@ -1,0 +1,15 @@
+{
+  "slug": "speaking-evaluating-justifying",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: the lesson asks learners to build a reasoned argument with a criterion, a concession and a qualified verdict, which matches the CEFR C1 descriptors for spoken production (developing an argument systematically, with relevant supporting detail and qualifications) and goes beyond the B2/C1 'weigh both sides' taught in Abstract discussion.",
+  "examFidelity": "IELTS Part 3 (no preparation, 60 s timer) and TOEFL Take an Interview (no preparation, 45 s) match exams.ts; the band 7 Fluency and Coherence quote ('Flexible use of spoken discourse markers, connectives and cohesive features') is verbatim from the public descriptors.",
+  "itemsChecked": 21,
+  "fixes": [
+    "Trimmed the Part 3 model (ex4) from 143 to 135 words so it fits 60 s at a natural pace, and rewrote an awkwardly placed trailing clause ('…if you have to book months ahead') as a clear concession"
+  ],
+  "openConcerns": [
+    "Speak tasks are self-assessed only; learners may over-rate how 'decisive' their verdicts sound without teacher feedback"
+  ],
+  "learnerOutcome": "A learner can answer 'How far do you agree…?' and 'Is it fair…?' questions with a calibrated position, a named criterion, a real concession and a justified verdict instead of a list of pros and cons."
+}

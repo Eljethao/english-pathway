@@ -1,0 +1,17 @@
+{
+  "slug": "speaking-practice-test-2",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 mock: the Part 2 and Part 3 models show sustained, well-organised discourse with precise and idiomatic vocabulary and complex grammar, the Part 1 models are short and natural, and the self-assessment table quotes the public band 7 and band 8 descriptors verbatim.",
+  "examFidelity": "Part 1 (no prep, about 30 s), Part 2 (1 min prep with notes, up to 2 min), Part 3 (no prep, about 60 s), TOEFL interview (no prep, 45 s) and TOEIC Express an opinion (45 s / 60 s) match exams.ts; the topics (reading, gifts, advice, internships, workplace training) differ from Full speaking practice test (home, mornings, music, public spaces).",
+  "itemsChecked": 25,
+  "fixes": [
+    "Added a sixth Part 1 question (ex15, 'Did you read a lot when you were a child?') with a model, target phrases and a checklist. This matches the first mock and brings Part 1 closer to its 4–5 minutes. Updated the overview table and renumbered the Part 1 titles",
+    "Fixed four target phrases the app could never credit or that did not match the model: 'less… than…' → 'less the camera itself than', 'reframed… as' → 'reframed asking questions as', 'would have turned to' → 'would mostly have turned to', 'not replaced so much as supplemented' → 'replaced so much as supplemented' (the checklist wording was aligned)"
+  ],
+  "openConcerns": [
+    "The mock has one TOEFL interview question; the real task has four",
+    "Speak tasks are self-assessed only; the descriptor table helps, but learners near the band 7/8 boundary may misjudge their level without examiner feedback"
+  ],
+  "learnerOutcome": "A learner can take a second full, timed IELTS Speaking mock plus TOEFL and TOEIC tasks on new topics, and measure progress against the exact band 7 and band 8 descriptors."
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "writing-academic-discussion",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 written interaction and production (can write a short contribution that gives and supports an opinion and responds to others' views), with semi-formal language and B2 vocabulary.",
+  "examFidelity": "Matches exams.ts for TOEFL Write for an Academic Discussion: a professor's question plus two classmates' posts, one post written in 10 minutes, at least 100 words recommended; the minute-by-minute split and 'no separate conclusion' are presented as advice, not rules.",
+  "itemsChecked": 12,
+  "fixes": [
+    "Changed 'Write at least 100 words' to 'ETS recommends at least 100 words' to match exams.ts",
+    "Model response: the first sentence now answers the professor's question directly ('Like Kenji, I don't think free public transport is the best use of city money…'), as the lesson's own plan requires; walkthrough and word count (about 140) updated",
+    "Practice model answer: the opening now states a clear position in the first sentence (it used to hedge until the last line, against the lesson's own rubric); added a supporting sentence and a clear wrap-up",
+    "Added an explanation to the post-length MCQ"
+  ],
+  "openConcerns": [
+    "The ETS scoring rubric for this task is not reproduced in exams.ts; the self-check rubric follows the general ETS criteria (relevant contribution, elaboration, syntactic variety, precise vocabulary, few errors) but a specialist may wish to align its wording with the current ETS rubric"
+  ],
+  "learnerOutcome": "A learner can write a focused 100–150-word discussion post in 10 minutes that states an opinion, engages politely with a classmate and adds a new, supported idea."
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "listening-multi-speaker-discussions",
+  "level": "C1",
+  "verdict": "meets",
+  "cefrAlignment": "C1: tracking three speakers whose alliances change from one decision to the next, and separating 'giving way' from 'agreeing', fits the C1 descriptor for following animated discussions between several speakers.",
+  "examFidelity": "The IELTS Part 3 'which person' matching task and the MCQs follow exams.ts. The TOEIC Part 3 conversation with three speakers is accurate, but it has 5 questions where the real test has 3, and the instructions now say so.",
+  "itemsChecked": 29,
+  "fixes": [
+    "Ex4 (TOEIC Part 3): the instructions now say that the real test asks three questions per conversation and that there are five here for extra practice."
+  ],
+  "openConcerns": [
+    "Practice 1 is 452 words, just above the guide's 450 for C1, which is acceptable for an IELTS Part 3 recording.",
+    "The TTS voices for Dr Hughes, Marta and Jun are assigned automatically. The items name the speakers and never depend on gender."
+  ],
+  "learnerOutcome": "Learners can keep track of who proposes, supports and rejects each idea in a three-way discussion, and can tell the group's final decision apart from each person's own view."
+}

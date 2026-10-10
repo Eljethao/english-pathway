@@ -1,0 +1,18 @@
+{
+  "slug": "listening-notes-at-speed",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: taking selective, compressed notes from fast, dense lectures that keep hedges, conditions and evaluations matches the C1 descriptor for note-taking from lectures on complex topics.",
+  "examFidelity": "The IELTS Part 4 note completion uses ONE WORD ONLY, with answers in audio order. The TOEFL Academic Talk is now 232 words (within 100–250) and has 4 questions covering main idea, detail, purpose and inference, as in exams.ts.",
+  "itemsChecked": 23,
+  "fixes": [
+    "Replaced the model lecture on desire paths, which repeated the B2 lesson listening-academic-talk-main-idea (same points: nuisance, fences rarely work, wait and then pave), with a new lecture on food deserts. Rewrote the walkthrough notes, the 'What the learner did' commentary, the 'From speech to notes' examples, the shorthand example and two vocabulary items to match.",
+    "Replaced Practice 2 (night-time bird migration), which nearly duplicated Section 7 of the B2 review test (the same reasons and the same planetarium evidence), with a new TOEFL-style talk on why zebras have stripes. Rewrote ex4 (4 questions) and ex5 (4 note-accuracy items), and the vocabulary items that went with the old talk.",
+    "Updated the TOEFL exam tip so its qualifier examples match the new talk."
+  ],
+  "openConcerns": [
+    "The zebra talk refers to the British experiment with horses in striped coats (Caro et al., 2019, PLOS ONE): flies approached about as often but landed less and failed to slow down. Lion night vision and the temperature evidence are hedged ('according to some studies', 'mixed at best'). The food-deserts talk keeps its claims general ('some studies have found…').",
+    "The waiting lecture follows Maister's well-known principles of waiting lines and the familiar airport baggage-hall anecdote, in general terms."
+  ],
+  "learnerOutcome": "Learners can decide in real time what to write, compress a sentence without losing its hedge or direction, and answer exam questions accurately from their own notes."
+}

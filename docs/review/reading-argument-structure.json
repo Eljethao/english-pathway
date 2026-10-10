@@ -1,0 +1,14 @@
+{
+  "slug": "reading-argument-structure",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: two 560–630-word argumentative texts with concession, rebuttal and qualification. Learners analyse how the argument works, which matches the C1 descriptors for following complex lines of argument.",
+  "examFidelity": "Multiple choice and Matching sentence endings follow IELTS conventions: sentence beginnings follow the order of the text and there are extra endings. Every item has one defensible key.",
+  "itemsChecked": 21,
+  "fixes": [
+    "Luxembourg: replaced 'make all of its buses, trams and trains free' with 'free to use throughout the country', because first-class rail travel is still charged.",
+    "TOEFL tip: changed 'often use' to 'can use', so the tip no longer states an unverified detail about the option format."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Learners can map an argument by its moves (claim, evidence, concession, rebuttal, qualification), find where the writer's main claim is, and use the map to answer questions on function and sentence endings."
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "speaking-intonation-connected-speech",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits the B2 phonological control descriptors ('can generally use appropriate intonation, place stress correctly and articulate individual sounds clearly'); the focus on focus-word shift, fall-rise and connected speech (linking, weak forms, elision, assimilation) matches B2 learners, and the features are explained accurately.",
+  "examFidelity": "TOEIC Read a text aloud uses the correct 45 s prep / 45 s reading (68-word text fits easily); TOEFL Listen and Repeat and IELTS Part 1 advice matches exams.ts; the IELTS pronunciation tip now paraphrases the public descriptors instead of misquoting them.",
+  "itemsChecked": 18,
+  "fixes": [
+    "IELTS tip corrected: it attributed 'a wide range of pronunciation features' to band 7; the public descriptors use 'wide range of phonological features' at band 8 (band 7 = some band-8 features), so it now refers to the higher bands and the descriptor's own wording",
+    "Made list intonation consistent: the TOEIC tip said 'rise, rise, fall' while the table and checklist taught fall-rise; now 'a rise or fall-rise on each item, a fall on the last'",
+    "Walkthrough focus words corrected: it put the list fall-rise and fall on 'walk' and 'friends', contradicting the lesson's own 'last content word' rule; now 'hills' and 'park'",
+    "Fixed the linking transcription 'stuck-i-nə-noffice' to 'stu-ki-nə-noffice'",
+    "TOEIC read-aloud instructions no longer tell learners to 'mark' the text (a computer-delivered test has nothing to mark); they now say to read silently and decide where focus words, pauses and lists are",
+    "Softened the unsupported key point 'Shadowing is the fastest way' to 'one of the most effective ways'"
+  ],
+  "openConcerns": [
+    "The model answer and all six shadowing sentences are spoken by browser TTS. The walkthrough describes specific tones (two falls on 'OUTdoors, DEFinitely', fall-rise on 'hills', weak forms, elision of /t/ in 'just want'), and TTS may not produce them. A specialist should check the TTS output or replace it with a human recording (the audio section supports `src`)",
+    "The read-aloud announcement uses US forms (parking lot, dollars) in an otherwise British-spelling lesson; this is deliberate for a US store, but worth a glance"
+  ],
+  "learnerOutcome": "A learner can put the main stress on the focus word (and move it for contrast), choose falling, rising or fall-rise intonation, use common linking and weak forms, and read a short announcement aloud with natural chunking."
+}

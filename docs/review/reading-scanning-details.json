@@ -1,0 +1,15 @@
+{
+  "slug": "reading-scanning-details",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B1 (CEFR CV reading for information: can find and understand relevant information in everyday material such as brochures and short official documents): a course brochure and short profiles of about 210 words each, with tasks focused on names, numbers, times and simple synonyms.",
+  "examFidelity": "The gap task uses the authentic IELTS wording 'NO MORE THAN TWO WORDS AND/OR A NUMBER' and every key fits the limit; the TOEFL Read in Daily Life and TOEIC Part 7 tips agree with exams.ts.",
+  "itemsChecked": 23,
+  "fixes": [
+    "Removed the 'All of them' option from ex2 q1 (an all-of-the-above-style distractor)",
+    "Added reasonable accepted answers to the gap for the minimum age ('8 years', 'eight years', '8 years old') and a hyphenated phone-number variant",
+    "Changed Sofia's 'kitchen team of fifteen people' to 'fifteen volunteers' so the ex3 item 'leads a group of other volunteers' has one clearly defensible answer"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can predict the form of an answer, scan a short everyday text quickly for names, numbers, dates and prices, and check that a detail belongs to the right person or event even when the question uses synonyms."
+}

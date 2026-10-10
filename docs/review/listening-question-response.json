@@ -1,0 +1,18 @@
+{
+  "slug": "listening-question-response",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B1 spoken interaction comprehension (understanding everyday questions and choosing an appropriate response in familiar workplace or campus situations): single-sentence prompts at natural but clear speed, with B1-level indirect replies.",
+  "examFidelity": "TOEIC Part 2 (three spoken replies, heard once, nothing printed) and TOEFL Listen and Choose a Response (one spoken prompt, four written options) are both modelled accurately against exams.ts. Each item has exactly one defensible reply.",
+  "itemsChecked": 24,
+  "fixes": [
+    "ex1 item 2 explanation: option C repeats 'like', not 'I'd like' (the question says 'Would you like')",
+    "ex4 dictation: replaced 'cancelled' (US learners would type 'canceled' and be marked wrong) with 'on Tuesday'",
+    "Spelling consistency with the lesson's UK prose: 'color' changed to 'colour' and 'sports center/center' to 'centre' in the audio text, option and explanation"
+  ],
+  "openConcerns": [
+    "The model items use 'Narrator: A.' lines, and some TTS engines may read a lone 'A.' as the article 'uh'. A specialist should check by ear.",
+    "Or-question intonation ('Would you prefer tea or coffee?') depends on TTS. The item stays unambiguous because 'prefer' makes it a choice question."
+  ],
+  "learnerOutcome": "A learner who does this lesson well can identify the function of a short spoken question (Wh-, yes/no, offer, suggestion, choice) and choose a natural reply, including indirect ones, instead of falling for repeated or similar-sounding words."
+}

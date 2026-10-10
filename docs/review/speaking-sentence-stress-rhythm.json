@@ -1,0 +1,15 @@
+{
+  "slug": "speaking-sentence-stress-rhythm",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the B1 phonological control descriptors (intelligible, generally appropriate stress and intonation); contrastive stress and weak forms are introduced at an accessible level.",
+  "examFidelity": "TOEIC Read a text aloud (45 s prep / 45 s), TOEFL Listen and Repeat and the IELTS Pronunciation criterion are described in line with exams.ts; weak forms (tə, fə, ən, əv, kən, wəz, frəm) and the word stress match standard dictionaries.",
+  "itemsChecked": 27,
+  "fixes": [
+    "TOEIC read-aloud text shortened from 93 to 82 words (removed one clause, and 'If you would like to book…' became 'To book…') so it can be read with pauses in 45 seconds"
+  ],
+  "openConcerns": [
+    "Browser TTS will not reliably produce contrastive stress (No, it's on THURSDAY) or stress-timed rhythm, so the audio models may not show what the text describes; a real recording would help"
+  ],
+  "learnerOutcome": "Can stress content words, use weak forms for function words, keep a steady beat and move the main stress to mark new or corrected information."
+}

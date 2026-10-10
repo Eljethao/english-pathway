@@ -1,0 +1,18 @@
+{
+  "slug": "listening-map-plan-labelling",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 listening (CEFR CV: can follow detailed directions and extended talk on familiar topics at normal speed): the 200–300-word monologues use dense location language (diagonally opposite, beyond, at the far end) and need the listener to track a moving route while changing direction.",
+  "examFidelity": "Mirrors IELTS Listening Part 2 map/plan labelling: lettered maps with two spare letters, places asked in audio order, and a distractor named next to each target; I checked every answer against the SVG coordinates (park: A visitor centre, B toilets, H picnic area, D playground, E bird hide, G café; arts centre: B, D, A, E, G, C, with F and H unused) and all are correct and unambiguous.",
+  "itemsChecked": 21,
+  "fixes": [
+    "Dictation: replaced 'The café is directly opposite the box office.' with 'The workshop is directly opposite the staff office.' The dictation checker removes non-ASCII letters, so a learner typing 'cafe' was marked wrong. The new sentence also matches the plan (C is opposite H).",
+    "Softened the unverified '30 seconds' of preparation time, in the learn text and the IELTS exam tip, to 'the time you are given before Part 2'.",
+    "Model walkthrough: replaced 'Real tests usually have one or two extra letters' with the more accurate 'exam maps usually have more letters than questions'."
+  ],
+  "openConcerns": [
+    "Code-level, outside this file: words() in src/lib/utils.ts strips accented letters, so any dictation sentence with é or similar letters marks plain-ASCII typing as wrong. The same café/cafe mismatch would affect gap answers.",
+    "TTS: the Woman/Man phone call may get voices that do not match the speaker labels. Nothing in the test depends on gender, but a specialist should listen to check naturalness."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can orient themselves on a map or floor plan, convert left/right into compass directions while the speaker changes direction, and label 6 places correctly while ignoring nearby distractors."
+}

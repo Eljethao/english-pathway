@@ -1,0 +1,13 @@
+{
+  "slug": "listening-table-flowchart-completion",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 (CEFR CV: can follow the essentials of lectures and talks, and of detailed information on familiar topics): 200–270-word calls and lectures on processes and comparisons, with past-versus-present and rejected-step distractors.",
+  "examFidelity": "IELTS Part 1 table completion, Part 4 flow-chart completion (written words and a box of options with 3 unused) and Part 4 table completion are accurate; word limits fit every key and all answers follow the audio order.",
+  "itemsChecked": 36,
+  "fixes": [
+    "Practice 1, gap 3: removed 'garden' as an accepted answer; the speaker says 'castle gardens', and the lesson teaches writing the speaker's exact form."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can use column headings, row labels and arrows to predict and place answers, and follow 'before/once/not until' sequences in IELTS table and flow-chart tasks."
+}

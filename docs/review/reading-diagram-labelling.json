@@ -1,0 +1,15 @@
+{
+  "slug": "reading-diagram-labelling",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: a 560-word technical description with precise language of position and process, plus a multi-stage airflow to follow. This matches the C1 descriptor for understanding detailed specialised texts.",
+  "examFidelity": "The diagram labels follow IELTS diagram label completion: answers are copied from the passage within the TWO-WORD limit. All six answers match the SVG (rendered and checked: 1 slatted openings at the windward opening, 2 partition, 3 stale air leaving on the leeward side, 4 summer room, 5 pool, 6 qanat or underground channel) and the passage. The True/False/Not Given and ordering items are sound.",
+  "itemsChecked": 22,
+  "fixes": [
+    "Removed 'water droplets' as an accepted answer in the solar-still task. The phrase does not appear in the model text, and the answer must be words from the text."
+  ],
+  "openConcerns": [
+    "The SVG is clear but simple. A designer could add a visible floor opening and slats so the diagram looks more like a real exam diagram."
+  ],
+  "learnerOutcome": "Learners can turn a written technical description into positions on a diagram and copy exact label words within the word limit."
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "speaking-chunking-pausing",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: controlling thought groups, given/new stress, contrastive stress and emphatic auxiliaries across long turns matches the C1 phonological control descriptors (varying intonation and placing stress correctly to express finer shades of meaning) and builds on the single-sentence B2 work.",
+  "examFidelity": "IELTS Part 3 (no prep, 60 s), TOEIC Read a text aloud (45 s prep, 45 s reading, 89-word text) and the TOEFL Listen and Repeat tip match exams.ts; the band 6, 7 and 8 Pronunciation quotes are verbatim, and sustained rhythm and stress across long utterances are correctly attributed to band 8.",
+  "itemsChecked": 20,
+  "fixes": [
+    "Rewrote the 'Steady pace' walkthrough point. It wrongly described rhythm as 'the same number of stressed beats per chunk'; it now describes stressed syllables at fairly regular intervals with reduced unstressed words"
+  ],
+  "openConcerns": [
+    "All chunking and stress items can be answered from the text and the bold/| notation, and the instructions tell learners to follow the marks, not the computer voice. The TTS audio for the model and the shadowing sentences will not reliably show the marked pauses and contrastive stress, so a human recording would help",
+    "Tagged TOEFL Listen and Repeat, but practice is through shadowing plus an exam tip, not a timed repeat-once task"
+  ],
+  "learnerOutcome": "A learner can divide long answers into meaningful chunks, pause at the right boundaries and move the main stress to new or contrasting information, so long Part 2 and Part 3 turns are easier to follow."
+}

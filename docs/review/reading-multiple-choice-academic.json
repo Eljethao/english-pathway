@@ -1,0 +1,15 @@
+{
+  "slug": "reading-multiple-choice-academic",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2: academic-style passages of 374–418 words, plus two TOEFL texts of about 180–190 words, with detail, vocabulary, inference, connection and purpose questions and distractors that need explicit trap-naming.",
+  "examFidelity": "IELTS multiple choice (one of four; TWO from five; questions in passage order, which ielts.org confirms) and TOEFL Read an Academic Passage (about 200 words, 5 questions on facts, vocabulary, inference, connection and purpose per exams.ts) are both accurate; I solved all 24 items before reading the key.",
+  "itemsChecked": 24,
+  "fixes": [
+    "ex3 Q5 (choose TWO problems in paragraph A) repeated the evidence for Q1 and broke the passage order after the paragraph D question; replaced it with a TWO-answer question on paragraph E (repair takes time; people like the latest model), so the set now follows the passage order",
+    "Repair cafés: confirmed that the first was held in Amsterdam in October 2009 and that there are now thousands; changed 'In the last fifteen years' to 'Over the past fifteen years or so' (2009 was 17 years ago)",
+    "Checked the CAM photosynthesis passage (stomata open at night, CO2 stored as acid, slower growth) and the railway-time passage (local solar time, railway companies using one standard time, clocks with two minute hands such as Bristol's Corn Exchange). Both are accurate, so no change was needed"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can locate the evidence for an academic multiple-choice question, form their own answer first, and reject options as too extreme, opposite, true but irrelevant, or not in the text."
+}

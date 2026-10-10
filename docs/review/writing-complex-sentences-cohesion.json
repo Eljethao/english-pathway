@@ -1,0 +1,21 @@
+{
+  "slug": "writing-complex-sentences-cohesion",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1 written production and the C1 coherence/cohesion descriptor (clear, well-structured text with controlled use of organisational patterns, connectors and cohesive devices); the target structures (participle, concessive and cleft clauses, nominalisation, summary nouns) are typical C1 range.",
+  "examFidelity": "Band-descriptor references now follow the May 2023 public IELTS Task 2 descriptors (GRA band 7 'error-free sentences are frequent', band 8 'the majority of sentences are error-free'; CC band 6 'mechanical… overuse'), and the TOEFL and TOEIC tips are accurate.",
+  "itemsChecked": 13,
+  "fixes": [
+    "Brought the band-descriptor wording in line with the 2023 public descriptors (it quoted older wording)",
+    "Band-8 model paragraph: replaced the illogical 'the short distance between a station and a person's home' with 'the final stage of the journey: the distance between…' so that 'this gap' makes sense",
+    "Summary-noun gap fill: added the defensible answers 'ban', 'rule', 'proposal' and 'idea'",
+    "Expanded the participle-clause MCQ explanation to cover why the two active-form distractors are wrong",
+    "Removed an idea not in the original from the rewrite model answer ('particularly in smaller towns'), because the rubric requires keeping the original ideas; the answer still meets 120 words",
+    "Vocabulary: replaced the ambiguous example 'Rural migration…' with 'Migration from the countryside…'"
+  ],
+  "openConcerns": [
+    "The 'about band 6' and 'band 8 level' labels on single paragraphs are approximate, since IELTS rates whole scripts; a specialist may prefer softer labels",
+    "The rewrite task's model answer is only just over 120 words (121); learners who copy its length will be at the minimum"
+  ],
+  "learnerOutcome": "A learner can combine ideas accurately with concessive, participle and relative clauses and link sentences with summary nouns and reference instead of a string of Moreover/Furthermore."
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "writing-clear-paragraph",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B1-appropriate: it targets 'can write short, simple essays on topics of interest' and paragraph unity with a topic sentence, reasons, an example and a conclusion. The ~140-word model paragraphs use clear B1 language with some B1+ range.",
+  "examFidelity": "Task tags and IELTS Coherence and Cohesion advice match the public descriptors (a clear central topic in each paragraph). After the fixes, the TOEFL and TOEIC word-count guidance matches exams.ts.",
+  "itemsChecked": 13,
+  "fixes": [
+    "TOEFL tip: changed 'about 100–120 words' to 'at least 100 words', the ETS recommendation in exams.ts.",
+    "TOEIC tip: changed 'about 300 words' to 'at least 300 words is recommended', as in exams.ts."
+  ],
+  "openConcerns": [
+    "The '4–7 sentences per body paragraph' guidance is a rule of thumb, not an exam requirement. It is presented as 'usually', which is acceptable."
+  ],
+  "learnerOutcome": "The learner can write a unified paragraph with a focused topic sentence, two developed reasons with an example and a concluding sentence, and can spot and remove off-topic sentences."
+}

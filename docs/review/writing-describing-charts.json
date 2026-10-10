@@ -1,0 +1,19 @@
+{
+  "slug": "writing-describing-charts",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 written reports ('can synthesise and report information from a number of sources', clear and detailed description). It covers the language of change and comparison and an overview, and its 166–189-word models are at band 6.5–7 (B2+).",
+  "examFidelity": "Matches IELTS Academic Task 1 as given in exams.ts (20 minutes, 150+ words, overview, no opinions). Every figure in both model answers and in the MCQ and gap keys matches the chart data exactly (Westbridge line graph, Norland line graph, Eastport bar chart; all series totals are 100%). Both models have an overview and no opinions.",
+  "itemsChecked": 20,
+  "fixes": [
+    "Learn example 'Twice as many people cycled in 2025 as in 2005' echoed the Eastport data inaccurately (6% to 14% is more than double, and percentages do not give numbers of people). Replaced it with a generic example.",
+    "Eastport model answer: 'The most dramatic change was in cycling' was inaccurate because car use fell by 14 points and cycling rose by 8. It now says 'Cycling saw the largest relative increase'.",
+    "Gap ex1: added accepted answers 'went down', 'went up', 'jumped', 'the same', 'level', 'flat', 'slowly' and 'dipped' for the matching gaps.",
+    "Match ex2: the instructions said 'noun phrase', but 'reached a peak' is a verb phrase. They now say 'the phrase that has the same meaning'."
+  ],
+  "openConcerns": [
+    "The Westbridge chart has data points every two years, so 'a dramatic fall in 2020' relies on the plotted points. Check visually that the rendered line chart makes the 2020 dip clear.",
+    "The tip 'no clear overview usually cannot score above Band 5 for Task Achievement' is consistent with the public Task 1 descriptors. A specialist may want to check the wording against the current (2023) descriptor text."
+  ],
+  "learnerOutcome": "The learner can write a four-paragraph IELTS Task 1 report on a line or bar chart. It has a paraphrased introduction, a figure-free overview and accurately selected figures described with varied language of change and comparison."
+}

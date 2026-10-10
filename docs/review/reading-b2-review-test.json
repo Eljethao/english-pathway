@@ -1,0 +1,15 @@
+{
+  "slug": "reading-b2-review-test",
+  "level": "B2",
+  "verdict": "meets",
+  "cefrAlignment": "Fits B2: two IELTS-style passages of 384 and 412 words, TOEFL everyday and academic texts (59–174 words) and a TOEIC double passage, covering the course's question types at an appropriate density for the level.",
+  "examFidelity": "Task formats match exams.ts (IELTS headings/TFNG/summary/features/MCQ/notes; TOEFL Daily Life texts with 2–3 questions and an academic text with 5 questions; TOEIC double passage with 5 questions). 46 items in 40 minutes is realistic. I solved all 46 before reading the key, and each has one defensible answer.",
+  "itemsChecked": 46,
+  "fixes": [
+    "Consistency only: Section 4 Text 1 has To/From/Subject headers, so it is now called a memo rather than a notice (title, instructions, one option and two explanations)"
+  ],
+  "openConcerns": [
+    "The score bands (40–46 = ready for C1, etc.) are reasonable internal guidance but not calibrated against learner data; a specialist could pilot them."
+  ],
+  "learnerOutcome": "A learner can work through mixed exam-format reading under time pressure and use the score bands to choose which B2 lessons to review."
+}

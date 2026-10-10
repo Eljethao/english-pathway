@@ -1,0 +1,16 @@
+{
+  "slug": "speaking-b2-mock-test",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Covers B2 spoken production and interaction across Part 1, Part 2 and Part 3, with models at band 6-7 level; self-assessment uses band 6 and 7, consistent with exams.ts's B2 mapping.",
+  "examFidelity": "IELTS Part 1 (20-30 s), Part 2 (60/120 s), Part 3 (45-60 s), TOEFL interview (0/45 s) and TOEIC Express an opinion (45/60 s) all match exams.ts; the band 6 and 7 quotations were checked against the public IELTS Speaking band descriptors and are accurate.",
+  "itemsChecked": 25,
+  "fixes": [
+    "Format MCQ Q2 and Q3: rewrote distractors so the correct answer is no longer the only long, qualified option",
+    "Fixed four target phrases that were not in the model answers or contained ellipses that the app's phrase matcher can never match (it never feels like, made a big difference, if he'd slipped and fallen, partly about)",
+    "Removed the repeated 'fairly' in the Part 1 model",
+    "Part 1 heading: clarified that the real Part 1 lasts 4-5 minutes but this mock uses five questions"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Can sit a full timed B2 speaking mock across IELTS, TOEFL and TOEIC formats and rate their own recordings against the band 6 and 7 descriptors."
+}

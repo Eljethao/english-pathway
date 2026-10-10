@@ -1,0 +1,20 @@
+{
+  "slug": "speaking-vocabulary-idioms",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1 vocabulary range ('good command of a broad lexical repertoire including idiomatic expressions and colloquialisms; can select appropriate formulations') with attention to register and collocation; all idioms taught or recommended are current and natural (raining cats and dogs and the piece of cakes/blue sky items appear only as examples of what to avoid).",
+  "examFidelity": "The IELTS Part 2 task (1 min prep, up to 2 min, four-bullet cue card) is accurate and the model (254 words) now fits 2 minutes at about 130 wpm; Lexical Resource guidance matches the public band 7 descriptor.",
+  "itemsChecked": 18,
+  "fixes": [
+    "MCQ 'Which sentence uses the idiom correctly?' had two defensible answers, because option D uses 'hit it off' correctly but announces it. Changed it to 'correctly and naturally' and updated the explanation",
+    "Gap 'came round to' now also accepts the US variant 'came around to'",
+    "Changed the illogical 'The real damage is underground' (river pollution) to 'below the surface', which also fits the iceberg image",
+    "Replaced the filler cliché 'at the end of the day' with 'for the time being' as an example fixed phrase, because the lesson tells learners to avoid clichés",
+    "Trimmed the Part 2 model from 264 to 254 words (it ran to about 122 s at 130 wpm)",
+    "Exam tips: removed the unverified claim that a misused memorised phrase is 'more damaging' and softened 'the best place for idiomatic language'"
+  ],
+  "openConcerns": [
+    "Model audio is TTS. It will not show how idioms are delivered naturally (stress, chunking)"
+  ],
+  "learnerOutcome": "A learner can replace general words with precise collocations, use a few current idioms in their fixed form and the right register, and fit them naturally into a two-minute Part 2 story."
+}

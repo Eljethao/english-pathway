@@ -1,0 +1,15 @@
+{
+  "slug": "writing-toeic-opinion-essay",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1-level argumentative writing in a professional register, with comparative justification and extended examples; the model essays are fluent and error-free.",
+  "examFidelity": "The TOEIC Write an opinion essay facts (final question, 30 minutes, at least 300 words typical of an effective essay, scored on reasons/examples, grammar, vocabulary and organisation) match exams.ts and ETS; the three prompt types are stated as common, not fixed.",
+  "itemsChecked": 16,
+  "fixes": [
+    "Added 'in contrast' as an accepted answer in the gap fill"
+  ],
+  "openConcerns": [
+    "The lesson includes a full 30-minute timed essay, so the 25 minutes listed (fixed by the content guide for lessons 5–11) understates the real study time (about 50–60 minutes)."
+  ],
+  "learnerOutcome": "Learners can plan and write a well-organised 300+ word TOEIC opinion essay in 30 minutes that answers the exact prompt type and justifies their choice comparatively."
+}

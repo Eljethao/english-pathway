@@ -1,0 +1,13 @@
+{
+  "slug": "speaking-information-provided",
+  "level": "B1",
+  "verdict": "meets",
+  "cefrAlignment": "Fits B1: finding and passing on straightforward factual information from a simple schedule, with polite corrections, in short, concrete spoken turns.",
+  "examFidelity": "Matches exams.ts and ETS: 45 s reading, about 3 s prep, 15/15/30 s answers, questions heard and not read; I checked every model answer and MCQ against both schedule tables, and all times, rooms, names, prices and notes are exact.",
+  "itemsChecked": 17,
+  "fixes": [],
+  "openConcerns": [
+    "The question text is also printed in each speak prompt, so learners can read it although the instructions say the real test is audio only; this is a limitation of the player"
+  ],
+  "learnerOutcome": "Can scan a schedule in 45 seconds and answer detail, correction and list questions in full, polite spoken sentences, without reading the table aloud."
+}

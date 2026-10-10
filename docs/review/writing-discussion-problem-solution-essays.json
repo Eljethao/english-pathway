@@ -1,0 +1,18 @@
+{
+  "slug": "writing-discussion-problem-solution-essays",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1 written production (clear, well-structured exposition of complex subjects, expanding and supporting points with reasons and examples and reaching an appropriate conclusion); the models are band 8-level and error-free.",
+  "examFidelity": "The Task 2 question types, the 250-word/40-minute format and the guidance on length now match exams.ts and ielts.org; the under-length claim was replaced with ielts.org's own wording.",
+  "itemsChecked": 12,
+  "fixes": [
+    "Replaced the unverified 'Essays under 250 words lose marks' with ielts.org's wording: if an essay is too short there may not be enough evidence to award higher bands, and longer essays are not penalised; key point softened to 'Aim for about 260–300 words'",
+    "France food-waste example verified (the February 2016 law requires large supermarkets to donate unsold edible food rather than destroy it) and softened from 'food banks have since received far more donations' to 'food charities reported receiving more donations in the years that followed'; the link sentence now says 'could' rather than 'would'",
+    "Model discussion essay: the conclusion now shows how the hybrid opinion grows out of both body paragraphs, which makes the position better developed for band 7+ Task Response; walkthrough and length (about 300 words) updated",
+    "Added explanations to the two question-type MCQs that had none"
+  ],
+  "openConcerns": [
+    "The lesson has a full model discussion essay but its only full problem–solution model is the practice task's model answer; a specialist may want a short annotated problem–solution model in the Model section too"
+  ],
+  "learnerOutcome": "A learner can identify the type of a Task 2 question and plan either a balanced discussion essay with a clear opinion or a problem–solution essay whose specific solutions match its problems."
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "listening-b1-review-test",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1: 35 items across short TOEIC/IELTS/TOEFL-style recordings (40–150 words) at moderate speed, testing the course skills (question words, photo traps, form completion, message structure, problem–solution, signposting).",
+  "examFidelity": "Section formats match exams.ts (3-option TOEIC Part 2, 4-option TOEFL Listen and Choose a Response, TOEIC Part 1 with exactly one true statement per SVG, IELTS form and note completion with correct word limits, TOEFL Announcement of about 70 words); 40 minutes is realistic for 35 items, and the course totals 275 minutes.",
+  "itemsChecked": 35,
+  "fixes": [
+    "Form completion Q13: removed '9:50' (a time format) from the accepted answers for a price of £9.50.",
+    "Voicemail Q18–19: swapped the order so 'Who is the speaker?' comes before 'Why is the speaker calling?', matching the order in the recording.",
+    "Post office conversation: the clerk answered an in-person customer with a phone greeting ('Good morning, Oakfield Post Office'); changed it to 'Good morning. How can I help?'."
+  ],
+  "openConcerns": [
+    "The Part 1 'photos' are simple drawings.",
+    "The score bands (30–35 ready for B2) are a reasonable guide, but they have not been checked against real learner data."
+  ],
+  "learnerOutcome": "A learner who completes the test gets a realistic picture of their B1 listening across the three exams and knows which course lessons to review before starting B2."
+}

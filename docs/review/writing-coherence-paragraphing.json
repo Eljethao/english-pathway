@@ -1,0 +1,16 @@
+{
+  "slug": "writing-coherence-paragraphing",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the C1 coherence and cohesion descriptors (clear, smoothly flowing, well-structured text with controlled use of organisational patterns); it builds on, rather than repeats, the cohesion work in C1 lesson 1.",
+  "examFidelity": "The Coherence and Cohesion claims for bands 7, 8 and 9 and the over-signposting tip ('mechanical', 'overuse', band 6) match the May 2023 Task 2 descriptors, and the TOEIC organisation criterion matches ETS.",
+  "itemsChecked": 12,
+  "fixes": [
+    "Replaced the 'clear' reference example ('…the main reason it should be restricted'), where 'it' was itself ambiguous, with '…the main reason why such advertising should be restricted'",
+    "Corrected the walkthrough's claim that the model's third sentence uses a linear theme (the phrase it picks up is not new information at the end of the previous sentence); it now just describes the reference link"
+  ],
+  "openConcerns": [
+    "The 20-minute timed write plus four other exercises exceeds the 25 minutes listed."
+  ],
+  "learnerOutcome": "Learners can plan an essay whose thesis, topic sentences and conclusion form one line of argument, and repair paragraphs with broken unity, unclear reference or poor progression."
+}

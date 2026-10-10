@@ -1,0 +1,14 @@
+{
+  "slug": "writing-two-part-questions",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2-appropriate: answering two linked questions (causes, effects, evaluation, prediction) in a structured 250+ word essay matches the CEFR B2 essay and report descriptors.",
+  "examFidelity": "Faithful to IELTS Task 2 two-part (direct question) prompts, with accurate timing, word count and Task Response guidance; models answer both questions in balanced paragraphs and meet 250 words.",
+  "itemsChecked": 18,
+  "fixes": [
+    "ex3 gap 3: accepted 'Moving' and 'Coming' (… to the problems this causes) alongside 'Turning'",
+    "ex3 gap 5: accepted 'One other' and 'A related' (… problem is that…)"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can recognise what each question in a two-part prompt asks for, write a thesis that answers both and give each question its own signposted, developed paragraph."
+}

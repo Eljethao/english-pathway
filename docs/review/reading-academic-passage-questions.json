@@ -1,0 +1,16 @@
+{
+  "slug": "reading-academic-passage-questions",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: the texts are short but dense (176–191 words), and the questions on polysemous vocabulary, inference and rhetorical function need the precise reading described at C1.",
+  "examFidelity": "This matches TOEFL Read an Academic Passage as described in exams.ts: about 200 words and 5 questions on facts, vocabulary, inference, the connection between ideas and purpose. There are three sets of 5, each with one defensible key.",
+  "itemsChecked": 24,
+  "fixes": [
+    "Rewrote the confusing 'humble' contrast. It now says that 'a humble partner' (modest, unimpressive) is different from 'a humble person' (not proud).",
+    "Fixed the model walkthrough's trap example for 'humble' ('more respectful' became 'not proud').",
+    "Changed the pacing tip from 'four to five minutes' to 'about four minutes', to match the objective and the 4-minute timers.",
+    "Verified with WebSearch or from established sources: Hardin 1968, Ostrom as the first woman to win the economics Nobel (2009), and the Antarctic ice-core record of about 800,000 years (EPICA Dome C)."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Learners can answer all five TOEFL academic-passage question types on a 200-word text in about four minutes, choosing word senses in context and naming what a sentence does."
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "reading-notices-emails-ads",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 (CEFR CV reading correspondence and reading for information: can understand the description of events and requests in everyday letters/emails and find relevant information in notices and adverts): 200–260-word texts in a clear standard register, with purpose, detail, simple inference and two-text questions.",
+  "examFidelity": "Text types and question types (purpose, detail, inference, NOT and cross-text questions) match TOEFL Read in Daily Life and TOEIC Part 7 in exams.ts; I changed a TOEIC tip that stated as fact that double and triple passages 'always' include cross-text questions.",
+  "itemsChecked": 24,
+  "fixes": [
+    "Fixed faulty reasoning in the model inference walkthrough: the conclusion that the hall is in a different building now rests on 'the whole building' having no water, not on the Park Road address (the apartments' address is never given)",
+    "ex2 q4: changed 'Which requirement…' to 'Which point from the advertisement…', because 'serving customers' is a duty, not a requirement",
+    "Added 'twentieth' as an accepted answer for the closing date gap",
+    "TOEIC tip: 'always include at least one question' → 'usually include questions' (unverified format claim)"
+  ],
+  "openConcerns": [
+    "The explanations refer to 'Paragraph 1/2/4' in unlabelled passages whose first lines are headings or email headers; learners may count those lines as paragraphs. It would be clearer to quote the text or label the passage."
+  ],
+  "learnerOutcome": "A learner can identify the type and purpose of a short notice, email or advert, find key dates, prices and actions, and combine information from two related texts to answer workplace-style questions."
+}

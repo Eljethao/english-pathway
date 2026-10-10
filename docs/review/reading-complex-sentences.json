@@ -1,0 +1,13 @@
+{
+  "slug": "reading-complex-sentences",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: the passages have dense nominal style, inversions, cleft sentences and reduced clauses, which matches the C1 descriptor for understanding long, complex texts in detail.",
+  "examFidelity": "The True/False/Not Given items are sound (each False item contradicts the text, and each Not Given item is truly absent). The paraphrase multiple-choice items have one defensible answer, and the TOEFL tip agrees with exams.ts (about 200 words).",
+  "itemsChecked": 24,
+  "fixes": [
+    "Checked the Harrison facts with WebSearch. The Longitude Act (1714, £20,000), H4 (1759), the Jamaica trial (1761–62), the payment in 1773 when he was about 80, and the fact that he never formally received the prize are all correct. The 'five seconds lost' figure is the commonly cited 5.1 seconds, but historians dispute it, so the passage now says 'reportedly lost'."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Learners can find the main clause of a long academic sentence, unpack nominalisations and inversions, and use this to judge paraphrases and True/False/Not Given statements."
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "listening-service-conversations",
+  "level": "B1",
+  "verdict": "meets",
+  "cefrAlignment": "Matches B1 (CEFR CV: can follow clearly articulated speech in everyday transactions such as shops and services and identify the main points): short problem–solution dialogues where the key skill is separating offered from accepted solutions.",
+  "examFidelity": "TOEIC Part 3 and TOEFL Listen to a Conversation items are realistic (problem, reason, offer, next step); tips correctly state three questions per TOEIC conversation and two per TOEFL conversation as in exams.ts; every item has one defensible answer, in audio order.",
+  "itemsChecked": 24,
+  "fixes": [],
+  "openConcerns": [
+    "The TOEFL-style set has three questions where the real task has two; the exam tip states the real number, so this is acceptable practice."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can identify the problem, the solution actually agreed and the next steps in shop, hotel and service conversations, and avoid options that were offered but refused."
+}

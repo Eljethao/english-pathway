@@ -1,0 +1,18 @@
+{
+  "slug": "listening-toeic-photographs",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1: single-sentence statements with present continuous, present perfect passive and 'is being' passive about concrete scenes, a suitable bridge from B1 grammar to TOEIC Part 1.",
+  "examFidelity": "Faithful to TOEIC Part 1 (four unprinted statements, choose the best description, 6 questions in the real test per exams.ts); I read each SVG and confirmed exactly one statement per picture is true (warehouse B, restaurant B, meeting D, park C) and that the alt text matches the drawings.",
+  "itemsChecked": 18,
+  "fixes": [
+    "Grammar table: softened 'so a person must be in the photo' to 'usually needs to be' (there are known exceptions such as 'items are being displayed').",
+    "Quick check Q3: the correct option repeated the prompt word for word ('A bus is parked by the side of the road'); reworded to 'There is a bus at the side of the road' so learners must match meaning.",
+    "Sound-discrimination item 6: explanation now says 'short vowel sound' instead of 'short sound'."
+  ],
+  "openConcerns": [
+    "The photos are simple drawings, not photographs; real Part 1 photos are more detailed.",
+    "Minimal pairs (lamp/lamb, ship/sheep) depend on TTS clarity; a specialist should listen to check the final /p/ in 'lamp' is audible."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can scan a picture for people, actions and objects before listening and reject Part 1 statements that use similar sounds, the wrong action or 'being' passives in scenes with no people."
+}

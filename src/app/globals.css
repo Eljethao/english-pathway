@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  /* Bold serif for display headings */
+  --font-display: var(--font-source-serif), ui-serif, Georgia, serif;
+
+  /* Design tokens: white pages, deep navy ink, one blue accent, crisp borders */
+  --color-page: #ffffff;
+  --color-surface: #f4f7fc;
+  --color-line: #d5deeb;
+  --color-ink: #0b1a3a;
+  --color-ink-soft: #16295a;
+  --color-muted: #5a6880;
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --color-accent-soft: #eaf1ff;
+  --color-link: #1d4ed8;
+  --color-success: #1e7d4f;
+  --color-error: #c4302b;
+  --color-badge: #dbeafe;
+  --color-badge-ink: #1e3a8a;
+
+  --color-listening: var(--color-sky-500);
+  --color-reading: var(--color-emerald-500);
+  --color-writing: var(--color-amber-500);
+  --color-speaking: var(--color-fuchsia-500);
+
+  --shadow-soft: 0 0 #0000;
+  --shadow-lift: 0 2px 4px rgb(11 26 58 / 0.06), 0 8px 24px rgb(11 26 58 / 0.1);
+  --shadow-bar: 0 1px 2px rgb(11 26 58 / 0.06), 0 4px 12px rgb(11 26 58 / 0.06);
+  --shadow-button: 0 0 #0000;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-rise: rise 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-6px);
+    }
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+html {
+  scroll-padding-top: 8.5rem;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: #bfdbfe;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Headings in the bold display serif. */
+@utility font-display-heading {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+/* Kept for older markup: renders the accent words in the same display serif. */
+@utility text-accent-serif {
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+@utility bg-dots {
+  background-image: radial-gradient(rgb(11 26 58 / 0.12) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* Hide scrollbars on horizontal carousels (they still scroll). */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Reading passages: 17–18px, line height 1.7, ~70 characters per line */
+.prose-passage {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  max-width: 70ch;
+}
+
+@media (min-width: 768px) {
+  .prose-passage {
+    font-size: 1.125rem;
+  }
+}
+
+mark.hl {
+  background: var(--color-amber-100);
+  color: inherit;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

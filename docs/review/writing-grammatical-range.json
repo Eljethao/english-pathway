@@ -1,0 +1,16 @@
+{
+  "slug": "writing-grammatical-range",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1-appropriate: mixed and inverted conditionals, reporting passives, quantifier relative clauses and negative inversion are C1 grammar, practised for accuracy and for use in argument.",
+  "examFidelity": "The band 7/8 Grammatical Range and Accuracy wording matches the May 2023 descriptors, and all the structures in the keys and models are correct.",
+  "itemsChecked": 21,
+  "fixes": [
+    "Corrected the model walkthrough: the participle clause's logical subject is 'Universities' (the main-clause subject), not 'the courses', in line with the lesson's own rule",
+    "Relabelled 'Should governments fund…, …would…' from 'inverted first conditional' to 'inverted conditional with Should', because the result clause uses would"
+  ],
+  "openConcerns": [
+    "Perfect participle clauses overlap partly with C1 lesson 1 (participle clauses including having + past participle); the lesson extends them with with-clauses and the dangling-participle trap, so this is acceptable but worth noting."
+  ],
+  "learnerOutcome": "Learners can use five advanced structure groups accurately in essays and avoid the typical error in each."
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "speaking-abstract-discussion",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1 spoken production ('can give clear, detailed descriptions of complex subjects, integrating sub-themes, developing particular points and rounding off with an appropriate conclusion') and C1 argument/qualification; models use abstract nouns, hedging and concessive structures appropriate to C1.",
+  "examFidelity": "Accurately reflects IELTS Part 3 (4–5 minutes, abstract follow-up questions, no preparation, examiner may interrupt); the 45–60 s practice answers now fit 60 s at a natural pace.",
+  "itemsChecked": 18,
+  "fixes": [
+    "Rewrote the word-bank gap fill (previously flagged) so that each gap has only one possible word from the box: gap 2 could take 'particularly' or 'largely' ('…, largely among teenagers'), and gap 6 could take 'necessarily' or 'particularly' ('not particularly deepened them'). The new frames are 'true across all age groups, but ___ among teenagers', 'friendships were ___ down to where you happened to live' and 'that doesn't ___ mean'. Also removed a non-gap 'quite' that hinted at another answer",
+    "Trimmed the cause/comparison model from 145 to 129 words and the AI/teachers model from 142 to 131 words so they fit the 60 s timer at a natural pace; joined a 'Whereas now…' sentence fragment into the preceding sentence",
+    "Reworded the claim that personal answers 'sound limited at band 7': IELTS assesses language, so they now 'give the examiner little evidence of the language needed for band 7+'"
+  ],
+  "openConcerns": [
+    "Model audio is TTS. Fine for content, but it will not model natural Part 3 pausing and stress"
+  ],
+  "learnerOutcome": "A learner can identify the type of Part 3 question, answer it at a societal rather than personal level, and develop a 45–60 second answer with a point, an explanation, an illustration and a qualification."
+}

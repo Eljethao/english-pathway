@@ -1,0 +1,20 @@
+{
+  "slug": "reading-long-academic-passages",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: about 700-word dense expository passages with technical terms (cavitation, evapotranspiration), long noun phrases and cross-paragraph reference require the C1 ability to understand long, complex texts and follow reference over long stretches.",
+  "examFidelity": "Matching headings (more headings than paragraphs), matching information (any letter may be used more than once), and summary completion with NO MORE THAN TWO WORDS all follow IELTS formats. Every accepted answer is within the limit and copied from the passage.",
+  "itemsChecked": 23,
+  "fixes": [
+    "Corrected the IELTS passage-length claim ('800–900 words') to match exams.ts: three texts totalling 2,150–2,750 words, so often 700–900 words each.",
+    "Corrected the right-whale study detail: stress hormones after 9/11 were lower than at the same time in other years (the comparison in Rolland et al. 2012 was with the following years, not previous ones).",
+    "Removed 'tree planting' from the accepted answers for summary gap 3, because the word order and form are not copied from the passage.",
+    "The TOEFL tip now notes that passages are about 200 words and describes reference questions as 'how ideas are connected', following exams.ts.",
+    "The heading options now use roman numerals (IELTS style), so they do not clash with paragraph letters.",
+    "Checked the Luke Howard claim against The Climate of London (1818–20; London warmer than the countryside, especially at night): it is accurate as written."
+  ],
+  "openConcerns": [
+    "Summary gap 1 accepts 'asphalt' and 'asphalt roads' but not 'roofs'. A specialist could decide whether 'roofs' should count as a 'dark material'."
+  ],
+  "learnerOutcome": "Learners can map a 700-word academic text in about three minutes, track reference words and summary nouns across paragraphs, and find details efficiently for headings and matching-information tasks."
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "writing-workplace-messages",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the B1 descriptors for writing personal and routine work notes and emails that give information and ask for action.",
+  "examFidelity": "TOEIC Respond to a written request (two emails, 10 minutes each, 'give TWO pieces of information and ask ONE question'-style directions) and TOEFL Write an Email (7 minutes, request / information / solution) agree with exams.ts.",
+  "itemsChecked": 14,
+  "fixes": [
+    "ex2 text: 'lunch is ordered for six people' changed to the more natural 'lunch has been ordered for six people'.",
+    "ex2 gap 5: added 'Warm' and 'Many' as accepted words before 'regards'."
+  ],
+  "openConcerns": [
+    "Some overlap with lessons 3 and 5 (email tone and TOEIC reply tips). Here it is applied to workplace updates, so it is acceptable."
+  ],
+  "learnerOutcome": "A learner can write short, well-organised work emails and updates that put the main point first and answer every request within exam time limits."
+}

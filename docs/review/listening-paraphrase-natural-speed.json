@@ -1,0 +1,21 @@
+{
+  "slug": "listening-paraphrase-natural-speed",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits C1 (CEFR CV: can understand a wide range of idiomatic expressions and recognise register shifts at natural speed): the items depend on idioms (teething problems, cutting it fine), double negatives, number reformulation and word-matching traps, and connected-speech dictation.",
+  "examFidelity": "The four-option TOEIC Part 3-style conversation questions, the TOEFL Academic Talk-style meaning questions and the IELTS Part 3 paraphrase advice are consistent with exams.ts. Every key is a paraphrase, and the distractors reuse the speaker's words.",
+  "itemsChecked": 21,
+  "fixes": [
+    "IKEA effect lecture (Norton, Mochon and Ariely; checked): 'offered several times what others would pay' became 'far more than', and 'gave up halfway through' became 'didn't get to finish it', matching the study's 'failed to complete' condition.",
+    "Model news report: changed 'the bins provided are far too small for restaurants' to 'the standard bins would be far too small', which fits the scheme not yet covering restaurants (the trap explanation depends on this).",
+    "Learn table: the 'Synonym' row (delayed / didn't finish on schedule) was a whole-clause rephrasing, not a synonym; replaced with 'The results were surprising' / 'The findings were unexpected'.",
+    "Made spelling consistently British across the lesson (colors → colours, customize → customise, also in the explanation).",
+    "Dictation instructions: 'type each sentence in full' could be read as 'expand contractions', which the word-by-word checker would mark wrong. The instructions now tell learners to type contractions as they hear them.",
+    "Vocabulary: the 'substitute' example said 'cheaper paper', which contradicts the dialogue (thinner paper at no extra charge). Corrected.",
+    "Softened 'usually' to 'often' in the TOEFL tip."
+  ],
+  "openConcerns": [
+    "The connected-speech dictation (weak forms, elision) depends on browser TTS, which often pronounces full forms clearly. A recorded voice would better train real natural speed."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can recognise common types of paraphrase between questions and audio, avoid options that repeat the speaker's words but change the meaning, and transcribe connected speech with contractions more accurately."
+}

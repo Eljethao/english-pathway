@@ -1,0 +1,20 @@
+{
+  "slug": "writing-formal-informal-emails",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 correspondence descriptors: the learner writes personal and semi-formal emails that ask for or pass on information, with appropriate standard conventions. Models are 74–104 words in B1 language.",
+  "examFidelity": "The TOEFL Write an Email (7 min, 80+ words), IELTS GT Task 1 (150 words, 20 min) and TOEIC Respond to a written request (10 min) details match exams.ts. The unverified 'three points' claims are now softened to 'usually three'.",
+  "itemsChecked": 20,
+  "fixes": [
+    "Formal-style list: 'Fewer phrasal verbs: receive instead of get' was inaccurate because 'get' is not a phrasal verb. It is now 'More formal verbs', with 'get in touch with' and a note that formal emails use fewer phrasal verbs.",
+    "Match ex2: 'Can you tell me…?' and 'I want to know…' could each match either 'I would like to know…' or 'Could you please let me know…?', so there were two defensible keys. Changed the pair to 'I want to book a room.' / 'I would like to book a room.'.",
+    "Gap ex3 gap 4 ('Thank you for your ___'): added 'consideration' and 'attention' as accepted answers.",
+    "TOEFL tip: changed 'three things to include' stated as fact to 'a list of things your email must do (usually three)', and gave the time as exactly 7 minutes, as in exams.ts.",
+    "IELTS GT tip: changed 'cover all three bullet points' to 'cover every bullet point in the task (there are usually three)'."
+  ],
+  "openConcerns": [
+    "The number of bullet points in TOEFL Write an Email prompts ('usually three') comes from prep-provider descriptions, not an official ETS page. Check it against an ETS sample.",
+    "The Learn table lists 'Kind regards' under formal sign-offs. This is fine for modern business email, but some teachers class it as semi-formal (the IELTS tip says so)."
+  ],
+  "learnerOutcome": "The learner can choose the right register for the reader, use matching greetings, requests and sign-offs (including Yours faithfully / Yours sincerely), and write a short exam email that covers every required point."
+}

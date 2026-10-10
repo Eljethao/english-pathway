@@ -1,0 +1,18 @@
+{
+  "slug": "reading-vocabulary-from-context",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B1-appropriate (CEFR CV identifying cues and inferring: can extrapolate the meaning of occasional unknown words from the context on familiar topics): the passages are about 220 words with a few glossed B1/B2 target words, and the tasks practise definition, example, contrast and word-part clues.",
+  "examFidelity": "Closest-in-meaning items reflect TOEFL Read an Academic Passage vocabulary questions and TOEIC Part 7 synonym questions; I removed the unverified 'highlighted word' format detail and softened the claim that IELTS questions 'almost always' paraphrase.",
+  "itemsChecked": 21,
+  "fixes": [
+    "Added 'ir-' (irregular) to the word-parts list, because ex2 tests 'irreparable' as a word-parts clue and that prefix was never taught",
+    "Corrected the 'thrive' walkthrough: the example clues come both before and after the word, not only 'after it'",
+    "Improved the 'unstable' grammar reasoning (it describes the bridge, rather than 'it comes after was, so it is an adjective')",
+    "Hedged the phone-checking claim in the practice passage ('Some surveys suggest…')",
+    "TOEFL tip: replaced 'a highlighted word' with 'a word in the passage' (unverified format detail); IELTS tip: 'almost always' → 'often'",
+    "Replaced an unnatural vocabulary example ('Is Monday morning inconvenient for you?')"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can decide whether an unknown word matters and, when it does, work out an approximate meaning from definition, example, contrast and nearby-explanation clues and from common prefixes and suffixes."
+}

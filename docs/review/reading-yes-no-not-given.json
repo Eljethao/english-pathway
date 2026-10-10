@@ -1,0 +1,13 @@
+{
+  "slug": "reading-yes-no-not-given",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: two 570–610-word argumentative texts in which learners have to track whose view is whose, concessions and hedges. This matches the C1 descriptor for understanding implied as well as stated attitudes in long, complex texts.",
+  "examFidelity": "The Yes/No/Not Given instructions and the item logic follow IELTS: every No item contradicts the writer's view, and every Not Given item is either a view the writer only reports or something the passage does not cover. Matching features and multiple choice follow IELTS conventions, and the TOEFL tip correctly says TOEFL has no Yes/No/Not Given task.",
+  "itemsChecked": 28,
+  "fixes": [
+    "Put Questions 6–8 back in passage order (IELTS Yes/No/Not Given follows the text). The keyboard-before-handwriting statement, answered mainly in paragraph F, came before two paragraph E items, so the items were renumbered."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Learners can tell a writer's own claims from views the writer only reports, and choose between No and Not Given using the exact wording of the text."
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">A presentation in a meeting room</title>
+  <desc id="desc">A person stands and points at a bar chart on a large screen. Two people sit at a table and listen. One writes in a notebook and the other has a laptop. There are a water jug and two glasses on the table.</desc>
+  <rect width="800" height="500" fill="#ffffff"/>
+  <!-- Floor -->
+  <rect x="0" y="420" width="800" height="80" fill="#f3f4f6"/>
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- Screen with bar chart -->
+  <rect x="40" y="50" width="290" height="180" rx="4" fill="#ffffff" stroke="#374151" stroke-width="5"/>
+  <line x1="75" y1="75" x2="75" y2="205" stroke="#6b7280" stroke-width="2"/>
+  <line x1="75" y1="205" x2="305" y2="205" stroke="#6b7280" stroke-width="2"/>
+  <rect x="95" y="165" width="34" height="40" fill="#93c5fd"/>
+  <rect x="150" y="135" width="34" height="70" fill="#60a5fa"/>
+  <rect x="205" y="110" width="34" height="95" fill="#3b82f6"/>
+  <rect x="260" y="85" width="34" height="120" fill="#1d4ed8"/>
+  <rect x="180" y="230" width="10" height="20" fill="#374151"/>
+
+  <!-- Presenter (standing, pointing at the screen) -->
+  <rect x="371" y="300" width="17" height="118" fill="#374151"/>
+  <rect x="394" y="300" width="17" height="118" fill="#374151"/>
+  <ellipse cx="377" cy="418" rx="13" ry="5" fill="#111827"/>
+  <ellipse cx="403" cy="418" rx="13" ry="5" fill="#111827"/>
+  <rect x="364" y="190" width="54" height="116" rx="10" fill="#0f766e"/>
+  <circle cx="391" cy="166" r="22" fill="#8d5524"/>
+  <path d="M369 164 A22 22 0 0 1 413 164 Q391 148 369 164 Z" fill="#111827"/>
+  <line x1="370" y1="208" x2="300" y2="150" stroke="#0f766e" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="296" cy="147" r="7" fill="#8d5524"/>
+  <line x1="412" y1="210" x2="420" y2="290" stroke="#0f766e" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Chairs behind the table -->
+  <rect x="495" y="250" width="62" height="80" rx="8" fill="#9ca3af"/>
+  <rect x="635" y="250" width="62" height="80" rx="8" fill="#9ca3af"/>
+
+  <!-- Seated person 1 (writing) -->
+  <circle cx="526" cy="248" r="21" fill="#f1c7a3"/>
+  <path d="M505 246 A21 21 0 0 1 547 246 Q526 230 505 246 Z" fill="#78350f"/>
+  <rect x="502" y="270" width="48" height="60" rx="10" fill="#f59e0b"/>
+  <!-- Seated person 2 (laptop) -->
+  <circle cx="666" cy="248" r="21" fill="#e0ac69"/>
+  <path d="M645 246 A21 21 0 0 1 687 246 Q666 230 645 246 Z" fill="#111827"/>
+  <rect x="642" y="270" width="48" height="60" rx="10" fill="#8b5cf6"/>
+
+  <!-- Table -->
+  <rect x="460" y="330" width="300" height="14" fill="#a47148"/>
+  <rect x="472" y="344" width="12" height="76" fill="#a47148"/>
+  <rect x="736" y="344" width="12" height="76" fill="#a47148"/>
+
+  <!-- Notebook and pen (person 1) -->
+  <rect x="506" y="320" width="44" height="10" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <line x1="540" y1="300" x2="532" y2="322" stroke="#1f2937" stroke-width="3"/>
+  <line x1="548" y1="286" x2="538" y2="306" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="537" cy="310" r="6" fill="#f1c7a3"/>
+  <!-- Laptop (person 2) -->
+  <rect x="646" y="296" width="44" height="30" rx="2" fill="#9ca3af" stroke="#4b5563" stroke-width="2"/>
+  <rect x="640" y="325" width="56" height="5" fill="#4b5563"/>
+  <!-- Water jug and glasses -->
+  <path d="M584 290 L606 290 L610 330 L580 330 Z" fill="#dbeafe" stroke="#6b7280" stroke-width="2"/>
+  <rect x="566" y="308" width="10" height="22" fill="#dbeafe" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="614" y="308" width="10" height="22" fill="#dbeafe" stroke="#6b7280" stroke-width="1.5"/>
+</svg>

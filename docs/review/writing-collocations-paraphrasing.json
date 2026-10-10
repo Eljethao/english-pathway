@@ -1,0 +1,20 @@
+{
+  "slug": "writing-collocations-paraphrasing",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the C1 vocabulary range and control descriptors (a broad lexical repertoire, good use of less common collocations and idioms, only occasional minor slips), and the essays are error-free band 8-level prose.",
+  "examFidelity": "The lexical resource descriptions now match the May 2023 public IELTS band descriptors, and the Task 2 (250 words, 40 minutes) and Task 1 paraphrasing advice is accurate.",
+  "itemsChecked": 20,
+  "fixes": [
+    "Corrected an overstated band-7 lexical resource description ('used flexibly and precisely' is band 8 language) to the official wording: 'some flexibility and precision', 'less common and/or idiomatic items', 'an awareness of style and collocation… though inappropriacies occur'; band 8 now quoted accurately",
+    "Model body paragraph: replaced the overstated health claim that heart disease and diabetes are 'driven largely by' sugar and processed food with 'one of their main risk factors'; 'raising awareness of healthy cooking' changed to 'healthy eating'",
+    "Walkthrough: corrected the paraphrase labels (public health → health of the population is a structure change, not a word-form change)",
+    "Paraphrase MCQ explanation: 'required → compulsory' is now correctly called a synonym, not a word-form change",
+    "Collocation gap fill: added defensible accepted answers (deal with/combat, major/marked/positive/huge/noticeable, undertaken, constitute, build/spread, weight/value/significance, available)",
+    "Model essay: 'International travel' changed to 'Leisure travel' so the paraphrase keeps the prompt's meaning (tourism is not only international)"
+  ],
+  "openConcerns": [
+    "The broadened accepted-answer lists in the gap fill are generous; a specialist may want to decide whether informal options such as 'huge impact' should be accepted in an academic-register exercise"
+  ],
+  "learnerOutcome": "A learner can choose accurate academic collocations and paraphrase a task prompt with synonyms, word-form changes and structural changes without changing its meaning."
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "listening-conversations-with-graphics",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 (CEFR CV: can follow animated conversations between proficient speakers, and detailed work-related information): 130–160-word two- and three-speaker workplace conversations that need inference across a table.",
+  "examFidelity": "TOEIC Part 3 sets of three questions (problem/topic, 'Look at the graphic', next action) with schedules, price lists, a directory and a forecast match exams.ts; each graphic question needs both the audio and the table and has one answer, and none depends on speaker gender.",
+  "itemsChecked": 19,
+  "fixes": [
+    "Conversation 1: Daniel says he will tell the client they will arrive 'just on time, rather than early', but the chosen train gets them there about 20 minutes early; changed it to 'a little later than we planned'.",
+    "Conversation 4: the shoot moves to Wednesday, yet the terrace cleaning was to start 'first thing tomorrow', which is the shoot day or later; changed it to 'this afternoon'."
+  ],
+  "openConcerns": [
+    "Conversation 2 has three speakers; check that the TTS gives each of them a clearly different voice."
+  ],
+  "learnerOutcome": "A learner can read a graphic before listening, identify which column the speakers will mention, and combine that with changes of plan to answer TOEIC Part 3 graphic questions and the other questions in the set."
+}

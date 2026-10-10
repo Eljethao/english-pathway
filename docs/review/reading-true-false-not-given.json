@@ -1,0 +1,23 @@
+{
+  "slug": "reading-true-false-not-given",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Now fits B2 (CEFR CV reading for information and argument: can understand articles in which writers adopt particular viewpoints and can identify the content and relevance of detailed information): both passages are now 350–365 words (they were 206 and 146, below the B2 range), with hedged claims, qualifiers and a stated authorial stance.",
+  "examFidelity": "TFNG and YNNG follow IELTS conventions (False must contradict, Not Given must be absent, statements in passage order, YNNG for writer's views); both exam tags are now practised, and the answer-wording tip no longer contains the confusing 'Write T, F or NG'.",
+  "itemsChecked": 18,
+  "fixes": [
+    "Fixed an ambiguous model item: 'Paris was the first city to introduce bike-sharing' was keyed False against 'one of the first large-scale schemes', which does not contradict it. The passage now states Copenhagen's 1995 coin-operated scheme (verified), so False is clear, and the walkthrough explains why 'one of the first' alone would not be enough",
+    "Corrected the four-step method, which said a changed qualifier usually means False; this contradicted ex3 q1 (many vs most = Not Given). It now teaches checking for real contradiction",
+    "Replaced the learn example 'The museum is more than twenty years old → True', which depended on today's date (outside knowledge), with 'opened in the late 1990s'",
+    "Reordered ex1 statements to follow passage order (fuel prices came after Copenhagen although it comes first in the text)",
+    "Reworded the Copenhagen statement so its contradiction with 'never fully abandoned cycling' is exact",
+    "Extended the bike passage with a fifth paragraph (e-bikes) and added two items (one F, one NG word-matching trap); softened 'Researchers now agree' to 'Many transport researchers now argue'",
+    "Rewrote the work-from-home passage as an argumentative text and turned ex2 into a Yes/No/Not Given exercise (6 statements, 2 Y / 2 N / 2 NG), so the YNNG tag and tip are now practised",
+    "Added a missing explanation to ex3 q3 and a new ex3 item on when to use YNNG versus TFNG",
+    "Updated the definition of False to 'contradicts', and updated the objectives, key points and the IELTS answer-wording tip"
+  ],
+  "openConcerns": [
+    "Because this file is the reference lesson named in CONTENT_GUIDE.md, a human should confirm that the larger restructure (ex2 is now YNNG) is acceptable as the template for other lessons."
+  ],
+  "learnerOutcome": "A learner can reliably tell False from Not Given by checking for real contradiction, handle qualifiers such as all, most, several and the first, and apply the same method to Yes/No/Not Given questions about a writer's views."
+}

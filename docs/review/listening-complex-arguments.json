@@ -1,0 +1,15 @@
+{
+  "slug": "listening-complex-arguments",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: learners follow extended lectures (about 250–370 words) where the lecturer reports a view and then rejects it, concedes and rebuts, and builds causal chains. This matches the C1 descriptor for following complex lines of argument in lectures when the relationships between ideas are only signalled implicitly.",
+  "examFidelity": "The IELTS Part 4 flow-chart/notes task (NO MORE THAN TWO WORDS, answers in audio order) and the TOEFL Academic Talk set fit exams.ts. The talk is 247 words, inside the 100–250 range, and has 4 four-option questions on main idea, detail, purpose and inference.",
+  "itemsChecked": 27,
+  "fixes": [
+    "Ex4 Q4: shortened the key, which was much longer than the distractors and so gave a length clue."
+  ],
+  "openConcerns": [
+    "Facts checked: the 2008 circular-track 'jam without a bottleneck' experiment in Japan (Sugiyama et al.) and the 2018 sensor study of two companies moving to open-plan offices (Bernstein & Turban), where face-to-face interaction fell and electronic messages rose. Both are stated accurately. The high-street lecture is a general argument with no specific statistics."
+  ],
+  "learnerOutcome": "Learners can separate a lecturer's own position from the views the lecturer reports, follow a vicious circle, and choose the option that matches the lecturer's level of certainty."
+}

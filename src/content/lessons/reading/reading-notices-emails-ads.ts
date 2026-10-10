@@ -1,0 +1,308 @@
+import type { Lesson } from "@/lib/types";
+
+const lesson: Lesson = {
+  slug: "reading-notices-emails-ads",
+  title: "Notices, emails and ads",
+  summary:
+    "Understand short everyday texts such as notices, emails and advertisements: find their purpose, the key details and what the reader has to do.",
+  skill: "reading",
+  level: "B1",
+  order: 4,
+  minutes: 20,
+  exams: [
+    { exam: "toefl", task: "Reading – Read in Daily Life" },
+    { exam: "toeic", task: "Reading Part 7 – Reading Comprehension" },
+  ],
+  objectives: [
+    "Identify the type and purpose of an everyday text",
+    "Find key details such as dates, times, prices and contact information",
+    "Understand what the reader is asked to do",
+    "Connect information across two related texts",
+  ],
+  warmUp: [
+    "What kinds of notices or signs do you see every day at work, school or home?",
+    "What information should a good job advertisement include?",
+  ],
+  learn: [
+    {
+      type: "text",
+      title: "Everyday texts in exams",
+      body: "TOEFL **Read in Daily Life** and TOEIC **Part 7** use short real-world texts: notices, emails, text messages, advertisements, menus, schedules and forms. The language is usually not very difficult, but the questions check whether you understand **why** the text was written and **what** the reader should do.",
+    },
+    {
+      type: "table",
+      title: "Know your text type",
+      headers: ["Text type", "Usual purpose", "Look at…"],
+      rows: [
+        ["Notice", "To inform or warn people about a change or a rule", "The heading, dates and times, and words like must, please and do not"],
+        ["Email or letter", "To ask, reply, apologise, complain or confirm", "The subject line, the first two sentences, and the last paragraph (requests and next steps)"],
+        ["Advertisement", "To sell something or to find people (staff, members, buyers)", "Prices, requirements, how to apply or contact, and deadlines"],
+        ["Schedule or form", "To give times and places, or to collect information", "Headings, columns and the small print at the bottom"],
+      ],
+    },
+    {
+      type: "text",
+      title: "Four common question types",
+      body: "- **Purpose**: *Why was this email written?* → Read the subject line and the first two sentences.\n- **Detail**: *When will the pool open again?* → Scan for the key word, then read the whole sentence.\n- **Inference**: *What is suggested about the hotel?* → The answer is not written directly. Find two or three facts and think about what they show.\n- **NOT questions**: *What is NOT mentioned in the advertisement?* → Find the three options that *are* in the text. The one left over is the answer.",
+    },
+    {
+      type: "tip",
+      exam: "toeic",
+      body: "In Part 7, read the questions *before* the text. Then you know what to look for, and you can move quickly past parts that no question asks about.",
+    },
+  ],
+  model: [
+    {
+      type: "passage",
+      title: "Email: water off on Thursday",
+      paragraphs: [
+        "From: Karen Walsh, Building Manager",
+        "To: All residents, Oakfield Apartments",
+        "Subject: Water off on Thursday 14 May",
+        "Dear residents,",
+        "I am writing to let you know that the water supply to the whole building will be turned off on Thursday 14 May from 9 am until approximately 3 pm. This is because engineers need to replace the old water pipes on the ground floor.",
+        "During this time, you will not be able to use taps, showers, washing machines or toilets. We recommend that you fill a few bottles with drinking water the evening before. The gym and the laundry room on the ground floor will also be closed all day. When the water comes back on, it may look slightly brown for a few minutes. This is normal, so just let the tap run until the water is clear.",
+        "If you have a medical reason for needing water during these hours, please contact me by Monday 11 May, and we will do our best to help. Residents who work from home are welcome to use the meeting room at Oakfield Community Hall on Park Road, free of charge, from 8 am to 6 pm.",
+        "I apologise for any inconvenience and thank you for your patience.",
+        "Best regards,",
+        "Karen Walsh",
+      ],
+    },
+    {
+      type: "text",
+      title: "How a strong reader answers",
+      body: "**Why did Karen write this email?** (purpose)\n\nRead the subject line and the first sentence: “I am writing to let you know that the water supply… will be turned off.” **Answer: to tell residents about a planned break in the water supply.** Notice the paraphrase in the answer: *turned off* → *a break in the supply*.\n\n**What should residents with a medical need do?** (detail)\n\nRequests and next steps are usually near the end. Paragraph 3: “please contact me by Monday 11 May”. **Answer: contact the building manager by 11 May.**\n\n**What is suggested about Oakfield Community Hall?** (inference)\n\nThe email never says it directly. But the water will be off in “the whole building”, and residents are invited to work at the hall all day, from 8 am to 6 pm. So the hall must have water, which means it is not in the apartment building. **Answer: it is in a different building from the apartments.**",
+    },
+  ],
+  practice: [
+    {
+      type: "passage",
+      title: "Notice: swimming pool changes",
+      paragraphs: [
+        "GREENWAY LEISURE CENTRE",
+        "Important: changes to the swimming pool timetable",
+        "From Monday 2 June to Sunday 29 June, the main pool will be closed for cleaning and for repairs to the changing rooms. During this period, the small learner pool will stay open, but only for swimming lessons and parent-and-baby sessions.",
+        "Members who usually swim in the early morning can use our partner centre, Northbridge Pool, at no extra cost. Simply show your Greenway membership card at the Northbridge reception. Northbridge is a ten-minute walk from the Central bus station and is open from 6.30 am to 10 pm every day.",
+        "All other facilities, including the gym, the sauna and the fitness studios, will open as normal. However, the café will close one hour earlier than usual, at 7 pm, because we expect fewer visitors. Swimming lessons for children will continue at the usual times.",
+        "Members who cannot get to Northbridge may freeze their membership for June. You will not pay for that month, and your membership will start again automatically on 1 July. To do this, please fill in a form at reception before 25 May.",
+        "We are sorry for any inconvenience. The new changing rooms will have more showers, larger lockers and step-free access.",
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex1",
+        kind: "mcq",
+        title: "Read the notice",
+        instructions: "Read “Notice: swimming pool changes”. Choose the correct answer.",
+        questions: [
+          {
+            prompt: "What is the main purpose of the notice?",
+            options: [
+              "To advertise a new swimming pool",
+              "To tell members about a temporary closure and their choices",
+              "To ask members to help clean the pool",
+              "To announce new opening times for the gym",
+            ],
+            answer: 1,
+            explanation: "The heading and first paragraph explain that the main pool will be closed in June. The rest of the notice gives members options.",
+          },
+          {
+            prompt: "Who can use the learner pool in June?",
+            options: ["All members", "Early-morning swimmers", "People having lessons, and parents with babies", "Northbridge members"],
+            answer: 2,
+            explanation: "Paragraph 1: the learner pool is open “only for swimming lessons and parent-and-baby sessions”.",
+          },
+          {
+            prompt: "How much extra will Greenway members pay to swim at Northbridge?",
+            options: ["Nothing", "Half the normal price", "The full Northbridge price", "The notice does not say"],
+            answer: 0,
+            explanation: "Paragraph 2: “at no extra cost”.",
+          },
+          {
+            prompt: "What must members do if they want to freeze their membership?",
+            options: [
+              "Show their card at Northbridge",
+              "Complete a form at reception before 25 May",
+              "Pay for June in advance",
+              "Contact the centre after 1 July",
+            ],
+            answer: 1,
+            explanation: "Paragraph 4: “fill in a form at reception before 25 May”. *Fill in* = *complete*.",
+          },
+          {
+            prompt: "What is NOT mentioned as an improvement to the changing rooms?",
+            options: ["More showers", "Bigger lockers", "Step-free access", "Hair dryers"],
+            answer: 3,
+            explanation: "The last paragraph mentions more showers, larger lockers and step-free access. Hair dryers are not mentioned.",
+          },
+        ],
+      },
+    },
+    {
+      type: "passage",
+      title: "Advertisement and email: weekend assistant",
+      paragraphs: [
+        "TEXT 1: ADVERTISEMENT",
+        "Part-time weekend assistant wanted at Bayside Bookshop",
+        "Bayside Bookshop, a busy independent bookshop in the town centre, is looking for a friendly weekend assistant. The job is for Saturdays and Sundays, 10 am to 5 pm, and the pay is £12.50 per hour.",
+        "Duties include serving customers, unpacking deliveries and helping at our monthly children's reading events. Experience in a shop is useful but not necessary, as full training will be given. You must love books and enjoy talking to customers. Some lifting of heavy boxes is required.",
+        "To apply, send a short email explaining why you would like the job to the manager, Paul Hughes, at jobs@baysidebooks.co.uk by Friday 20 March. Interviews will take place the following week.",
+        "TEXT 2: EMAIL",
+        "To: jobs@baysidebooks.co.uk",
+        "From: Mia Novak",
+        "Subject: Weekend assistant position",
+        "Dear Mr Hughes,",
+        "I am writing to apply for the position of weekend assistant, which I saw advertised in your shop window. I am a second-year history student at Bayside College, and I am free every weekend during term time.",
+        "I have never worked in a bookshop, but last summer I worked in a café, so I am used to serving customers and working quickly when it is busy. I read at least two novels a month, and I would especially enjoy helping with the children's events, as I often look after my younger cousins.",
+        "I am available for an interview on any weekday afternoon. Could you also tell me whether the job would continue during the summer holidays?",
+        "Kind regards,",
+        "Mia Novak",
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex2",
+        kind: "mcq",
+        title: "Two texts together",
+        instructions: "Read both texts. Some questions need information from both of them.",
+        questions: [
+          {
+            prompt: "Why did Mia write the email?",
+            options: ["To apply for a job", "To complain about a book", "To ask about children's events", "To cancel an interview"],
+            answer: 0,
+            explanation: "First sentence: “I am writing to apply for the position of weekend assistant.”",
+          },
+          {
+            prompt: "Where did Mia find out about the job?",
+            options: ["On a website", "In a newspaper", "In the shop window", "From Paul Hughes"],
+            answer: 2,
+            explanation: "Text 2: “which I saw advertised in your shop window”.",
+          },
+          {
+            prompt: "What is true about Mia's experience?",
+            options: [
+              "She has worked in a bookshop before.",
+              "She has served customers before.",
+              "She has trained shop assistants.",
+              "She has organised children's events.",
+            ],
+            answer: 1,
+            explanation: "She worked in a café, “so I am used to serving customers”. She says she has never worked in a bookshop.",
+          },
+          {
+            prompt: "Which point from the advertisement does Mia NOT mention in her email?",
+            options: ["Loving books", "Serving customers", "Lifting heavy boxes", "Working at weekends"],
+            answer: 2,
+            explanation: "She mentions reading novels, serving customers and being free at weekends, but she says nothing about lifting boxes.",
+          },
+          {
+            prompt: "What does Mia want to know?",
+            options: ["How much the job pays", "Whether the job continues in the summer", "Where the shop is", "Who the manager is"],
+            answer: 1,
+            explanation: "Last paragraph: “Could you also tell me whether the job would continue during the summer holidays?”",
+          },
+          {
+            prompt: "If Mia is invited to an interview, when will it probably be?",
+            options: [
+              "On a weekday afternoon in the week after 20 March",
+              "On a Saturday morning before 20 March",
+              "During the summer holidays",
+              "On a Sunday at 10 am",
+            ],
+            answer: 0,
+            explanation: "Text 1: interviews are “the following week” after 20 March. Text 2: Mia is free “on any weekday afternoon”. You need both texts.",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex3",
+        kind: "gap",
+        title: "The manager's notes",
+        instructions: "Complete Paul's notes using both texts. Write NO MORE THAN TWO WORDS AND/OR A NUMBER in each gap.",
+        text: "Weekend assistant: Saturday and Sunday, 10 am to {{0}} pm\nPay: £{{1}} per hour\nTraining: {{2}} training provided\nClosing date for applications: Friday {{3}} March\nApplicant: Mia Novak, studies {{4}} at Bayside College\nPrevious job: worked in a {{5}} last summer\nAvailable for interview: weekday {{6}}",
+        answers: [
+          ["5", "five"],
+          ["12.50", "12.5", "£12.50"],
+          ["full"],
+          ["20", "20th", "twentieth"],
+          ["history"],
+          ["café", "cafe"],
+          ["afternoons", "afternoon"],
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex4",
+        kind: "match",
+        title: "What is the purpose?",
+        instructions: "Match each short text to its main purpose. There are two extra purposes that you do not need.",
+        left: [
+          "Please note that the car park will be closed on Sunday while the surface is repaired.",
+          "I'm afraid there was a mistake with your order, and we are very sorry.",
+          "Could you send me the price list for your meeting rooms?",
+          "Join us on Friday at 6 pm for drinks to celebrate Anna's retirement!",
+          "Do not leave bags without an owner. They may be removed and destroyed.",
+          "Second-hand bike for sale, excellent condition, only £80. Call Jo.",
+        ],
+        right: [
+          "To invite",
+          "To complain",
+          "To warn",
+          "To ask for information",
+          "To sell something",
+          "To apologise",
+          "To inform about a change",
+          "To thank someone",
+        ],
+        answer: [6, 5, 3, 0, 2, 4],
+      },
+    },
+  ],
+  examTips: [
+    {
+      exam: "toefl",
+      body: "Read in Daily Life texts are short and you have little time for each one. Read the question first, then go straight to the part of the text you need. Purpose questions are usually answered in the subject line or the first sentence.",
+    },
+    {
+      exam: "toeic",
+      body: "Part 7 double and triple passages usually include questions that need information from two texts. Look for a name, date or detail that appears in both texts and connect them.",
+    },
+    {
+      exam: "toeic",
+      body: "Watch out for NOT questions (“What is NOT mentioned…?”). Tick each option you find in the text; the option that is left is the answer.",
+    },
+    {
+      exam: "ielts",
+      body: "IELTS General Training Reading Section 1 also uses notices, adverts and timetables. The same skills, finding the purpose and scanning for details, will help you there.",
+    },
+  ],
+  vocabulary: [
+    { word: "notice", meaning: "a written message in a public place that gives information or a warning", example: "There's a notice on the door about the new opening hours.", topic: "everyday" },
+    { word: "apply (for)", meaning: "to formally ask for a job, a place on a course, etc.", example: "She applied for a job at the bookshop.", topic: "work" },
+    { word: "position", meaning: "a job in a company or organisation", example: "We have a position available for a weekend assistant.", topic: "work" },
+    { word: "deadline", meaning: "the latest time or date by which you must do something", example: "The deadline for applications is Friday.", topic: "work" },
+    { word: "available", meaning: "free to do something, or able to be used", example: "I'm available for an interview on Tuesday afternoon.", topic: "everyday" },
+    { word: "requirement", meaning: "something that is necessary or that you must have", example: "A driving licence is a requirement for this job.", topic: "work" },
+    { word: "duties", meaning: "the tasks that are part of your job", example: "Her duties include answering the phone and booking meetings.", topic: "work" },
+    { word: "inconvenience", meaning: "a small problem that makes things less easy", example: "We apologise for any inconvenience.", topic: "everyday" },
+    { word: "approximately", meaning: "about; not exactly", example: "The repairs will take approximately three hours.", topic: "everyday" },
+    { word: "free of charge", meaning: "costing nothing", example: "Parking is free of charge after 6 pm.", topic: "business" },
+    { word: "facilities", meaning: "buildings, rooms or equipment provided for a particular use", example: "The hotel's facilities include a pool and a gym.", topic: "everyday" },
+    { word: "temporary", meaning: "lasting for a short time only", example: "The road closure is only temporary.", topic: "everyday" },
+  ],
+  keyPoints: [
+    "First identify the text type (notice, email, ad, schedule) and its purpose.",
+    "The purpose is usually in the title, subject line or first two sentences; requests and next steps are usually near the end.",
+    "Scan for details like dates, times and prices, then read the whole sentence to check.",
+    "For NOT questions, find the options that are in the text; for double passages, connect information across both texts.",
+  ],
+};
+
+export default lesson;

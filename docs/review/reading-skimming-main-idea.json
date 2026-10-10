@@ -1,0 +1,19 @@
+{
+  "slug": "reading-skimming-main-idea",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 reading for orientation (CEFR CV: can skim short texts to find the gist and relevant facts on familiar topics): two 209- and 234-word texts on everyday topics with high-frequency vocabulary and simple linear paragraph structure, and tasks limited to gist, topic sentences and main idea versus detail.",
+  "examFidelity": "Skills are relevant to IELTS Matching headings, TOEFL Read an Academic Passage and TOEIC Part 7 purpose questions; the TOEFL and TOEIC tips were softened so they no longer state question types that exams.ts does not list (TOEFL lists purpose and connection between ideas, not 'main idea').",
+  "itemsChecked": 14,
+  "fixes": [
+    "Replaced an unattributed, unverifiable statistic ('In 2023, 40% of 25-year-olds still lived at home') with a clearly hedged survey example",
+    "Replaced the unverifiable claim that an electric drill is 'used for only a few minutes in its whole life' with a general statement, and updated the ex4 prompt and title distractor that quoted it",
+    "Corrected the ex2 q2 explanation: paragraph B describes how the system works, so the benefits are in C and D, not 'B–D'",
+    "Softened the TOEIC learn tip from 'Part 7 often starts with…' to 'often includes questions like…'",
+    "Rewrote the TOEFL exam tip to match the question types listed in exams.ts (writer's purpose, connection between ideas)"
+  ],
+  "openConcerns": [
+    "Rendering: the match component labels the right-hand options A, B, C… while the left side says 'Paragraph A', 'Paragraph B'. In ex3 this letter clash may confuse learners. It is a UI issue in src/components/exercises/MatchExercise.tsx, outside this file."
+  ],
+  "learnerOutcome": "A learner can skim a 200–250-word everyday text in about two minutes, state its main idea, pick out topic sentences and separate main ideas from supporting details."
+}

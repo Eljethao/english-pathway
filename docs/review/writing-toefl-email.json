@@ -1,0 +1,17 @@
+{
+  "slug": "writing-toefl-email",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2-appropriate: writing a clear email that conveys information, makes requests and proposes solutions in a register suited to the reader matches the CEFR B2 correspondence descriptors.",
+  "examFidelity": "Consistent with exams.ts: one Write an Email task, 7 minutes, academic or social situation, with a prompt listing what the email must do; the 80–100 word target matches the exams.ts strategy line and the content guide.",
+  "itemsChecked": 21,
+  "fixes": [
+    "Model email: 'two extra days' did not match a Thursday-to-Monday delay; changed to 'a little more time'",
+    "ex4 Q2: removed the option 'Saying when the exam is', which was not a task point but was also not covered, so a learner could defend it; the question now offers only the three task points",
+    "ex3 gaps: added grammatical alternatives (possible: OK/okay/convenient; option: possibility/alternative/idea/solution/suggestion; inconvenience: trouble/difficulty/disruption/delay/problems; information: help/assistance)"
+  ],
+  "openConcerns": [
+    "ETS does not publish a minimum word count for Write an Email; the 80–100 word target comes from exams.ts strategy guidance, and third-party guides vary (about 80–150 words)"
+  ],
+  "learnerOutcome": "A learner can plan and write a complete, well-pitched email in 7 minutes that covers every required point with specific detail and a polite proposal."
+}

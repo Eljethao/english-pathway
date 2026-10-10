@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">A sunny day in the park</title>
+  <desc id="desc">A sunny park. On the left, two older people with grey hair are sitting on a wooden bench under a large tree. In the middle, a woman in a purple coat is walking a small brown dog on a lead along the path. Behind her there is a small pond with two ducks on it. On the right, a boy in a red T-shirt is riding a bicycle along the path.</desc>
+  <rect width="800" height="500" fill="#ffffff"/>
+
+  <!-- Sun -->
+  <circle cx="730" cy="70" r="32" fill="#fcd34d"/>
+  <g stroke="#fcd34d" stroke-width="4" stroke-linecap="round">
+    <line x1="730" y1="20" x2="730" y2="8"/>
+    <line x1="680" y1="70" x2="668" y2="70"/>
+    <line x1="694" y1="34" x2="686" y2="26"/>
+    <line x1="766" y1="34" x2="774" y2="26"/>
+    <line x1="694" y1="106" x2="686" y2="114"/>
+  </g>
+
+  <!-- Grass and path -->
+  <rect x="0" y="290" width="800" height="210" fill="#ecfdf5"/>
+  <line x1="0" y1="290" x2="800" y2="290" stroke="#86efac" stroke-width="2"/>
+  <rect x="0" y="405" width="800" height="45" fill="#efe3c8"/>
+  <line x1="0" y1="405" x2="800" y2="405" stroke="#d6c4a0" stroke-width="2"/>
+  <line x1="0" y1="450" x2="800" y2="450" stroke="#d6c4a0" stroke-width="2"/>
+
+  <!-- Pond with two ducks -->
+  <ellipse cx="560" cy="325" rx="85" ry="20" fill="#bfdbfe" stroke="#93c5fd" stroke-width="2"/>
+  <g>
+    <ellipse cx="528" cy="320" rx="13" ry="7" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5"/>
+    <circle cx="539" cy="311" r="6" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5"/>
+    <path d="M544 311 L551 313 L544 315 Z" fill="#f59e0b"/>
+    <ellipse cx="588" cy="326" rx="13" ry="7" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5"/>
+    <circle cx="599" cy="317" r="6" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5"/>
+    <path d="M604 317 L611 319 L604 321 Z" fill="#f59e0b"/>
+  </g>
+
+  <!-- Large tree -->
+  <rect x="196" y="170" width="28" height="200" fill="#a16207"/>
+  <g fill="#86efac">
+    <circle cx="210" cy="120" r="85"/>
+    <circle cx="140" cy="160" r="55"/>
+    <circle cx="285" cy="160" r="55"/>
+  </g>
+
+  <!-- Bench -->
+  <rect x="95" y="300" width="230" height="12" rx="3" fill="#a47148"/>
+  <rect x="105" y="347" width="8" height="45" fill="#78716c"/>
+  <rect x="307" y="347" width="8" height="45" fill="#78716c"/>
+
+  <!-- Older man on the bench -->
+  <rect x="140" y="275" width="46" height="66" rx="12" fill="#2563eb"/>
+  <circle cx="163" cy="252" r="21" fill="#f1c7a3"/>
+  <path d="M142 250 A21 21 0 0 1 184 250 Q163 238 142 250 Z" fill="#d1d5db"/>
+  <rect x="145" y="341" width="14" height="50" fill="#374151"/>
+  <rect x="167" y="341" width="14" height="50" fill="#374151"/>
+  <ellipse cx="152" cy="392" rx="11" ry="5" fill="#111827"/>
+  <ellipse cx="174" cy="392" rx="11" ry="5" fill="#111827"/>
+
+  <!-- Older woman on the bench -->
+  <rect x="226" y="275" width="46" height="66" rx="12" fill="#f472b6"/>
+  <circle cx="249" cy="252" r="21" fill="#c68c5a"/>
+  <path d="M228 252 A21 21 0 0 1 270 252 L271 264 Q249 236 227 264 Z" fill="#e5e7eb"/>
+  <rect x="231" y="341" width="14" height="50" fill="#6b7280"/>
+  <rect x="253" y="341" width="14" height="50" fill="#6b7280"/>
+  <ellipse cx="238" cy="392" rx="11" ry="5" fill="#111827"/>
+  <ellipse cx="260" cy="392" rx="11" ry="5" fill="#111827"/>
+
+  <!-- Bench seat (in front of the people, so they are sitting on it) -->
+  <rect x="95" y="333" width="230" height="14" rx="3" fill="#a47148"/>
+
+  <!-- Woman walking a dog -->
+  <rect x="410" y="335" width="14" height="80" fill="#374151"/>
+  <rect x="432" y="335" width="14" height="80" fill="#374151"/>
+  <ellipse cx="416" cy="416" rx="11" ry="5" fill="#111827"/>
+  <ellipse cx="440" cy="416" rx="11" ry="5" fill="#111827"/>
+  <path d="M404 250 L452 250 L460 345 L396 345 Z" fill="#7c3aed"/>
+  <circle cx="428" cy="226" r="22" fill="#8d5524"/>
+  <path d="M406 226 A22 22 0 0 1 450 226 L452 250 L404 250 Z" fill="#111827"/>
+  <circle cx="428" cy="230" r="19" fill="#8d5524"/>
+  <line x1="450" y1="262" x2="468" y2="318" stroke="#7c3aed" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="469" cy="321" r="6" fill="#8d5524"/>
+  <path d="M470 323 Q500 380 534 392" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+
+  <!-- Small brown dog -->
+  <ellipse cx="552" cy="404" rx="26" ry="12" fill="#92400e"/>
+  <circle cx="578" cy="392" r="11" fill="#92400e"/>
+  <ellipse cx="584" cy="382" rx="4" ry="7" fill="#78350f"/>
+  <circle cx="589" cy="395" r="3" fill="#111827"/>
+  <line x1="534" y1="394" x2="532" y2="392" stroke="#dc2626" stroke-width="3"/>
+  <g stroke="#92400e" stroke-width="5" stroke-linecap="round">
+    <line x1="534" y1="412" x2="532" y2="428"/>
+    <line x1="548" y1="413" x2="548" y2="429"/>
+    <line x1="560" y1="413" x2="562" y2="429"/>
+    <line x1="572" y1="410" x2="575" y2="428"/>
+    <line x1="527" y1="400" x2="516" y2="388"/>
+  </g>
+
+  <!-- Boy riding a bicycle -->
+  <circle cx="655" cy="420" r="26" fill="none" stroke="#1f2937" stroke-width="5"/>
+  <circle cx="750" cy="420" r="26" fill="none" stroke="#1f2937" stroke-width="5"/>
+  <path d="M655 420 L690 380 L735 380 L750 420 M690 380 L703 420 L735 380 M703 420 L655 420" fill="none" stroke="#0ea5e9" stroke-width="5" stroke-linejoin="round"/>
+  <line x1="735" y1="380" x2="740" y2="362" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <line x1="740" y1="362" x2="752" y2="360" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <rect x="680" y="372" width="22" height="7" rx="3" fill="#1f2937"/>
+  <path d="M694 372 L712 398 L703 420" fill="none" stroke="#1e3a8a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="678" y="306" width="36" height="66" rx="10" fill="#ef4444"/>
+  <line x1="708" y1="320" x2="740" y2="362" stroke="#ef4444" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="741" cy="362" r="5" fill="#f1c7a3"/>
+  <circle cx="698" cy="288" r="18" fill="#f1c7a3"/>
+  <path d="M680 286 A18 18 0 0 1 716 286 Q698 274 680 286 Z" fill="#a16207"/>
+</svg>

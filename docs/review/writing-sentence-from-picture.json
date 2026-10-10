@@ -1,0 +1,15 @@
+{
+  "slug": "writing-sentence-from-picture",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B1 (short, accurate descriptive sentences with the present continuous and prepositions of place) is right for the TOEIC picture-sentence task.",
+  "examFidelity": "Matches exams.ts: 5 pictures in 8 minutes, two given words, one sentence, forms and order may change, scored on grammar and relevance to the picture.",
+  "itemsChecked": 18,
+  "fixes": [
+    "ex5 model sentence 4 used the present simple ('while the seller serves the man'), which goes against the lesson's present-continuous teaching. It now reads 'A woman with a shopping basket is waiting while the seller is serving the man with the backpack.'"
+  ],
+  "openConcerns": [
+    "The four SVGs were checked against their source code (people, positions, colours, objects, actions) and match the alt text and every keyed answer. A human should still look at them once on screen to confirm that small details are visible at phone size (the woman typing in the office picture, the backpack in the market picture)."
+  ],
+  "learnerOutcome": "A learner can write one correct, relevant sentence that uses two given words to describe a picture, and can check it for articles, verb forms and plurals."
+}

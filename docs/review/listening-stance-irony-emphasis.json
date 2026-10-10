@@ -1,0 +1,19 @@
+{
+  "slug": "listening-stance-irony-emphasis",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: recognising distancing, cleft emphasis, understatement and irony from the words and the situation matches the C1 descriptors for implicit attitudes and for colloquial and idiomatic speech.",
+  "examFidelity": "The IELTS Part 3 MCQs, the lecture MCQs and the TOEFL Listen and Choose a Response items (all with 4 replies) fit exams.ts. Every ironic item can be solved from a mismatch with the facts that follow, not from intonation.",
+  "itemsChecked": 28,
+  "fixes": [
+    "The Learn examples used 'did wonders for our response rate' and 'Twice the fun', which were word for word the answers to Practice 1 Q1 and Q7. Replaced them with new irony examples.",
+    "The Learn TOEFL tip mentioned the jammed printer and the 'express' bus from ex4. Replaced them with neutral situations.",
+    "Ex1 item 2 repeated a Learn example exactly (the umbrella). Replaced it with a new ironic remark.",
+    "The brain-training lecture said both sides of the 2014 open-letter debate 'accepted' that marketing ran ahead of the science, which I could not verify. Rewrote it: one letter (2014) said the claims exceeded the evidence; a reply a few months later said critics had overlooked research; and in 2016 one company paid $2 million to settle a US consumer-protection complaint (the Lumosity FTC case). Rewrote ex3 Q5 and its explanation to test 'the field is hardly united'. This also removes the length clue from the old key."
+  ],
+  "openConcerns": [
+    "TTS intonation is flat, so ironic remarks may sound sincere. All the items are solvable from the words and the context, but a human recording would be more natural.",
+    "The lecture is 365 words, longer than a real TOEFL Academic Talk (100–250). It is presented as a lecture, not labelled as a TOEFL Academic Talk."
+  ],
+  "learnerOutcome": "Learners can tell when a speaker distances themselves from a claim, stresses a main point, plays something down or means the opposite, and can answer from the words and the situation rather than from tone."
+}

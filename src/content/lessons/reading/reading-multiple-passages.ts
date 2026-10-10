@@ -1,0 +1,437 @@
+import type { Lesson } from "@/lib/types";
+
+const lesson: Lesson = {
+  slug: "reading-multiple-passages",
+  title: "TOEIC Part 7: multiple passages",
+  summary:
+    "Handle TOEIC Part 7 double and triple passages by mapping who wrote what, spotting the details that link the texts, and answering cross-reference questions with confidence.",
+  skill: "reading",
+  level: "B2",
+  order: 9,
+  minutes: 25,
+  exams: [{ exam: "toeic", task: "Reading Part 7 – Reading Comprehension" }],
+  objectives: [
+    "Understand how double and triple passage sets are organised in TOEIC Part 7",
+    "Map each text quickly: who wrote it, to whom, when and why",
+    "Find the linking details (names, dates, rooms, prices, codes) that connect two or three texts",
+    "Answer cross-reference, inference and vocabulary questions on related business texts",
+  ],
+  warmUp: [
+    "Think of an event you organised, such as a meeting or a trip. Which documents did you use: emails, schedules, receipts, notices?",
+    "Have you ever missed a change to a plan because it was announced in a different message? What happened?",
+  ],
+  learn: [
+    {
+      type: "text",
+      title: "What multiple-passage sets look like",
+      body: "TOEIC Reading Part 7 has 54 questions: 29 on single passages and 25 on **double or triple passages**. In a multiple-passage set you read two or three texts that belong together, for example:\n\n- an email + a schedule\n- an advertisement + an order form + a customer's email\n- a programme + a notice about changes + an email to colleagues\n\nEach set usually has 5 questions. Some questions are about one text only, and the instructions often tell you which one (*According to the notice…*). Others need information from **two texts at the same time**. These are called cross-reference questions, and they are where most mistakes happen.\n\nIn earlier lessons you practised scanning one text for a detail. Here the new skill is **linking**: a detail in one text (a room, a date, a discount code) tells you how to read a detail in another.",
+    },
+    {
+      type: "table",
+      title: "Common question types in multiple-passage sets",
+      headers: ["Type", "Typical question", "Where to look"],
+      rows: [
+        ["Purpose", "Why was the email written?", "The subject line and first two sentences of that text"],
+        ["Detail", "According to the schedule, when does…?", "Only the text named in the question"],
+        ["Cross-reference", "Where will Ms Lee attend her session?", "Find the link: her session (email) → its room (schedule) → any change (notice)"],
+        ["Inference", "What is suggested about…? / What is indicated about…?", "Combine facts that are stated; the answer is not written in one sentence"],
+        ["Vocabulary", "In the email, the word “X” in paragraph 1 is closest in meaning to…", "Read the whole sentence; choose the meaning that fits there"],
+        ["NOT / true", "What is NOT mentioned as…?", "Check each option against the text and remove the ones that are stated"],
+      ],
+    },
+    {
+      type: "text",
+      title: "A four-step method",
+      body: "1. **Map the texts (30 seconds).** Read the headers: what type of text, who wrote it, to whom, the date and the subject. Note how the texts are connected.\n2. **Read the questions.** Mark the ones that name a text (*in the notice*) and the ones that name a person or event that may appear in several texts.\n3. **Answer single-text questions first**, then do the cross-reference questions. By then you know the texts well.\n4. **Follow the link.** For each cross-reference question, find the bridge: a name, date, room, price or code that appears in both texts. Check whether a later text **changes** something in an earlier one, such as a new time or room.",
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex1",
+        kind: "mcq",
+        title: "Follow the link",
+        instructions: "Each question gives you two short texts. Use both texts to choose the answer.",
+        questions: [
+          {
+            prompt: "Email: “I'll be at the conference on the day of the product demonstration.” Programme: Day 1 – keynote talks; Day 2 – product demonstration; Day 3 – workshops. On which day will the writer attend?",
+            options: ["Day 1", "Day 2", "Day 3", "All three days"],
+            answer: 1,
+            explanation: "The email gives the event (product demonstration); the programme gives the day (Day 2).",
+          },
+          {
+            prompt: "Notice: “During the building work, staff whose parking permit numbers end in an even number should use Car Park B. Those with odd numbers should use Car Park C.” Email from Ms Ortiz: “My permit number is 4471.” Where should Ms Ortiz park?",
+            options: ["Car Park A", "Car Park B", "Car Park C", "Anywhere she likes"],
+            answer: 2,
+            explanation: "4471 ends in 1, an odd number, so the notice sends her to Car Park C.",
+          },
+          {
+            prompt: "Price list: Standard room $120 per night; Deluxe room $165 per night; Suite $250 per night. Email: “We booked the cheapest room type for two nights.” How much will the room cost in total?",
+            options: ["$120", "$165", "$240", "$330"],
+            answer: 2,
+            explanation: "The cheapest type is the Standard room at $120 a night; two nights = $240. $120 is a trap: it is the price for one night only.",
+          },
+          {
+            prompt: "Schedule: Ms Lin – training on Tuesday; Mr Haddad – training on Wednesday; Ms Okoro – training on Thursday. Memo: “The Wednesday session has been moved to Friday because the trainer is unavailable.” Who will now have training on Friday?",
+            options: ["Ms Lin", "Mr Haddad", "Ms Okoro", "Nobody"],
+            answer: 1,
+            explanation: "The memo moves the Wednesday session; the schedule shows that Mr Haddad was booked for Wednesday.",
+          },
+        ],
+      },
+    },
+  ],
+  model: [
+    {
+      type: "passage",
+      title: "Text 1: Email",
+      paragraphs: [
+        "From: Dana Whitfield, Office Manager, Corvel Design",
+        "To: Bookings Team, Harbourside Conference Centre",
+        "Date: 3 March",
+        "Subject: Booking for a client workshop",
+        "Dear Bookings Team,",
+        "I would like to reserve a room for a half-day client workshop on Thursday, 20 March, from 9.00 a.m. to 1.00 p.m. We expect around 25 guests, and we will need a projector and a screen. As several of our guests will be travelling by train, a room close to the main entrance would be ideal.",
+        "Could you also arrange coffee and pastries on arrival, and a light lunch at the end of the workshop? Two of our guests are vegetarian. Please send me a quote and let me know which rooms are available. If the price is within our budget of £800 for the room and catering together, I will confirm the booking by the end of this week.",
+        "Kind regards,",
+        "Dana Whitfield",
+      ],
+    },
+    {
+      type: "table",
+      title: "Text 2: Harbourside Conference Centre – rooms and rates",
+      headers: ["Room", "Seats up to", "Location", "Equipment", "Half-day rate"],
+      rows: [
+        ["Willow", "12", "Ground floor, next to reception", "Screen", "£180"],
+        ["Cedar", "30", "Ground floor, next to the main entrance", "Projector and screen", "£320"],
+        ["Maple", "40", "Second floor", "Projector, screen, video-conferencing", "£420"],
+        ["Oak", "60", "First floor", "Projector, screen, microphones", "£550"],
+      ],
+    },
+    {
+      type: "text",
+      title: "Text 2 (continued): notes",
+      body: "- Catering: coffee and pastries £6 per person; light lunch £14 per person.\n- Vegetarian options are always available at no extra cost.\n- Bookings must be confirmed at least ten days before the event.",
+    },
+    {
+      type: "text",
+      title: "How a strong reader answers",
+      body: "**Map the texts.** Text 1: an email from a client (Dana Whitfield) asking about a room on 20 March. Text 2: the centre's rooms, prices and rules. The link is clear: her needs (Text 1) must be matched with the rooms (Text 2).\n\n**Question:** Which room is most suitable for Corvel Design's workshop?\n\nThis is a cross-reference question. From the email, list the needs: about **25 guests**, a **projector**, near the **main entrance**. Now check the table. Willow is too small (12 seats). Maple and Oak are large enough and have projectors, but they are upstairs. Only **Cedar** has 30 seats, a projector and a location next to the main entrance. → **Cedar**\n\n**Question:** In the first paragraph of the email, the word “ideal” is closest in meaning to\n(A) perfect (B) typical (C) imaginary (D) necessary\n\nRead the whole sentence: a room near the entrance would be best for guests arriving by train. → **(A) perfect**. *Necessary* is too strong: she says it *would be ideal*, not that it is required.",
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex2",
+        kind: "mcq",
+        title: "Your turn: double passage",
+        instructions: "Use Text 1 and Text 2 above. Choose the best answer.",
+        questions: [
+          {
+            prompt: "What is the main purpose of the email?",
+            options: [
+              "to confirm a booking for a workshop",
+              "to ask about available rooms and prices for an event",
+              "to complain about the catering at a previous event",
+              "to invite the bookings team to a workshop",
+            ],
+            answer: 1,
+            explanation: "She would like to reserve a room and asks for “a quote” and “which rooms are available”. She will only confirm later, if the price is within budget, so A is wrong.",
+          },
+          {
+            prompt: "Why does Ms Whitfield want a room near the main entrance?",
+            options: [
+              "Some guests will be carrying heavy equipment.",
+              "Some guests will arrive by train.",
+              "The workshop will start very early.",
+              "Lunch will be served at the entrance.",
+            ],
+            answer: 1,
+            explanation: "“As several of our guests will be travelling by train, a room close to the main entrance would be ideal.”",
+          },
+          {
+            prompt: "What is suggested about the total cost of what Ms Whitfield has asked for?",
+            options: [
+              "It will be slightly above her budget.",
+              "It will be well below her budget.",
+              "It will include an extra charge for vegetarian meals.",
+              "It must be paid ten days before the event.",
+            ],
+            answer: 0,
+            explanation: "Cedar costs £320. Catering for 25 guests costs 25 × (£6 + £14) = £500. The total, £820, is just over her £800 budget. Vegetarian options are free (C), and the ten-day rule is about confirming, not paying (D).",
+          },
+          {
+            prompt: "By what date must Ms Whitfield confirm her booking at the latest?",
+            options: ["3 March", "7 March", "10 March", "20 March"],
+            answer: 2,
+            explanation: "The workshop is on 20 March, and bookings must be confirmed “at least ten days before the event”, so 10 March is the last possible date.",
+          },
+        ],
+      },
+    },
+  ],
+  practice: [
+    {
+      type: "passage",
+      title: "Practice set 1 – Text 1: Email",
+      paragraphs: [
+        "From: Kenji Mori, Purchasing Manager, Alderton Stores",
+        "To: Priya Shah; Tom Becker; Sofia Lund",
+        "Date: 9 May",
+        "Subject: Retail Technology Fair next week",
+        "Hi all,",
+        "As you know, the four of us will be attending the Retail Technology Fair at Eastgate Exhibition Hall on Wednesday, 14 May. I have registered everyone, and the organisers will email your entry badges to you directly.",
+        "Our main goal this year is to find a new supplier of self-checkout machines, so I would like Priya and Tom to attend the session on self-checkout systems while I meet suppliers at their stands. Sofia, since you are looking into ways of reducing waste in our stores, please go to the talk on packaging in the afternoon.",
+        "Please bring plenty of business cards, as suppliers will want our contact details. After the fair, I would like each of you to send me a short summary of the most useful things you saw or heard by Friday, 16 May, so that we can discuss them at our team meeting the following Monday.",
+        "We will meet at the main entrance at 9.15. The company will pay for your travel, but please keep your receipts and submit them by the end of the month.",
+        "Kenji",
+      ],
+    },
+    {
+      type: "table",
+      title: "Practice set 1 – Text 2: Fair programme, Wednesday 14 May",
+      headers: ["Time", "Session", "Room"],
+      rows: [
+        ["9.30–10.30", "Opening talk: The future of the high street", "Main Hall"],
+        ["10.45–11.45", "Self-checkout systems: what customers really want", "Room 2"],
+        ["12.00–13.00", "Lunch break (exhibitor stands open)", "–"],
+        ["13.15–14.15", "Smarter stock control with data", "Room 1"],
+        ["14.30–15.30", "Less packaging, lower costs", "Room 2"],
+        ["15.45–16.30", "Panel discussion: Paying without cash", "Main Hall"],
+      ],
+    },
+    {
+      type: "passage",
+      title: "Practice set 1 – Text 3: Notice on the fair website",
+      paragraphs: [
+        "Posted 13 May: Important changes to the programme",
+        "Because of a technical problem with the sound system in Room 2, all sessions planned for Room 2 on 14 May will take place in Room 3, on the upper floor. Room 3 holds fewer people than Room 2, so seats will be given on a first-come, first-served basis.",
+        "In addition, the talk “Less packaging, lower costs” will begin 30 minutes later than planned, as the speaker's flight has been delayed. We apologise for any inconvenience.",
+        "The cloakroom near the main entrance will be open all day. Visitors with large bags are asked to leave them there.",
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex3",
+        kind: "mcq",
+        title: "Practice 1: triple passage",
+        instructions: "Use the email, the programme and the notice. Choose the best answer.",
+        questions: [
+          {
+            prompt: "What is indicated about Alderton Stores?",
+            options: [
+              "It is looking for a new supplier of self-checkout machines.",
+              "It will have its own stand at the fair.",
+              "It will pay for its employees' lunches at the fair.",
+              "It organises the Retail Technology Fair every year.",
+            ],
+            answer: 0,
+            explanation: "Email, paragraph 2: “Our main goal this year is to find a new supplier of self-checkout machines.” Only travel costs are mentioned (C), and Mr Mori will visit suppliers' stands, not run one (B).",
+          },
+          {
+            prompt: "Where will Priya and Tom most likely attend their session?",
+            options: ["the Main Hall", "Room 1", "Room 2", "Room 3"],
+            answer: 3,
+            explanation: "Cross-reference: the email sends them to the self-checkout session; the programme puts it in Room 2; the notice moves all Room 2 sessions to Room 3.",
+          },
+          {
+            prompt: "At what time will the talk that Sofia has been asked to attend begin?",
+            options: ["14.30", "15.00", "15.30", "15.45"],
+            answer: 1,
+            explanation: "All three texts are needed: the email (the packaging talk), the programme (14.30) and the notice (30 minutes later). 14.30 + 30 minutes = 15.00.",
+          },
+          {
+            prompt: "What does the notice suggest about people who want to attend sessions in Room 3?",
+            options: [
+              "They should arrive early to be sure of a seat.",
+              "They must book their seats online.",
+              "They should leave their badges in the cloakroom.",
+              "They will need to bring their own headphones.",
+            ],
+            answer: 0,
+            explanation: "Room 3 is smaller, and seats are given “on a first-come, first-served basis”, so arriving early is the logical inference. The cloakroom is for large bags, not badges.",
+          },
+          {
+            prompt: "In the last paragraph of the email, the word “submit” is closest in meaning to",
+            options: ["hand in", "accept", "approve", "keep"],
+            answer: 0,
+            explanation: "Staff must keep their receipts and give them to the company, i.e. hand them in. *Keep* is a trap: it appears earlier in the same sentence.",
+          },
+        ],
+      },
+    },
+    {
+      type: "passage",
+      title: "Practice set 2 – Text 1: Advertisement",
+      paragraphs: [
+        "Brightline Print Services",
+        "Business cards, flyers, posters and banners, printed on recycled paper as standard.",
+        "Standard delivery: 5 working days. Express delivery: 2 working days (add £15).",
+        "New customers: 20% off your first order with the code NEW20.",
+        "Orders over £150 (before any discount) qualify for free standard delivery.",
+        "Not happy with the print quality? Contact us within 14 days of delivery and we will reprint your order free of charge.",
+        "Order online or visit our shop on Mill Street (open Monday to Saturday, 8.30 a.m. to 6 p.m.).",
+      ],
+    },
+    {
+      type: "table",
+      title: "Practice set 2 – Text 2: Order confirmation BL-20817",
+      headers: ["Item", "Price"],
+      rows: [
+        ["Customer: Farah Quinlan, Quinlan Garden Design · Order date: 2 June", ""],
+        ["500 business cards", "£45"],
+        ["200 A5 flyers", "£60"],
+        ["10 A2 posters", "£70"],
+        ["Subtotal", "£175"],
+        ["Discount (code NEW20)", "–£35"],
+        ["Delivery: Express", "£15"],
+        ["Total paid", "£155"],
+      ],
+    },
+    {
+      type: "passage",
+      title: "Practice set 2 – Text 3: Email",
+      paragraphs: [
+        "From: Farah Quinlan",
+        "To: Customer Care, Brightline Print Services",
+        "Date: 6 June",
+        "Subject: Order BL-20817",
+        "Hello,",
+        "My order arrived this morning, and I was pleased with the business cards and the flyers. Unfortunately, the posters are a problem: the green in our logo has printed much darker than in the file I sent, and the photographs look blurred. I am using these posters at a garden show on 14 June, so I need replacements before then. If it would be quicker, I am happy to collect them from your shop on Mill Street.",
+        "I would also like to ask about the delivery charge. As my order was over £150, I expected delivery to be free. Could you check this for me?",
+        "Best regards,",
+        "Farah Quinlan",
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex4",
+        kind: "mcq",
+        title: "Practice 2: triple passage",
+        instructions: "Use the advertisement, the order confirmation and the email. Choose the best answer.",
+        questions: [
+          {
+            prompt: "What is indicated about Ms Quinlan?",
+            options: [
+              "She has ordered from Brightline several times before.",
+              "She is a new customer of Brightline.",
+              "She owns a printing company.",
+              "She collected her order from the shop on Mill Street.",
+            ],
+            answer: 1,
+            explanation: "Cross-reference: her order uses the code NEW20, and the advertisement says this code is for new customers. Her order was delivered, so D is wrong.",
+          },
+          {
+            prompt: "What problem does Ms Quinlan report?",
+            options: [
+              "Some items were missing from her order.",
+              "The business cards had the wrong address.",
+              "The colours and photos on the posters are poor.",
+              "The posters were printed on the wrong paper.",
+            ],
+            answer: 2,
+            explanation: "“The green in our logo has printed much darker… and the photographs look blurred.” She was pleased with the cards and flyers.",
+          },
+          {
+            prompt: "Why was Ms Quinlan charged for delivery?",
+            options: [
+              "She chose express delivery.",
+              "Her order was under £150 before the discount.",
+              "The discount reduced her total to below £150.",
+              "Free delivery is not available for posters.",
+            ],
+            answer: 0,
+            explanation: "The order shows “Delivery: Express”, and the advertisement offers free delivery only for *standard* delivery. B is wrong (£175), and C is a trap: free delivery depends on the price “before any discount”.",
+          },
+          {
+            prompt: "What will Brightline most likely do about the posters?",
+            options: [
+              "reprint them free of charge",
+              "refund the cost of the whole order",
+              "print new posters for an extra fee",
+              "offer a discount on her next order",
+            ],
+            answer: 0,
+            explanation: "The advertisement promises a free reprint if customers contact Brightline within 14 days of delivery. She wrote on the day the order arrived.",
+          },
+          {
+            prompt: "In the advertisement, the word “qualify” in the line about orders over £150 is closest in meaning to",
+            options: ["be eligible", "be trained", "be measured", "be suitable"],
+            answer: 0,
+            explanation: "Orders over £150 *qualify for* (= are eligible for, have the right to) free delivery. *Be trained* is a different meaning of *qualify* (to qualify as a nurse).",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex5",
+        kind: "mcq",
+        title: "Which texts did you need?",
+        instructions: "Look back at Practice set 2. For each question, which texts give you the information you need?",
+        questions: [
+          {
+            prompt: "What is indicated about Ms Quinlan? (She is a new customer.)",
+            options: ["the email only", "the advertisement and the order confirmation", "the order confirmation and the email", "the advertisement and the email"],
+            answer: 1,
+            explanation: "The code NEW20 is on the order confirmation; the advertisement explains that it is for new customers.",
+          },
+          {
+            prompt: "What problem does Ms Quinlan report?",
+            options: ["the email only", "the advertisement and the order confirmation", "the order confirmation and the email", "the advertisement and the email"],
+            answer: 0,
+            explanation: "This is a single-text detail question: the problem is described only in her email.",
+          },
+          {
+            prompt: "Why was Ms Quinlan charged for delivery?",
+            options: ["the email only", "the advertisement and the order confirmation", "the order confirmation and the email", "the advertisement and the email"],
+            answer: 1,
+            explanation: "The order confirmation shows express delivery; the advertisement shows that only standard delivery is free. Her email only raises the question.",
+          },
+          {
+            prompt: "What will Brightline most likely do about the posters?",
+            options: ["the email only", "the advertisement and the order confirmation", "the order confirmation and the email", "the advertisement and the email"],
+            answer: 3,
+            explanation: "The email describes the problem and when the order arrived; the advertisement gives the reprint promise and the 14-day limit.",
+          },
+        ],
+      },
+    },
+  ],
+  examTips: [
+    {
+      exam: "toeic",
+      body: "Part 7 has 54 questions, and 25 of them are on double or triple passages. Keep about 55 minutes of the 75-minute Reading test for Part 7, and answer every question: there is no penalty for guessing.",
+    },
+    {
+      exam: "toeic",
+      body: "Before you read the texts in detail, spend a few seconds on the headers: sender, receiver, date and subject. Dates matter: a notice posted after an email often changes a time, room or price that the email gives.",
+    },
+    {
+      exam: "toeic",
+      body: "When a question asks about a person or event that appears in more than one text, expect a cross-reference question. If your answer comes from one text only, check the other texts for a change or a condition (*before any discount*, *standard delivery only*).",
+    },
+  ],
+  vocabulary: [
+    { word: "quote", meaning: "a written statement of how much a job or service will cost", example: "Could you send me a quote for the catering?", topic: "business" },
+    { word: "budget", meaning: "the amount of money available for something", example: "The total is slightly over our budget.", topic: "business" },
+    { word: "catering", meaning: "providing food and drinks at an event", example: "The price includes room hire and catering.", topic: "business" },
+    { word: "supplier", meaning: "a company that provides goods to another business", example: "We are looking for a new supplier of uniforms.", topic: "business" },
+    { word: "exhibitor", meaning: "a company or person that shows products at a fair or exhibition", example: "Over two hundred exhibitors attended the fair.", topic: "business" },
+    { word: "first-come, first-served", meaning: "given to people in the order in which they arrive or ask", example: "Seats are available on a first-come, first-served basis.", topic: "everyday" },
+    { word: "inconvenience", meaning: "a small problem or difficulty that causes trouble", example: "We apologise for any inconvenience.", topic: "business" },
+    { word: "submit", meaning: "to give a document to someone in authority so that they can deal with it", example: "Please submit your expense claims by Friday.", topic: "work" },
+    { word: "qualify for", meaning: "to have the right to receive something because you meet the conditions", example: "Orders over £50 qualify for free delivery.", topic: "business" },
+    { word: "replacement", meaning: "a new thing that is given instead of one that is damaged or wrong", example: "The shop sent a replacement the next day.", topic: "business" },
+  ],
+  keyPoints: [
+    "Double and triple passage sets: two or three related texts, usually 5 questions per set.",
+    "Map the texts first: type, sender, receiver, date and subject.",
+    "Do single-text questions first, then cross-reference questions.",
+    "Find the bridge between texts: a name, date, room, price or code.",
+    "Check whether a later text changes an earlier one, and read conditions carefully.",
+  ],
+};
+
+export default lesson;

@@ -1,0 +1,17 @@
+{
+  "slug": "listening-numbers-statistics-trends",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: converting approximations, multiples and percentage points at speed, and choosing between a target, an actual figure and a forecast in dense talks, goes well beyond B2 number recognition and fits C1 detailed comprehension of specialised talks.",
+  "examFidelity": "The IELTS Part 4 note completion uses ONE WORD AND/OR A NUMBER, with answers in audio order. The TOEIC Part 4 talk tip (3 questions per talk) matches exams.ts. The practice set has 5 questions, and the instructions now say so.",
+  "itemsChecked": 38,
+  "fixes": [
+    "Ex5: '12.1' is now accepted for the £12.10 fare.",
+    "Ex4 (TOEIC Part 4): the instructions now say that the real test asks three questions per talk and that there are five here for extra practice."
+  ],
+  "openConcerns": [
+    "The arithmetic was checked: e-bikes are used more than twice as often as standard bikes (about 2.7 times), the average bike makes about 4 trips a day, the fare rise is about 6% and the 54/6 growth is ninefold.",
+    "The model is about a bike-share scheme. A B2 lesson (listening-sentence-completion-word-limits) also has a bike-share survey, though from a different angle (a student conversation about users, not scheme data). A specialist may want to change the topic."
+  ],
+  "learnerOutcome": "Learners can turn spoken approximations and trend language into figures quickly and pick the figure the question asks for when a talk gives several."
+}

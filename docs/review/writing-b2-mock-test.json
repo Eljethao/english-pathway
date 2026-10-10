@@ -1,0 +1,16 @@
+{
+  "slug": "writing-b2-mock-test",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2-appropriate: a full Task 1 report and Task 2 discussion essay under exam timing test the B2 report and essay descriptors; the model answers sit around band 7 (top of B2 / C1 threshold), which is suitable as a target.",
+  "examFidelity": "Faithful to IELTS Academic Writing: two tasks in 60 minutes (about 20 + 40), 150 and 250 words, Task 2 weighted double; every figure in the Task 1 model matches the graph and the model has an overview and no opinion.",
+  "itemsChecked": 9,
+  "fixes": [
+    "Summary claimed 'band 7+ model answers'; changed to 'model answers at about band 7' to match their level",
+    "ex1 Q2: 'twenty times higher than' (ambiguous; strictly 21 times) → 'twenty times as high as'"
+  ],
+  "openConcerns": [
+    "Model answers are only self-assessed against rubrics; there is no examiner-style banded feedback for the learner's own scripts"
+  ],
+  "learnerOutcome": "A learner can complete both IELTS Academic writing tasks within 60 minutes and use the criteria-based rubrics to identify which B2 lessons to review."
+}

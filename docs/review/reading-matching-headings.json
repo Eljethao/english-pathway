@@ -1,0 +1,19 @@
+{
+  "slug": "reading-matching-headings",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 (CEFR CV reading for orientation: can scan quickly through long and complex texts and identify the content of articles): three passages of about 380–390 words on general-interest topics, with clear paragraph-level main ideas and turning words, plus heading lists where distractors use word matching, are too narrow or point in the wrong direction.",
+  "examFidelity": "The task mirrors IELTS Matching headings (more headings than paragraphs, each heading used once, one best heading per paragraph); I solved both practice sets independently and each paragraph has exactly one defensible heading, with distractors that are plausible but wrong. Tips are now limited to verifiable claims.",
+  "itemsChecked": 14,
+  "fixes": [
+    "Coffee example: replaced the doubtful claim that 'religious leaders' tried to ban coffee in Europe with 'a few rulers tried to ban it' (Charles II's 1675 proclamation)",
+    "Bee passage: corrected 'one of hundreds of bee species' to 'thousands' (about 20,000 worldwide), and changed the cows-in-a-field analogy from an unverifiable statement attributed to the researchers into a general comparison by ecologists",
+    "Teen-sleep passage: aligned the later-start example with the verified Seattle study (7.50 → 8.45, about 30 minutes more sleep, less sleepiness, slightly higher grades, better attendance at one school), and softened the alcohol comparison",
+    "Night-train passage: softened 'several companies… describing them as old-fashioned' to 'some… arguing that they were unprofitable', and replaced the unverifiable claim that companies that sold their carriages are now buying new ones",
+    "IELTS tip: Roman numerals apply 'on the paper test'; TOEFL tip now matches the question types in exams.ts"
+  ],
+  "openConcerns": [
+    "UI: MatchExercise labels the heading options A–H while the paragraphs are also A–E. Real IELTS uses Roman numerals for headings, and the model walkthrough uses i–vii. A component change (Roman-numeral option labels for heading tasks) is needed outside this file to avoid confusion and keep the exam look."
+  ],
+  "learnerOutcome": "A learner can summarise each paragraph's main idea before reading the options, reject word-matching, too-narrow and wrong-direction distractors, and match headings efficiently by elimination."
+}

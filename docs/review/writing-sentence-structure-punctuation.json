@@ -1,0 +1,17 @@
+{
+  "slug": "writing-sentence-structure-punctuation",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 written production ('can write straightforward connected texts by linking shorter elements into a linear sequence'): it covers simple, compound and complex sentences with high-frequency conjunctions, and the 80-word descriptive task and ~100-word models use B1 vocabulary.",
+  "examFidelity": "The TOEFL Build a Sentence items (reply to a one-line message, indirect-question word order), the TOEIC picture-sentence tip and the IELTS GRA tip are consistent with exams.ts and the ETS TOEIC S&W sample test. Both Build a Sentence items have one natural correct order.",
+  "itemsChecked": 16,
+  "fixes": [
+    "Gap-fill ex2: added grammatical accepted answers 'yet' and 'even though' (gap 1), 'and so' (gap 2), 'While'/'Whilst' for concessive contrast (gap 4) and 'after' (gap 5).",
+    "TOEIC exam tip: removed 'a simple or compound sentence is enough', which contradicted its own complex-sentence example. Added the official rule, checked in the ETS TOEIC Speaking & Writing sample test, that you may change the word forms and use them in any order. Stated that the sentence must match the picture."
+  ],
+  "openConcerns": [
+    "Gap 1 accepts 'although' after the printed comma ('…the jacket, although it was too expensive'). This is correct English, but it is looser than the simplified 'no comma when the clause comes second' rule taught in Learn. A teacher may want to add a note.",
+    "The app's Build a Sentence is a simplified version of the TOEFL task (all chunks given, no distractor chunk). Whether real items contain extra chunks was not checked against an official ETS sample."
+  ],
+  "learnerOutcome": "The learner can write complete, correctly punctuated simple, compound and complex sentences without fragments or comma splices, and can order indirect questions correctly in TOEFL Build a Sentence."
+}

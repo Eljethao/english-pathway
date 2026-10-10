@@ -1,0 +1,21 @@
+{
+  "slug": "writing-editing-common-errors",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the C1 grammatical accuracy descriptor (consistently maintains a high degree of accuracy; errors are rare and hard to spot) by training learners to self-monitor and correct; the error types and the corrected texts suit C1.",
+  "examFidelity": "Band-descriptor references now follow the May 2023 public IELTS descriptors, the TOEFL Academic Discussion (10 minutes) and TOEIC (30 minutes) references match exams.ts, and every error-correction item has an unambiguous error and complete accepted corrections (the 14 errors in the editing task were counted and confirmed).",
+  "itemsChecked": 21,
+  "fixes": [
+    "Replaced old band-descriptor wording ('good control') with the 2023 text: 'generally well controlled', 'error-free sentences are frequent' and, at band 8, 'the majority of sentences are error-free'",
+    "Softened unverifiable frequency claims ('the errors that most often…', 'Most C1 writers…') to 'common errors that can…' and 'Many C1 writers…'",
+    "Edited model paragraph: restored 'Nowadays', which was silently changed to 'Today' although it was not an error",
+    "Dangling-modifier explanation: removed the suggested correction 'Having finished the report, I saw the computer crash', which changes the meaning; the explanation now says what the error implies",
+    "Gap 8: also accepts 'had been'",
+    "Rubric item relabelled from Lexical resource to Grammatical range and accuracy (infinitive and article errors are grammar) and made specific",
+    "Model answer uses 'doesn't' (the minimal correction, and natural in a TOEFL post), and the corrections list notes 'or does not'"
+  ],
+  "openConcerns": [
+    "The paragraph-editing task is checked by comparison with the model only; learners who fix an error differently (for example, a full stop instead of 'and' for a comma splice) need to judge for themselves whether their fix is acceptable"
+  ],
+  "learnerOutcome": "A learner can run a quick three-pass check (verbs, nouns, sentence boundaries) and reliably fix agreement, article, uncountable-noun, word-form, comma-splice and fragment errors in their own exam writing."
+}

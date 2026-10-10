@@ -1,0 +1,16 @@
+{
+  "slug": "listening-academic-talk-main-idea",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 (CEFR CV: can follow the essentials of lectures and talks within their own field when the structure is clear): 195–240-word talks with a clear hook, main idea, examples and limitations, plus a 290-word Part 4 lecture.",
+  "examFidelity": "The TOEFL Academic Talks are within the 100–250-word range in exams.ts, each with four questions (main idea, detail, organisation/purpose, inference); IELTS Part 4 note completion (ONE WORD ONLY) is accurate and in audio order.",
+  "itemsChecked": 30,
+  "fixes": [
+    "Paris street photograph (Daguerre's Boulevard du Temple, 1838; exposure of several minutes, confirmed): the talk said the man having his boots polished was the only clearly visible person, but the bootblack is visible too; now 'the only clearly visible figures are a man… and the person polishing them', and the explanation quote is updated.",
+    "Seed bank lecture: 'the Norwegian island of Svalbard' was inaccurate (Svalbard is an archipelago; the vault is on Spitsbergen); changed it to 'Svalbard, a group of Norwegian islands in the Arctic'. The 2008 opening, the vault inside a mountain in permafrost, storage at -18°C and the 2015 withdrawal by the research centre that left Syria (ICARDA) were verified.",
+    "IELTS tip: removed the unverified detail 'with no break in the middle' for Part 4.",
+    "Verified and kept: CAM plants (cacti, pineapple) open their stomata at night, store CO2 as malic acid and grow slowly; the 24-jam choice study; the Viking horned-helmet myth."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can separate a talk's main idea from hooks, examples and limitations, and answer TOEFL main-idea, detail, purpose and inference questions and IELTS Part 4 notes using the speaker's structure."
+}

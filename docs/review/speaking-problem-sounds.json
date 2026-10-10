@@ -1,0 +1,17 @@
+{
+  "slug": "speaking-problem-sounds",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the CEFR B2 phonological control descriptors (clear, natural pronunciation; word stress in long words and word families); the IPA and stress for all 14 table words were checked against standard British learner dictionaries.",
+  "examFidelity": "TOEIC Read a text aloud (45/45 s, 77-word text) and IELTS Part 1 timings match exams.ts; all 19 minimal pairs are genuine one-phoneme contrasts.",
+  "itemsChecked": 60,
+  "fixes": [
+    "Walkthrough said the candidate says 'photographs', but only the examiner does; corrected",
+    "Minimal-pair MCQ answers were 6 of 8 in position B; reordered options (Q1, Q3, Q7) so they are now C, B, A, B, A, B, A, B",
+    "Replaced the target phrase 'thirty photographers' (likely transcribed as '30') with 'photographers from'"
+  ],
+  "openConcerns": [
+    "The minimal-pair listening and shadowing rely on browser TTS: a phonetics specialist should check that the chosen voices clearly produce /θ/-/s/-/f/-/t/, /v/-/w/ and /l/-/r/ contrasts and the word-stress patterns"
+  ],
+  "learnerOutcome": "Can hear and produce the th, v/w and l/r contrasts that change meaning and place stress correctly in common long words and their families."
+}

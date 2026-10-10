@@ -1,0 +1,24 @@
+{
+  "slug": "speaking-pronunciation-basics",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the B1 phonological-control descriptor (generally intelligible, can approximate word and sentence stress): it uses common words, simple stress patterns and short sentences, and the tasks are recognition and controlled repetition.",
+  "examFidelity": "The IELTS Part 1 task (no prep, about 30 s) and the TOEIC Read a text aloud tip (45 s prep) match exams.ts; the TOEFL Listen and Repeat tip now cites only what ETS says (accurate, clearly intelligible speech).",
+  "itemsChecked": 24,
+  "fixes": [
+    "Changed photographer to the dictionary syllable split pho-TOG-ra-pher everywhere (learn, examples, walkthrough, MCQ options, checklist). The lesson had pho-TO-gra-pher next to pho-TOG-ra-phy.",
+    "Minimal-pair item 4 'She drives a white van/fan' did not follow the instruction that both words make sense; changed it to 'We bought a new van/fan'.",
+    "Changed item 8 from 'costs fifteen pounds', where stress shift before 'pounds' blurs fif-TEEN, to 'The bus leaves at four fifteen', and rewrote the explanation (long /iː/, final /n/, final stress).",
+    "Added pen/pan (/e/ vs /æ/) to the Learn section, because ex2 tested it without teaching it.",
+    "Added a note that the IPA symbols are British and that American speakers also pronounce the r in work.",
+    "The walkthrough now quotes the transcript exactly ('an online course', 'it was really interesting'), adds ex-PEC-ted, and marks 'uh-fuh-TOG-ruh-fuh' as British English.",
+    "Rewrote the TOEFL tip: removed the unverified claim that a word with wrong stress 'may be scored as incorrect'; it now cites ETS's construct of accurate, clearly intelligible speech.",
+    "Corrected the 'consonant' definition (the air is stopped or blocked, not only 'partly' stopped).",
+    "Renamed the model speaker from Daniel to Sam, because TTS voice gender is random."
+  ],
+  "openConcerns": [
+    "The minimal-pair and fifteen/fifty items rely on browser TTS. A specialist should check that common US and UK voices really make the /ɪ/–/iː/, /e/–/æ/, /ʌ/–/æ/, /ɜː/–/ɔː/ and final-stress contrasts. Recorded audio would be safer.",
+    "Audio uses the default US voice while the IPA symbols are British. This is explained in the text now, but setting voice 'uk' or adding recordings would make them consistent."
+  ],
+  "learnerOutcome": "A learner can hear and say six common vowel and consonant contrasts and put the main stress on everyday multi-syllable words, including the noun/verb pair RE-cord / re-CORD and -teen/-ty numbers."
+}

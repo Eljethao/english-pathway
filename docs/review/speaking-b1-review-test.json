@@ -1,0 +1,18 @@
+{
+  "slug": "speaking-b1-review-test",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "The tasks and model answers are at B1 (familiar topics, simple reasons and examples, past/present tenses, used to, would); the IELTS band 6 goal is now clearly labelled as above B1.",
+  "examFidelity": "Every timing matches exams.ts: IELTS Part 1 about 20–30 s; TOEFL Listen and Repeat (7 sentences, heard once, 8–12 s) and interview (45 s, no prep); TOEIC Q5–7 (3 s, 15/15/30 s), Q8–10 (45 s reading, 15/15/30 s) and Describe a picture (45/30 s). The timetable answers match the table exactly.",
+  "itemsChecked": 37,
+  "fixes": [
+    "Language-check gap 6: added the accepted answers 'Sorry, can you', 'Could you' and 'Can you'",
+    "Quick-check explanation about the IELTS Part 1 examiner softened to 'normally won't explain it'",
+    "Clarified that the quoted IELTS band 6 fluency descriptor (checked against the official ielts.org PDF) is above B1 and is a goal to work towards"
+  ],
+  "openConcerns": [
+    "The picture task reuses the office image from lesson 4. It is framed as a progress check, but the model answer is close to lesson 4's model, so a new image would make it a fairer test",
+    "35 minutes is realistic only if learners review their recordings quickly; it is at the lower end of the 30–45 range"
+  ],
+  "learnerOutcome": "Can complete a timed mixed-exam speaking review, check recordings against simple criteria-based checklists, and choose which B1 lessons to review."
+}

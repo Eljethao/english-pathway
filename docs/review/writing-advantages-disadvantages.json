@@ -1,0 +1,14 @@
+{
+  "slug": "writing-advantages-disadvantages",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2-appropriate: developing an argument with reasons for and against and weighing them up matches the CEFR B2 essay descriptor (developing an argument, giving reasons in support of or against a point of view, explaining advantages and disadvantages of options).",
+  "examFidelity": "Accurate IELTS Task 2 format (250 words, 40 minutes, standard prompt wording) and a correct distinction between 'What are the advantages and disadvantages?' and 'Do the advantages outweigh…?'; rubric follows the four public criteria.",
+  "itemsChecked": 17,
+  "fixes": [
+    "ex5 model essay: 'fewer cashiers means lower wage costs' (agreement) → 'employing fewer cashiers means lower wage costs'",
+    "ex3 gap: accepted 'bring'/'provide' (… the advantage of) and 'offset' (… by the benefits) as grammatical alternatives"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can identify which type of advantages/disadvantages question is being asked, plan a balanced or weighted essay accordingly and develop each point with explanation, consequence and example."
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "writing-tables-pie-charts",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2-appropriate: the CEFR B2 written-report descriptor (synthesising and evaluating information, highlighting significant points with relevant detail) matches tasks that require selecting, grouping and comparing table and proportion data in a 150+ word report.",
+  "examFidelity": "IELTS Academic Task 1 rubric wording, 150 words / 20 minutes and the overview-no-opinion requirement are accurate; pie data is presented as a table plus bar chart because the chart tool cannot draw pies, which the lesson states openly.",
+  "itemsChecked": 23,
+  "fixes": [
+    "Model answer overview: the Total row measures time on the five listed activities, not all leisure time; reworded to 'spent the most/least time on these activities' and changed 'became more popular with age' to 'were more popular among older people' (cross-sectional data)",
+    "Model answer: '22 hours, the highest number in the table' was false (Total row has 42); now 'the highest figure for any single activity'",
+    "Model answer: 'Meeting friends was the only activity that varied little' was false (sport also varied by only 3 hours); rewritten as the only activity with no clear pattern, with accurate figures 9 → 6 → 7",
+    "Updated the walkthrough and the passage title word count (229 words) to match",
+    "ex3 gap: accepted 'highest' (growth) and '10' (one in 10) as grammatical alternatives",
+    "ex4 Q1 explanation clarified ('the share of other methods stayed the same')",
+    "Vocabulary 'the remainder' example made accurate (the remaining 40% includes 'other' methods)"
+  ],
+  "openConcerns": [
+    "Pie charts cannot be rendered by the chart component, so learners never practise reading an actual pie chart; a static SVG pie image would improve fidelity"
+  ],
+  "learnerOutcome": "A learner can pick out the key features of a table or pair of pie charts, write a figure-free overview and group the details logically with accurate proportion language."
+}

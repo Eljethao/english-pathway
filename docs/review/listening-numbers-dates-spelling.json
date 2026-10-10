@@ -1,0 +1,23 @@
+{
+  "slug": "listening-numbers-dates-spelling",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B1 (catching concrete details such as numbers, prices, times and spelled names in clear, slow, standard speech): clips are 59–135 words, and the tasks isolate a single discrimination skill (teen versus -ty numbers, letter names, 'double', 'oh').",
+  "examFidelity": "IELTS Part 1 form and note completion with ONE WORD AND/OR A NUMBER and in-order answers is accurate. The answer key accepted date forms that broke the lesson's own word-limit tip, and these are now removed. The TOEIC tip wrongly implied that TOEIC never asks you to write, and it is now corrected.",
+  "itemsChecked": 25,
+  "fixes": [
+    "ex2 audio: the answer claire.w84@mailbox.com needed the spelling 'Claire', which was never spelled out (Clare and Clair are both possible), so the speaker now spells 'C, L, A, I, R, E' and says the letter as 'W' for TTS",
+    "ex2 date key: removed 'the ninth of October' and 'ninth of October', which break the ONE WORD AND/OR A NUMBER limit and contradict the lesson's own exam tip; added 'Oct 9' and 'Oct 9th'",
+    "Changed the possibly real phone numbers to Ofcom-reserved fictional ranges and updated the audio, keys and walkthrough: model 07700 900662 (adds 'double oh' practice), ex2 0161 496 0337, ex4 020 7946 0812",
+    "ex4 time key: added '10.40 a.m.' and '10:40 a.m.'",
+    "ex1 Q6 explanation: corrected the stress claim 'FORty-eight' (the main stress in forty-eight falls on 'eight') to explain why it is 40-something and not 14",
+    "Learn: added that teen numbers can shift their stress to the start before a noun ('FIFteen MINutes'), so the final 'n' is the more reliable clue",
+    "TOEIC tip: 'TOEIC doesn't ask you to write words' changed to 'TOEIC Listening is multiple choice' (the TOEIC Writing test does ask you to write)",
+    "Model walkthrough: 'the only number they hear' corrected to 'the only price they hear'"
+  ],
+  "openConcerns": [
+    "The whole lesson relies on browser TTS for teen versus -ty stress and for letter names. Some engines read a lone capital 'A' (O, K, A, F, O, R) as the article 'uh'. A specialist should listen to several voices, or record real audio for at least practice audio 1 and 3.",
+    "Spelled lowercase letters in email addresses ('j dot quinn') depend on how each TTS engine reads them."
+  ],
+  "learnerOutcome": "A learner who does this lesson well can reliably write down phone numbers, prices, times, dates, postcodes, emails and spelled names from a phone call, and tell teen numbers from -ty numbers."
+}

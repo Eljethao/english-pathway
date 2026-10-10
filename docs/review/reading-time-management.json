@@ -1,0 +1,22 @@
+{
+  "slug": "reading-time-management",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: about 565-word argumentative and expository texts on behavioural science and work, with timed TFNG and completion tasks, match C1 reading of long, complex texts under time pressure. The strategy content is at the right level of abstraction.",
+  "examFidelity": "The time budgets match exams.ts (IELTS 60 min/40 questions with no transfer time; TOEIC 75 min, about 55 min for Part 7; TOEFL about 27–30 min, adaptive). TFNG and sentence completion items are rigorous, and all answers are within the word limit.",
+  "itemsChecked": 19,
+  "fixes": [
+    "Planning fallacy: the 1979 Kahneman and Tversky definition was about time. The time, cost and risk definition is later work, and the passage now says so.",
+    "Observer estimates are now hedged as 'often more realistic' instead of stated as 'more accurate'.",
+    "Keynes: removed 'his grandchildren's generation' (Keynes had no children; the essay's title refers to 'our grandchildren') and 'has not come true' (his century ends in 2030). The passage now says the prediction is very unlikely to come true, and the TFNG explanation is updated.",
+    "Checked the UK 2022 pilot (61 companies, about 2,900 workers, 56 continued) and the Iceland 2015–19 trials (about 2,500 workers, over 1% of the workforce, 35–36 hours): both are accurate as written.",
+    "Time-budget table: Passage 3 is now 'usually the hardest', and the TOEFL row gives the 27–30 minute adaptive format from exams.ts.",
+    "Practice timer changed from 10 to 12 minutes for 12 questions on a 567-word passage. The 10-minute timer was not consistent with the lesson's own IELTS pace or 90-second rule. The instructions no longer refer to internal exercise ids.",
+    "The MCQ on dividing IELTS time is now framed as 'the plan in this lesson', so it does not conflict with the 'about 20 minutes per section' guidance in exams.ts.",
+    "The TOEFL tip is now accurate for every task type: 'read the question first' does not apply to Complete the Words."
+  ],
+  "openConcerns": [
+    "The 12-minute practice timer and the 17/20/23 IELTS split are pedagogical recommendations, not official guidance. A specialist may prefer an even 20/20/20 split."
+  ],
+  "learnerOutcome": "Learners can set and check a time budget for each exam, apply a guess-flag-move-on rule, and finish a timed passage without leaving blanks."
+}

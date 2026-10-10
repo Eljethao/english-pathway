@@ -1,0 +1,15 @@
+{
+  "slug": "speaking-interview-practice",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2: sustains four connected answers moving from personal experience to reasoned views on public issues; each model answer is 89-104 words, natural spoken B2 English.",
+  "examFidelity": "TOEFL Take an Interview as in exams.ts: 4 questions on one topic, no preparation, 45 s each, early questions on experience and later ones on wider issues.",
+  "itemsChecked": 13,
+  "fixes": [
+    "MCQ: moved the correct option of Q4 from B to A so answers are not clustered in position B (now B, C, B, A, D)"
+  ],
+  "openConcerns": [
+    "The 'research study' framing is presented as 'often'; a specialist may want to confirm it against current ETS sample tasks"
+  ],
+  "learnerOutcome": "Can complete a full four-question TOEFL interview, starting each answer at once and filling 45 seconds with one developed point and a fresh example."
+}

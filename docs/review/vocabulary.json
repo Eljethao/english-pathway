@@ -1,0 +1,33 @@
+{
+  "slug": "vocabulary",
+  "level": "B1–C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Each word's tag was checked against the English Vocabulary Profile (via Cambridge Dictionary CEFR labels) and the Oxford 3000/5000. 39 tags that both profiles placed at another level, or that were two levels off with no support, were corrected. Most lists now fit their level, with some clearly marked stretch words.",
+  "examFidelity": "List descriptions name the right exam parts (IELTS Writing Task 2/Speaking, TOEFL Take an Interview/Academic Discussion, TOEIC Parts 3, 4, 6, 7). The environment list no longer claims the topic is very common in TOEIC, a business-focused test.",
+  "itemsChecked": 195,
+  "fixes": [
+    "Retagged 39 words to their EVP/Oxford level. To C1: tuition fees, vocational, literacy, compatible, troubleshoot, sedentary, chronic, diagnose, immune system, burnout, delegate, itinerary, tourist trap, ecotourism, hospitality, inequality, discrimination, homelessness, variable, scientific consensus, invoice, warranty, merger, inventory, comply with. To B2: out of stock, budget, agenda, deadline, extension (business-b1 list) and approach, concept (academic-b1 list). To B1: accommodation, destination, sightseeing, unemployment, laboratory, competitor, trend.",
+    "compulsory: 'In most countries … until sixteen' (not true worldwide) → 'In many countries'.",
+    "landfill: 'Most of the plastic … ends up in landfill' → 'Much of the plastic' (about half of plastic waste goes to landfill worldwide).",
+    "be made redundant: meaning now marked 'mainly British English' (useful for TOEFL/TOEIC learners).",
+    "layover: meaning now adds 'also called a stopover' (the British equivalent).",
+    "tourist trap: fixed the number agreement ('the restaurants … are a tourist trap' → 'are tourist traps').",
+    "extension: rewrote the definition (an internal phone line with its own short number) and changed 'extension two-four-six' to the natural written form 'extension 246'.",
+    "profit margin: the definition now covers buying as well as making, and says it is often given as a percentage.",
+    "shareholder: fixed the inaccurate example (shareholders do not normally vote on the chief executive) → 'Shareholders will elect two new directors at the annual meeting.'",
+    "undergraduate: 'Most undergraduates live in student accommodation' (true only in some countries) → 'Many'.",
+    "contaminate: replaced the unanchored past perfect ('had contaminated the river for years') with the past simple.",
+    "workload: 'has increased every year' → 'increases every year' (more natural).",
+    "plausible: 'the fall in small businesses' → 'the fall in the number of small businesses'.",
+    "Environment list description: removed TOEIC (environment is not a core TOEIC topic) and added speaking."
+  ],
+  "openConcerns": [
+    "Many words are one level apart in EVP and Oxford and were left at the list level, e.g. drought (EVP C2 / Oxford B2), hypothesis (C2/B2), welfare (C2/B2), habitat, sustainable, emissions, innovation, obesity (C1/B2). A specialist may choose a single reference profile and retag these to match it.",
+    "Several lists now contain items tagged above or below the list level: business-b1 has 7 B2/C1 items, and education-b2, health-b2, travel-b2 and society-b2 each have 3–5 C1 items. Consider moving these words between lists, or describing them as stretch words, if each list must stay at one level.",
+    "General-English profiles rate TOEIC business words (invoice, warranty, inventory, merger) at C1, although they are very frequent in TOEIC. A TOEIC-frequency label may serve those learners better than the CEFR tag.",
+    "academic-b1: most words (data, evidence, factor, define, percentage, role) are B2 in EVP but A2–B1 in Oxford. They stay at B1; only approach and concept, which are B2 in both, were retagged.",
+    "About 25 entries are in neither profile (e.g. rote learning, plagiarism, single-use, screen time, peer review, reimburse, outsource, quarterly, market share, reschedule). Their tags are based on judgement only.",
+    "No duplicate headwords within or across the 13 lists. Related forms (assess/assessment, budget/budget airline) are different entries and were left in."
+  ],
+  "learnerOutcome": "A learner who studies these lists can understand and use about 195 high-value topic, business and academic words with correct collocations (conduct an experiment, comply with, contribute to, be diagnosed with). Accurate level tags show which words are core and which are stretch vocabulary for IELTS, TOEFL and TOEIC."
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "listening-tours-guided-talks",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 (CEFR CV: can follow a talk or guided tour on a familiar topic when it is clearly structured): 100–165-word monologues with explicit signposting and 'used to be / now' contrasts.",
+  "examFidelity": "IELTS Part 2 schedule completion, matching (3 extra options) and choose-TWO multiple choice are realistic, and TOEIC Part 4 tour questions are typical; after reordering, every set now follows the audio order.",
+  "itemsChecked": 26,
+  "fixes": [
+    "Nature reserve MCQ: questions were out of audio order (rules before the green-path closure); swapped them and updated the instructions (choose TWO for questions 1 and 3).",
+    "Factory tour MCQ: moved 'How long does the tour take?' before the safety question, because the length is said first.",
+    "TOEIC tip: softened 'Rules usually come just before the group goes in' to 'often'."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner who completes the lesson can use a guide's plan and signposts to follow a tour, complete an event schedule with times and places, and avoid 'used to be' and last-year traps in matching and choose-TWO questions."
+}

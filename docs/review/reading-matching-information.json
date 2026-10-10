@@ -1,0 +1,15 @@
+{
+  "slug": "reading-matching-information",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 (CEFR CV reading for information and argument: can scan longer texts to locate relevant details): three passages of 369–507 words on general-interest topics, with statements that paraphrase details and require checking both content and information type.",
+  "examFidelity": "Mirrors IELTS Matching information (paragraph letters, details not main ideas, unused paragraphs, letters reusable when the NB says so); I solved all 28 items before reading the key, and after one fix every statement has exactly one defensible paragraph; tips no longer state as fact that a paragraph will be used twice.",
+  "itemsChecked": 28,
+  "fixes": [
+    "ex2 item 1 ('what makes customers satisfied with a service') could also match paragraph C (customers leave pleased); reworded to 'a claim that the experience of waiting can matter more than the service itself' so only A fits",
+    "ex4 Q3 claimed the word 'energy' appears in paragraphs C and E, but it appears only in C; rewrote the item around 'electricity' (C, D and E) and updated the options and explanation",
+    "Softened the learn tip and the IELTS exam tip: 'you may use any letter more than once' means a paragraph may contain two answers, not that one is likely or expected (ielts.org does not say so)"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can identify what type of information a statement asks for, scan lettered paragraphs for its paraphrase, and reject paragraphs that only share the topic."
+}

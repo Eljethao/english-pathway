@@ -1,0 +1,17 @@
+{
+  "slug": "reading-practice-test-2",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: three passages of 694, 596 and 599 words that rise from factual to argumentative, with stance-heavy Yes/No/Not Given items in Passage 3. This suits a C1 mock, though the passages are shorter than real IELTS texts.",
+  "examFidelity": "There are 40 questions in 60 minutes (timers of 17, 20 and 23 minutes) across seven IELTS question types, with correct instructions and word limits. Every key was solved independently: each False or No item contradicts the text and each Not Given item is truly absent. The topics (lighthouses, rewilding, attention span) are different from the first practice test.",
+  "itemsChecked": 40,
+  "fixes": [
+    "Softened an exam tip. It said Passage 3 has the most questions and is the hardest 'as in the real test'; it now says the last passage often is.",
+    "Checked the facts with WebSearch, and all are accurate as written: Winstanley's lighthouse (1698, lost in the 1703 storm), Rudyerd's (destroyed by fire in 1755), Smeaton's (1759; dismantled because the rock was being eroded; rebuilt on Plymouth Hoe), Fresnel in the 1820s, UK lighthouse automation completed in 1998 (North Foreland), Yellowstone wolves reintroduced in 1995 after about 70 years, and the eight-second attention-span figure having no traceable study."
+  ],
+  "openConcerns": [
+    "The total text length (about 1,890 words) is below the real IELTS Academic range of 2,150–2,750, so the 60-minute timing is slightly generous.",
+    "The score-to-level table is a rough guide and has not been calibrated."
+  ],
+  "learnerOutcome": "Learners can sit a full 40-question, 60-minute mock under realistic time pressure and use their results by question type to choose what to review."
+}

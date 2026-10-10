@@ -1,0 +1,16 @@
+{
+  "slug": "writing-verb-tenses-accuracy",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B1-appropriate: the past simple/continuous/present perfect contrast and the basic future forms are core B1 grammar for narrating experiences and plans.",
+  "examFidelity": "IELTS GT, TOEFL Write an Email (7 minutes) and TOEIC Respond to a written request references are accurate and agree with exams.ts.",
+  "itemsChecked": 27,
+  "fixes": [
+    "ex3 item 6 ('I have went… many times'): added 'went' as an accepted grammatical correction.",
+    "ex3 item 7 ('I going to start…'): added 'will' / ''ll' as accepted answers.",
+    "ex3 item 8 ('Wait, I help you…'): added 'can help' as an accepted answer.",
+    "Vocabulary: replaced the unnatural example 'I have an arrangement to meet my bank manager' with a natural one."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can choose and check past, present perfect and future forms in emails and letters, and can correct the most frequent B1 tense errors."
+}

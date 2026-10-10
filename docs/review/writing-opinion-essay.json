@@ -1,0 +1,20 @@
+{
+  "slug": "writing-opinion-essay",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the B2 written production descriptor (an essay that develops an argument, giving reasons for or against a point of view, with relevant supporting detail); the models are clear, well-organised B2+/band 7-ish prose without exceeding learner reach.",
+  "examFidelity": "IELTS Task 2 (250+ words, about 40 minutes, Task 2 counting twice as much as Task 1) and TOEIC opinion essay (30 minutes, ETS: an effective essay typically has at least 300 words) now match exams.ts and the official ETS/ielts.org wording.",
+  "itemsChecked": 12,
+  "fixes": [
+    "Removed the unverified claim that 'many candidates do Task 2 first'; the tip now states the verified weighting (Task 2 contributes twice as much) and advises not letting Task 1 overrun",
+    "TOEIC 300-word figure reworded in the MCQ explanation and exam tip to ETS's own framing ('an effective essay typically has at least 300 words'), verified against the ETS sample-test directions",
+    "Labelled the TOEIC example instruction as 'typical of' the TOEIC essay instead of presenting it as the exact wording",
+    "Paragraph-length table corrected: the old ranges (40–50 + 80–90 + 80–90 + 30–40) added up to only 230–270 words, below the 250-word minimum; now about 90–100 words per body paragraph",
+    "Model essay: reworded the ambiguous 'a small price to pay for students who are more caring' and updated the stated length (about 280 words)",
+    "Practice model answer: added a concrete example to body paragraph 2 so it models the lesson's topic sentence, explanation, example and link pattern; fixed 'decisions about their health, money or votes'"
+  ],
+  "openConcerns": [
+    "Writing tasks are self-assessed against the rubric; a teacher or a scoring tool would be needed for reliable band feedback"
+  ],
+  "learnerOutcome": "A learner can plan and write a consistent four-paragraph opinion essay with a clear thesis and developed body paragraphs, at the right length for IELTS Task 2 or the TOEIC opinion essay."
+}

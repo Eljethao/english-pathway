@@ -1,0 +1,16 @@
+{
+  "slug": "speaking-daily-routine-free-time",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 spoken production/interaction (describing habits, routines, likes and dislikes in simple connected sentences); frequency adverbs, prefer/would rather and contrasts are core B1 grammar.",
+  "examFidelity": "IELTS Part 1 answers (no prep, about 30 s) and TOEFL Take an Interview (no prep, 45 s) match exams.ts; the TOEFL tip on early experience questions and later opinion questions matches the official description.",
+  "itemsChecked": 24,
+  "fixes": [
+    "Quick-check Q1: replaced the distractor 'I usually am at the gym after work' (grammatical in emphatic speech, so arguably correct) with the clear learner error 'I am usually go to the gym after work', and rewrote the explanation",
+    "Model walkthrough: corrected the stated answer length from 20–25 s to 25–30 s (each answer is about 60 words)"
+  ],
+  "openConcerns": [
+    "TTS may not reproduce the natural weak forms that the shadowing instructions mention (to, at, than)"
+  ],
+  "learnerOutcome": "Can give 30–45-second answers about routines and free time that include how-often details, a weekday/weekend contrast and a preference with a reason, instead of a bare list."
+}

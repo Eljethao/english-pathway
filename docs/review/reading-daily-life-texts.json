@@ -1,0 +1,14 @@
+{
+  "slug": "reading-daily-life-texts",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 for speed and precision with everyday texts: short texts at B1–B2 language level, where the B2 demand is fast, accurate reading of conditions, exceptions and changes under time limits.",
+  "examFidelity": "Matches TOEFL Read in Daily Life as described in exams.ts (texts of about 15–150 words; notices, emails, schedules, messages, adverts; 2 or 3 questions each) and TOEIC Part 7 single passages; I solved all 22 items independently.",
+  "itemsChecked": 22,
+  "fixes": [
+    "ex1 Q1 (parking sign): 'on Wednesday evening' was also defensible, because staff-only hours end at 6 p.m.; changed it to 'on Wednesday afternoon'",
+    "ex4 Q3: '8 May' had no weekday, but Route 1 runs only Monday to Friday, so the answer depended on an unknown day; the prompt and explanation now say 'Thursday, 8 May'"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can read a short everyday text question-first and catch the small condition words (except, unless, no longer, will now) that decide the answer."
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "listening-telephone-messages",
+  "level": "B1",
+  "verdict": "meets",
+  "cefrAlignment": "Matches B1 (CEFR CV: can understand the main points of short recorded messages and simple technical information, and note specific details such as numbers and names): voicemails of 70–130 words with clear structure, one self-correction and spelled names.",
+  "examFidelity": "Accurately reflects TOEIC Part 4 voicemail questions (who, why, request; three questions per talk per exams.ts); the message-completion task uses IELTS-style ONE WORD AND/OR A NUMBER and all accepted answers respect it; phone numbers use fictional ranges (555-01xx, 07700 900xxx).",
+  "itemsChecked": 27,
+  "fixes": [],
+  "openConcerns": [
+    "TTS should be checked for 'oh seven seven double oh, nine double oh, four one eight' being read as digits with natural grouping."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can identify the caller, purpose and request in a voicemail, note a name, time, price and phone number accurately, and pick the right option in a recorded phone menu."
+}

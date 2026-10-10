@@ -1,0 +1,20 @@
+{
+  "slug": "writing-processes-maps",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2-appropriate: the learner describes a multi-stage process and changes over time in clear, detailed, well-organised text with passive voice, relative clauses and present perfect passive. The 189–200-word models are at band 6.5–7 (B2+).",
+  "examFidelity": "Matches IELTS Academic Task 1 process and map tasks as given in exams.ts (150+ words, 20 minutes, overview, no opinions). After the fixes, both model answers match the SVG source exactly: 8 stages with stage 1 on the farm and stages 2–8 at the mill, the by-product, and every harbour change and location.",
+  "itemsChecked": 16,
+  "fixes": [
+    "Olive-oil overview: removed 'Most of the stages are mechanical', which the diagram does not show. It is replaced by the farm/mill split shown in the SVG (only stage 1 on the farm, the other seven at the mill, ending with bottling).",
+    "Olive-oil model: removed 'thick' paste, which the diagram does not say.",
+    "Harbour model: removed the unsupported inferences 'used mainly by the fishing industry' and 'large car park', and changed 'Most of the old buildings' to 'The old buildings south of Harbour Road', because both buildings were repurposed.",
+    "Harbour model: changed 'moored alongside the pier' to 'moored to the east of the pier' to match the SVG. Added a missing change: the fishing boats have disappeared.",
+    "Updated the process model word-count label from 192 to 200 words to match the revised text."
+  ],
+  "openConcerns": [
+    "Check the rendered SVGs on small screens. Some harbour labels ('trees' at 9px, 'fountain' and 'Promenade' at 10px) may be hard to read at phone width.",
+    "In the process model, 'They are then taken to the mill' is implied by the farm-to-mill boundary in the diagram, not shown as a labelled stage. This is acceptable, but a strict reviewer may prefer 'At the mill, they are washed'."
+  ],
+  "learnerOutcome": "The learner can describe every stage of a process diagram in order with the present simple passive and varied sequencing. They can also compare two maps with an accurate overview, change verbs (converted into, replaced by, built) and location phrases."
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "writing-describing-people-places",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 descriptors for writing straightforward descriptions and accounts of experiences, describing feelings and reactions in simple connected text.",
+  "examFidelity": "Exam links are reasonable and the tips are hedged ('may', 'might'); the TOEIC picture tip agrees with the task in exams.ts.",
+  "itemsChecked": 19,
+  "fixes": [
+    "Vocabulary: corrected the definition of 'breathtaking' from 'extremely beautiful or surprising' to 'extremely beautiful or impressive'."
+  ],
+  "openConcerns": [
+    "The TOEIC picture tip appears twice, once in learn and once in examTips. The repetition is minor and was left as it is."
+  ],
+  "learnerOutcome": "A learner can describe a place, a person and an experience with correctly ordered precise adjectives, correct -ed/-ing forms and sensory detail."
+}

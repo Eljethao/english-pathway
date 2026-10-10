@@ -1,0 +1,15 @@
+{
+  "slug": "reading-paraphrase-synonyms",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2: passages of about 365–385 words with B2–C1 vocabulary (conventional, deteriorate, saplings), focused on recognising synonyms, word-form, voice, negation and cause–effect paraphrase, plus degree of certainty.",
+  "examFidelity": "IELTS short-answer questions follow the ielts.org description (words from the text, word limit, answers in text order); the TOEFL and TOEIC tips are consistent with exams.ts. I solved all 30 items and checked every accepted answer against the three-word limit and the copying rule.",
+  "itemsChecked": 30,
+  "fixes": [
+    "Octopus passage: published research (Ramirez and Oakley, 2015) shows octopus skin does react to light, so 'neither idea confirmed… skin may be able to detect light' was misleading. I rewrote the passage: skin reacting to light is now stated as shown, and only its role in sensing colour is unconfirmed. I changed the model False statement to match ('proved that octopus skin helps the animal to sense colour')",
+    "Tiny-forests passage said 'species that are native to the area', so the accepted answer 'native species' was not copied from the text; the passage now says 'a wide mix of native species', and I removed the accepted answers 'native ones' and 'a Japanese botanist', which are not in the passage",
+    "Vocabulary example for 'detect' changed to match the revised passage"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can recognise the same meaning in different words and reject options that share words but change the meaning, the person or the degree of certainty."
+}

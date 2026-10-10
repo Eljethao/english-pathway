@@ -1,0 +1,16 @@
+{
+  "slug": "writing-comparing-data",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2-appropriate: modified comparatives, multiples, approximation and number/amount accuracy are core B2 grammatical-range targets for written reports, and the 150+ word Task 1 output matches the B2 reports descriptor.",
+  "examFidelity": "Faithful to IELTS Academic Task 1 (the 'make comparisons where relevant' instruction, 150 words, 20 minutes, overview without figures); every figure, multiple and approximation in both model answers was verified against the chart data.",
+  "itemsChecked": 25,
+  "fixes": [
+    "ex3 sentence 7 had no data, so 'more' was an equally grammatical answer to the keyed 'fewer'; added figures (1,000 → 700 visitors) so only 'fewer' is correct",
+    "ex3 gap 6 (48% … half): added accepted variants 'slightly below', 'a little below', 'just less than', 'not quite'",
+    "Exam tip: removed the claim that calling 30% 'a third' is inaccurate (the lesson itself correctly uses 'around a third' for 30%); replaced with a genuine distortion (24% as 'just over a quarter')",
+    "Learn table: 'the second most populated region' → 'the second most populous region'"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can compare chart figures precisely with modifiers, multiples and fractions, approximate without distorting the data, and avoid fewer/less and percent/percentage-point errors."
+}

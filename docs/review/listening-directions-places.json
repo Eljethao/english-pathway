@@ -1,0 +1,17 @@
+{
+  "slug": "listening-directions-places",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 (CEFR CV: can follow detailed directions and understand simple technical information such as directions in a building or town): short monologues and dialogues with high-frequency route language (second turning, straight over the roundabout, opposite, between).",
+  "examFidelity": "Mirrors IELTS Part 2 map labelling (lettered plan, extra letters, places asked in audio order) and TOEIC Part 3/4 location questions; I checked every map answer against the SVG coordinates (pharmacy A, library C, bookshop E, supermarket F, Grand Hotel G; B, D, H unused; model answer H) and all are correct and unique.",
+  "itemsChecked": 28,
+  "fixes": [
+    "Note completion: added 'carpark' as an accepted spelling of 'car park'.",
+    "Map alt text: made the positions of C and D precise (north-west and north-east corners of Mill Road and High Street; D opposite the Cinema) so the text matches the SVG exactly."
+  ],
+  "openConcerns": [
+    "Practice audio 1 is about 170 words, slightly above the 60–150-word B1 guide, but it carries five map items and stays at B1 difficulty.",
+    "The museum talk uses US vocabulary (elevator, restrooms, second floor) while the lesson is otherwise UK English; this is intentional for TOEIC and the vocabulary list notes lift/elevator."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can follow spoken directions on a street plan, keep track of left and right after turning, and use landmarks and prepositions of place to locate buildings and take route notes."
+}

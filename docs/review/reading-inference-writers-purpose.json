@@ -1,0 +1,20 @@
+{
+  "slug": "reading-inference-writers-purpose",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: about 565-word argumentative texts with concession, hedging and evaluative language, and tasks on implied meaning, attitude and rhetorical purpose, match the C1 descriptors for understanding implicit attitudes and opinions in long, complex texts.",
+  "examFidelity": "IELTS multiple choice, Yes/No/Not Given (No statements contradict the writer's claims; Not Given statements are truly absent) and paragraph-purpose matching are faithful. The TOEFL inference and purpose question types match exams.ts, although the TOEFL passages themselves are shorter.",
+  "itemsChecked": 22,
+  "fixes": [
+    "Fixed a pronoun error in paragraph B of the model: 'his theory… one man's' followed a sentence about Marie Curie. It now reads 'either scientist's work… one person's'.",
+    "Made a historical detail exact: the Curies' pitchblende came from a mine in Bohemia, then part of Austria-Hungary (not simply 'Austria').",
+    "Replaced the unsupported claim that children's drawings show a 'solitary, eccentric figure working alone' with the well-documented Draw-a-Scientist finding of a stereotyped man in a white coat in a laboratory.",
+    "Changed 'Over the past fifteen years' to 'Since the late 2000s' (the first Repair Café was in 2009).",
+    "Made the paragraph E purpose option more precise ('personal and social benefits'), because the paragraph covers personal satisfaction as well as social contact.",
+    "Option lists for paragraph-purpose matching now use roman numerals, so they do not clash with paragraph letters."
+  ],
+  "openConcerns": [
+    "TOEFL Read an Academic Passage texts are about 200 words. Here only the short extracts in ex4 resemble that length, so TOEFL-focused learners might benefit from one 200-word passage with 5 questions."
+  ],
+  "learnerOutcome": "Learners can tell valid inferences from over-strong or real-world-only options and can identify why a writer uses an example, a concession or an evaluative word."
+}

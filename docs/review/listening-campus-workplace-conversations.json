@@ -1,0 +1,16 @@
+{
+  "slug": "listening-campus-workplace-conversations",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 (CEFR CV: can generally follow the main points of extended discussion around them and identify suggestions and decisions): two- and three-speaker dialogues on study and work with simple implied meanings (swamped, I've heard better).",
+  "examFidelity": "Covers TOEFL Listen to a Conversation, TOEIC Part 3 (including a three-speaker conversation) and IELTS Part 3 note completion with correct word limits; the three-speaker 'who will do it' item can be solved from names and content, not from voice or gender.",
+  "itemsChecked": 23,
+  "fixes": [
+    "TOEFL exam tip: replaced the unverified claim that one of the two questions 'usually asks why the speakers are talking' with softer wording ('Questions often ask why … a detail, or what happens next')."
+  ],
+  "openConcerns": [
+    "The three-speaker conversation relies on TTS assigning three clearly different voices; worth a listen.",
+    "The implied-meaning section overlaps a little with 'Indirect replies' in the B1 question–response lesson, but here it is applied to conversations."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can follow advice and decisions in campus and workplace conversations, track which of three speakers will do each task, and complete project notes where the first number or date is later changed."
+}

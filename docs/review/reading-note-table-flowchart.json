@@ -1,0 +1,18 @@
+{
+  "slug": "reading-note-table-flowchart",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2: technical process and comparison passages of 367–392 words (water treatment, energy storage, paper recycling) with note, table and flow-chart gaps that require locating precise nouns and keeping to word limits.",
+  "examFidelity": "Matches the ielts.org description of note, table and flow-chart completion (words from the text, word limit, answers not necessarily in text order, hyphenated words count as single words); I solved all 34 items and checked that every accepted answer respects its word limit.",
+  "itemsChecked": 34,
+  "fixes": [
+    "Checked the hyphenated-word rule on ielts.org ('Hyphenated words such as check-in count as single words') and now cite it as official guidance; rewrote ex1 Q5 so the gap and the learner's answer are clear",
+    "Table gap 3 'depends on ____' also allowed 'hills' or 'land'; changed the cell to 'limited by ____' so only 'geography' fits ('Its main limitation is geography')",
+    "Flow-chart gap 'mixed with water in a ____' also allowed 'huge tank' (two words, from the passage); changed it to 'in a tank called a ____' so only 'pulper' fits",
+    "Word-box instruction no longer implies that note completion often uses a box; it now says some completion tasks, especially summaries, do"
+  ],
+  "openConcerns": [
+    "UI: the table section shows numbered blanks and the gap exercise below repeats them as a list. This works, but a specialist may prefer gaps rendered inside the table itself (a component change outside this file)."
+  ],
+  "learnerOutcome": "A learner can use headings and arrows to find the right part of a passage, predict the word type for each gap, and copy answers exactly within the word limit."
+}

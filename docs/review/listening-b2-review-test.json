@@ -1,0 +1,17 @@
+{
+  "slug": "listening-b2-review-test",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 overall: 150–300-word recordings across everyday, campus, workplace and academic contexts with paraphrase and change-of-plan distractors, consistent with the B2 course lessons.",
+  "examFidelity": "IELTS Parts 1–4 (form completion, 3-option MCQ, who-says-it matching, note completion), TOEIC Part 3 with a graphic, a TOEIC Part 4 talk and a 194-word TOEFL Academic Talk with four question types all match exams.ts; the 39 questions follow the audio order, and 40 minutes is realistic.",
+  "itemsChecked": 40,
+  "fixes": [
+    "Q2: removed 'off peak' and 'offpeak' from the accepted answers, because the limit is ONE WORD AND/OR A NUMBER and only the hyphenated 'off-peak' counts as one word (ielts.org).",
+    "Q4: removed 'Tuesdays', because 'Tuesdays evenings' is ungrammatical in the form line '___ evenings'.",
+    "Section 7 facts verified: night migration of songbirds, the benefits of cooler air, daytime feeding and fewer predators, planetarium star-compass experiments (Emlen, indigo buntings) and lights-out programmes in cities."
+  ],
+  "openConcerns": [
+    "Section 4's numbered headings (1–4) sit inside questions 22–29 and may confuse some learners; this is cosmetic."
+  ],
+  "learnerOutcome": "A learner can take a mixed IELTS/TOEIC/TOEFL listening test under exam conditions, get a reliable B2 score out of 39, and see which course lessons to review."
+}

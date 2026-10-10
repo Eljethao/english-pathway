@@ -1,0 +1,19 @@
+{
+  "slug": "listening-signposting-lecture-structure",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1 (CEFR CV: can follow extended speech even when it is not clearly structured and relationships are only implied): the 330–430-word lectures contain digressions, qualifications, back-references and concession patterns, and the questions target the function of each signpost rather than literal detail.",
+  "examFidelity": "Function and organisation MCQs plus ONE WORD ONLY note completion in audio order reflect IELTS Part 4 and the TOEFL Academic Talk focus on organisation and inference in exams.ts. The British Council confirms that Part 4 has no break.",
+  "itemsChecked": 24,
+  "fixes": [
+    "Roman concrete: removed the false claim 'Like modern concrete, Roman concrete was a mixture of lime, water and rock' (modern concrete uses Portland cement). The script now says Roman concrete was lime, water and rock and that the volcanic ash set it apart. I verified the 2023 Science Advances 'hot mixing' study details (lime clasts, quicklime, self-healing).",
+    "Q4 tested 'Now, I said I'd come back to the question of mixing', but the lecturer never made that promise. I added 'I'll come back to the question of mixing in a moment' earlier, so the back-reference is real, and updated the explanation.",
+    "Citizen science: replaced the disputable 'the term only dates from the nineteen-nineties' (first attested in 1989) with 'the term itself is only a few decades old'.",
+    "Replaced 'she' with 'the lecturer' in the question options, because the TTS voice gender is not controlled.",
+    "TOEFL tips: aligned with exams.ts (questions on main ideas, details, organisation and inference) and removed the old-format 'What does the professor mean when she says…' example. Softened 'almost always tested' to 'much more likely to be'."
+  ],
+  "openConcerns": [
+    "TTS prosody: browser speech may not give the stress and pause that make weighting signposts ('this is really the heart of today's lecture') easier to hear. A specialist should check, or use a recorded voice."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can use a lecturer's overview and signposts to predict sections, tell real content apart from digressions and qualifications, and answer 'why does the lecturer say…' questions."
+}

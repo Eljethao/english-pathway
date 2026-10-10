@@ -1,0 +1,19 @@
+{
+  "slug": "reading-b1-review-test",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1: everyday notices and emails, a timetable, a 280-word article on a familiar topic and core grammar. This covers the B1 can-do descriptors for reading correspondence, reading for orientation and reading for information in one 45-minute test.",
+  "examFidelity": "The 41 items cover TOEIC Part 5 and Part 7, IELTS headings, True/False/Not Given and short answers, and TOEFL Complete the Words. I checked the timetable answers against the table (Tuesday; £10 less 20% = £8). Each False contradicts the text and each Not Given is truly absent. Q23 'it' = walking to school is verified: it is the only defensible option, because 'it wasn't safe' repeats 'walking wasn't safe'. The section timings add up to 45 minutes.",
+  "itemsChecked": 41,
+  "fixes": [
+    "Q27 was almost identical to an item in the word-forms lesson ('since 2019 / has worked'). I replaced it with a past simple item using 'ago', so the review tests a different time word",
+    "Complete the Words paragraph was 56 words, below the 70–100 in exams.ts. I added one complete closing sentence (now about 78 words); the damaged words did not change",
+    "Q38: added 'nings' and 'evenings' as accepted answers",
+    "Q23 explanation: added a substitution test ('the cars were the reason walking to school wasn't safe')",
+    "Moved the correct option in Q2, Q22, Q25, Q26, Q29 and Q30, because most keys were in position B"
+  ],
+  "openConcerns": [
+    "The score bands (36–41 'ready for B2', etc.) are the writer's own estimates and have not been calibrated. The tip says this, but a specialist could check them against real learner data."
+  ],
+  "learnerOutcome": "A learner can measure their B1 reading across the main exam formats in 45 minutes and see which course lesson to review, based on the section where they lost marks."
+}

@@ -1,0 +1,307 @@
+import type { Lesson } from "@/lib/types";
+
+const lesson: Lesson = {
+  slug: "listening-academic-vocabulary",
+  title: "Academic vocabulary in lectures",
+  summary:
+    "Recognise the academic words and collocations that carry the meaning of a lecture, predict them from the first half of a chunk, hear them through stress changes in word families, and spell them correctly in IELTS Part 4 notes and TOEFL Academic Talks.",
+  skill: "listening",
+  level: "C1",
+  order: 11,
+  minutes: 25,
+  exams: [
+    { exam: "ielts", task: "Listening Part 4" },
+    { exam: "toefl", task: "Listening – Academic Talk" },
+  ],
+  objectives: [
+    "Recognise high-frequency academic collocations (*shed light on*, *cast doubt on*, *a growing body of evidence*) at natural speed",
+    "Use the first word of a collocation to predict the rest, and to predict the word in a gap",
+    "Recognise words from the same family when the stress moves (*ANalyse*, *aNAlysis*, *anaLYtical*)",
+    "Spell common academic words correctly in note completion",
+  ],
+  warmUp: [
+    "Which academic words do you understand when you read them but sometimes miss when you hear them? Why do you think that happens?",
+    "Finish these phrases: *draw a…*, *a growing body of…*, *shed light…*. How did you know?",
+  ],
+  learn: [
+    {
+      type: "text",
+      title: "Why academic words are a listening problem",
+      body: "Most C1 learners know words such as *significant*, *analyse* and *evidence* when they read them. In a lecture, the same words are easy to miss, for three reasons.\n\n1. **They come in chunks.** Lecturers rarely say *evidence* alone. They say *a growing body of evidence* or *the evidence lends support to*. If you know the chunk, you only need to hear the start to understand the whole; if you don't, you have to decode every word.\n2. **The stress moves.** In word families the stressed syllable often changes: *ANalyse*, *aNAlysis*, *anaLYtical*. If you expect the stress you know from the verb, you may not recognise the noun.\n3. **The answer must be spelt correctly.** In IELTS note completion, *rigourous* or *phenomenons* is marked wrong, even if you understood perfectly.\n\nThe practical solution is to learn academic vocabulary as **chunks with their sound**, not as single words with their translation.",
+    },
+    {
+      type: "table",
+      title: "Collocations that lecturers use all the time",
+      headers: ["Function", "Collocations"],
+      rows: [
+        ["Doing research", "conduct / carry out a study; collect / gather data; a representative sample; a long-running study"],
+        ["Talking about evidence", "a growing body of evidence; compelling evidence; the evidence suggests; lend support to; cast doubt on"],
+        ["Cause and effect", "give rise to; play a key role in; a contributing factor; account for (explain, or make up)"],
+        ["Results", "draw a conclusion; preliminary findings; statistically significant; robust results; shed light on"],
+        ["Problems", "pose a challenge; address an issue; a major obstacle; undermine the validity of"],
+        ["Degree", "to a large extent; to some degree; a substantial proportion; in the vast majority of cases"],
+      ],
+    },
+    {
+      type: "table",
+      title: "Word families: where the stress falls",
+      headers: ["Verb", "Noun", "Adjective"],
+      rows: [
+        ["ANalyse", "aNAlysis", "anaLYtical"],
+        ["conTRIbute", "contriBUtion", "conTRIbutory"],
+        ["SIGnify", "sigNIficance", "sigNIficant"],
+        ["hyPOthesise", "hyPOthesis", "hypoTHEtical"],
+        ["eCOnomise", "eCOnomy", "ecoNOmic"],
+        ["oRIginate", "ORigin", "oRIginal"],
+      ],
+    },
+    {
+      type: "tip",
+      exam: "ielts",
+      body: "Spelling counts in Listening. Learn the irregular plurals that appear in lectures: *phenomenon → phenomena*, *criterion → criteria*, *hypothesis → hypotheses*, *analysis → analyses*. Check whether the notes need a singular or a plural before you write.",
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex1",
+        kind: "match",
+        title: "Quick check: what do these chunks mean?",
+        instructions: "Match each chunk from a lecture to its meaning. There is one meaning you do not need.",
+        left: [
+          "shed light on",
+          "cast doubt on",
+          "lend support to",
+          "give rise to",
+          "a growing body of evidence",
+          "statistically significant",
+          "preliminary findings",
+          "pose a challenge",
+        ],
+        right: [
+          "unlikely to be the result of chance",
+          "make an idea seem more likely to be true",
+          "help to explain",
+          "early results that may change",
+          "agree with another researcher",
+          "cause something to happen or exist",
+          "create a difficulty",
+          "make something seem less certain",
+          "more and more research results",
+        ],
+        answer: [2, 7, 1, 5, 8, 0, 3, 6],
+      },
+    },
+  ],
+  model: [
+    {
+      type: "audio",
+      title: "Model lecture extract: studying people over time",
+      voice: "uk",
+      cast: { narrator: "male" },
+      transcript:
+        "In today's session I want to look at one of the most powerful research designs in the social sciences: the longitudinal study. In a longitudinal study, researchers collect data from the same group of people repeatedly, sometimes over several decades. This allows them to examine how individuals change over time, rather than simply comparing different groups at a single point.\n\nWhy does this matter? Suppose a study finds that people who read a lot in childhood tend to earn more as adults. A one-off survey can establish that there's a correlation, but it can't tell us much about the direction of the relationship. Longitudinal data shed light on the sequence of events, and that lends considerable support to some explanations while casting doubt on others.\n\nHowever, this design poses some significant challenges. The most obvious is cost. Following thousands of participants for twenty years requires substantial and reliable funding. The second is what's known as attrition: participants move house, lose interest or simply can't be traced. If those who drop out differ systematically from those who remain, the sample is no longer representative, and that can undermine the validity of the conclusions.\n\nResearchers have developed a range of strategies to address this. Some offer participants small incentives; others invest heavily in keeping in touch between rounds of data collection. Even so, attrition accounts for a considerable proportion of the uncertainty in many long-running studies.\n\nSo the question isn't whether longitudinal studies are perfect. They aren't. The question is whether the insights they generate justify the investment, and on balance, I'd argue that they do.",
+    },
+    {
+      type: "table",
+      title: "How a strong listener hears the chunks",
+      headers: ["Chunk heard", "Meaning in this lecture", "What it helps you predict"],
+      rows: [
+        ["collect data from the same group", "gather information", "a description of the method"],
+        ["establish… a correlation", "show that two things are linked", "a limitation: link ≠ cause"],
+        ["shed light on the sequence of events", "help to explain the order", "a benefit of the design"],
+        ["lends considerable support to… casting doubt on…", "makes some explanations more likely, others less", "a pair: support vs doubt"],
+        ["poses some significant challenges", "creates difficulties", "a list of problems"],
+        ["substantial and reliable funding", "a lot of money that continues", "problem 1: cost"],
+        ["attrition", "participants dropping out", "problem 2, and a definition"],
+        ["no longer representative… undermine the validity", "the sample no longer reflects the population, so the conclusions are weaker", "why attrition matters"],
+        ["address this", "deal with the problem", "solutions"],
+        ["accounts for a considerable proportion of the uncertainty", "explains (is the cause of) much of the uncertainty", "an evaluation"],
+        ["justify the investment", "make the cost worthwhile", "the lecturer's conclusion"],
+      ],
+    },
+    {
+      type: "text",
+      title: "What to notice",
+      body: "**Chunks announce what comes next.** *Poses some significant challenges* tells you a list of problems is coming, and *to address this* tells you that solutions follow. You can move to the next part of your notes before the content arrives.\n\n**Pairs are common.** *Lends support to some explanations while casting doubt on others* balances a positive and a negative. If you catch one half, expect the other.\n\n**Definitions follow technical terms.** *What's known as attrition* is followed at once by the meaning (*participants move house, lose interest…*). In IELTS Part 4, the technical word itself is often the answer, so its spelling matters.\n\n**One verb, two meanings.** *Account for* can mean *explain* (*attrition accounts for the uncertainty*) or *make up a part of* (*women account for 60% of the sample*). Use the context to decide.",
+    },
+  ],
+  practice: [
+    {
+      type: "audio",
+      title: "Practice 1: why languages borrow words",
+      voice: "uk",
+      cast: { narrator: "female" },
+      transcript:
+        "Good morning. Today we're going to examine a phenomenon that every language displays to some degree: borrowing. A loanword is a word that one language has adopted from another, and English is a particularly striking example, because a substantial proportion of its vocabulary has been borrowed rather than inherited.\n\nLet me begin by outlining why languages borrow at all. The most straightforward motivation is need. When speakers encounter a new object, concept or practice, it's often simpler to adopt the existing word than to invent one. That accounts for words like tsunami, from Japanese, or algebra, which came into English through Latin from Arabic. The second motivation is prestige. If a language is associated with power, learning or fashion, its words tend to be adopted even where a perfectly good native word already exists.\n\nEnglish provides a clear illustration of this. After the Norman Conquest in ten sixty-six, French became the language of the royal court, the law and government in England for several centuries. As a result, English acquired thousands of French words, many of them in precisely those areas. This also gave rise to a well-known pattern in food vocabulary: the names of the animals in the field, such as cow and pig, are of English origin, whereas the names of the meat on the table, beef and pork, come from French.\n\nNow, what happens to words once they've been borrowed? Typically they undergo a process of adaptation. Their pronunciation is modified to fit the sound system of the new language, and their spelling may change too. Over time, many become so thoroughly integrated that speakers are no longer aware of their foreign origin.\n\nBorrowing can also involve a shift in meaning. Sometimes the meaning becomes narrower than in the original language. Sometimes it changes altogether, which is one reason why learners should be cautious about assuming that a word which looks familiar means the same thing in both languages.\n\nFinally, I'd like to address a common misconception: that borrowing is a threat to a language. Some countries have established official bodies to regulate the adoption of foreign terms. There's limited evidence, however, that borrowing undermines the structure of a language. Grammar, in particular, tends to be far more resistant to outside influence than vocabulary. If anything, the capacity to absorb new words is a sign of a language's vitality.\n\nNext week we'll consider the reverse process: how English words are being adopted by other languages, and how they're adapted along the way.",
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex2",
+        kind: "gap",
+        title: "Note completion (IELTS Part 4)",
+        instructions: "Complete the notes. Write ONE WORD ONLY for each answer. Spelling counts.",
+        text: "Borrowing between languages\n\n- loanword: a word one language has {{0}} from another\n- English: a substantial {{1}} of its vocabulary is borrowed\n\nWhy languages borrow\n- need: new objects, concepts or practices\n- {{2}}: words from languages linked with power, learning or fashion\n\nEnglish and French\n- after the Norman {{3}} (1066), French used by the court, the law and government\n- food: animal names are English; names of the {{4}} are French\n\nAfter borrowing\n- words go through a process of {{5}}\n- pronunciation changed to fit the new sound {{6}}\n- meaning may become {{7}}, or change completely\n\nA misconception\n- that borrowing is a {{8}} to a language\n- grammar is more {{9}} to outside influence than vocabulary",
+        answers: [
+          ["adopted"],
+          ["proportion"],
+          ["prestige"],
+          ["Conquest"],
+          ["meat"],
+          ["adaptation"],
+          ["system"],
+          ["narrower"],
+          ["threat"],
+          ["resistant"],
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex3",
+        kind: "dictation",
+        title: "Dictation: academic chunks at natural speed",
+        instructions: "Listen and type each sentence. Focus on the academic collocations and spell them carefully.",
+        voice: "uk",
+        sentences: [
+          "A growing body of evidence suggests that the effect is smaller than we thought.",
+          "These findings cast doubt on the original hypothesis.",
+          "Attrition accounts for a considerable proportion of the uncertainty.",
+          "The results were statistically significant, but the sample was not representative.",
+          "Further research is needed to shed light on the underlying mechanism.",
+          "This approach poses a number of practical challenges for researchers.",
+        ],
+      },
+    },
+    {
+      type: "audio",
+      title: "Practice 2: keystone species",
+      voice: "us",
+      cast: { narrator: "male" },
+      transcript:
+        "Today I'd like to introduce a concept that has had a considerable influence on conservation: the keystone species. The term was proposed by the ecologist Robert Paine in the late nineteen-sixties. In an arch, the keystone is the stone at the top that holds the others in place. Remove it, and the whole structure collapses. A keystone species plays a similar role in an ecosystem: its impact is disproportionate to its abundance.\n\nPaine's original evidence came from rocky shores. When he systematically removed a predatory starfish from one area, the mussels it fed on multiplied and crowded out many other species, so the diversity of the community declined dramatically.\n\nThe most frequently cited example, though, is the sea otter. Otters eat sea urchins, and urchins graze on kelp, the large seaweed that forms underwater forests. Where otters were hunted almost to extinction, urchin populations increased and many kelp forests were largely destroyed, along with the fish that depend on them. And where otters later returned, protected by law, urchin numbers fell and the kelp gradually recovered, which strengthened the case that the otters were the key.\n\nThe concept has been enormously useful in communicating with the public and with policymakers. However, some ecologists argue that it has been applied too loosely. Identifying a keystone species requires rigorous evidence, not simply the assumption that an attractive animal must be important.",
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex4",
+        kind: "mcq",
+        title: "TOEFL-style Academic Talk questions",
+        instructions: "Listen once and take notes. Then choose the best answer to each question.",
+        questions: [
+          {
+            prompt: "What is the talk mainly about?",
+            options: [
+              "How sea otters were saved from extinction",
+              "The idea of a keystone species and the evidence behind it",
+              "Why starfish are dangerous to other sea creatures",
+              "How ecologists communicate with policymakers",
+            ],
+            answer: 1,
+            explanation: "The professor introduces the concept, explains its name, and gives two examples, then evaluates how it is used.",
+          },
+          {
+            prompt: "Why does the professor mention an arch?",
+            options: [
+              "To explain where the name of the concept comes from",
+              "To describe the shape of kelp forests",
+              "To show how rocky shores are formed",
+              "To give an example of a structure that otters build",
+            ],
+            answer: 0,
+            explanation: "The keystone holds an arch together; a keystone species plays “a similar role in an ecosystem”.",
+          },
+          {
+            prompt: "According to the professor, what does “its impact is disproportionate to its abundance” mean?",
+            options: [
+              "The species is very common and has a large effect.",
+              "The species has a much bigger effect than its numbers would suggest.",
+              "The species is rare because other species eat it.",
+              "The species affects only a small part of the ecosystem.",
+            ],
+            answer: 1,
+            explanation: "*Abundance* = how many there are; *disproportionate* = much greater than expected compared with that number.",
+          },
+          {
+            prompt: "What happened in places where sea otters were hunted almost to extinction?",
+            options: [
+              "Kelp spread and replaced the urchins.",
+              "Urchins increased, and many kelp forests were destroyed.",
+              "Fish populations grew because they had less competition.",
+              "Starfish took the otters' place.",
+            ],
+            answer: 1,
+            explanation: "“Urchin populations increased and many kelp forests were largely destroyed, along with the fish that depend on them.”",
+          },
+          {
+            prompt: "What is the professor's attitude toward the keystone concept?",
+            options: [
+              "It is useful but needs strong evidence.",
+              "It is outdated and should no longer be used.",
+              "It applies to every attractive animal.",
+              "It is useful only for communicating with the public.",
+            ],
+            answer: 0,
+            explanation: "The concept has been “enormously useful”, but “identifying a keystone species requires rigorous evidence”.",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ex5",
+        kind: "gap",
+        title: "Academic words from the talk",
+        instructions: "Complete the summary with words you heard in the keystone species talk. Write ONE WORD ONLY for each answer. Spelling counts.",
+        text: "The keystone concept has had a considerable {{0}} on conservation. A keystone species has an effect that is {{1}} to its abundance. Paine {{2}} removed a predatory starfish from part of a rocky shore, and as a result, the {{3}} of the community declined dramatically. Today some ecologists believe the concept has been applied too {{4}}, and that identifying a keystone species requires {{5}} evidence.",
+        answers: [
+          ["influence"],
+          ["disproportionate"],
+          ["systematically"],
+          ["diversity"],
+          ["loosely"],
+          ["rigorous"],
+        ],
+      },
+    },
+  ],
+  examTips: [
+    {
+      exam: "ielts",
+      body: "In Part 4, use collocation to predict gaps before you listen. If the notes say *a growing ___ of evidence* or *poses a ___*, you can predict *body* and *challenge*, and you will hear the answer much more easily.",
+    },
+    {
+      exam: "ielts",
+      body: "Technical terms in Part 4 are often defined straight after they are introduced (*what's known as attrition: participants drop out*). If the notes give the definition, the gap is usually the term itself, so listen for *what's known as*, *what we call* or *is referred to as*.",
+    },
+    {
+      exam: "toefl",
+      body: "Academic Talk answer choices often restate the professor's academic words in plainer language (*disproportionate to its abundance* → *a bigger effect than its numbers suggest*). Knowing the meaning of the chunk, not just the single word, helps you recognise the right choice.",
+    },
+  ],
+  vocabulary: [
+    { word: "longitudinal", meaning: "(of research) following the same people or things over a long period", example: "The longitudinal study followed the same children for twenty years.", topic: "academic" },
+    { word: "attrition", meaning: "the gradual loss of participants from a study over time", example: "Attrition was high because many participants moved away.", topic: "academic" },
+    { word: "representative", meaning: "(of a sample) having the same characteristics as the larger group it comes from", example: "After so many dropped out, the sample was no longer representative.", topic: "academic" },
+    { word: "shed light on", meaning: "to help explain something or make it easier to understand", example: "The new data shed light on the order of events.", topic: "academic" },
+    { word: "cast doubt on", meaning: "to make something seem less certain or less likely to be true", example: "These results cast doubt on the earlier explanation.", topic: "academic" },
+    { word: "give rise to", meaning: "to cause something to happen or exist", example: "French influence gave rise to a pattern in food vocabulary.", topic: "academic" },
+    { word: "account for", meaning: "to explain something; or to form a particular part of a total", example: "Attrition accounts for much of the uncertainty.", topic: "academic" },
+    { word: "phenomenon (plural phenomena)", meaning: "something that exists or happens, especially something studied or unusual", example: "Borrowing is a phenomenon found in every language.", topic: "academic" },
+    { word: "prestige", meaning: "the respect and admiration that something has because of its status", example: "French words had prestige in medieval England.", topic: "society" },
+    { word: "misconception", meaning: "an idea that is wrong but that many people believe", example: "It's a common misconception that borrowing harms a language.", topic: "academic" },
+    { word: "disproportionate", meaning: "too large or too small compared with something else", example: "Otters have a disproportionate effect on the kelp forest.", topic: "academic" },
+    { word: "rigorous", meaning: "very careful and thorough, so that results can be trusted", example: "The claim needs rigorous evidence before it is accepted.", topic: "academic" },
+  ],
+  keyPoints: [
+    "Learn academic vocabulary as chunks (*shed light on*, *pose a challenge*, *a growing body of evidence*): the first word lets you predict the rest.",
+    "Chunks also signal structure: *poses challenges* announces problems, *to address this* announces solutions.",
+    "Stress often moves within word families (*ANalyse*, *aNAlysis*, *anaLYtical*), so learn the sound of each form.",
+    "Technical terms are often followed by a definition; in note completion, the term itself is often the answer.",
+    "Spelling and singular or plural forms count in IELTS: check *phenomena*, *criteria* and *hypotheses* carefully.",
+  ],
+};
+
+export default lesson;

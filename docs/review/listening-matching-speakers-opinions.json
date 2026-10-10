@@ -1,0 +1,15 @@
+{
+  "slug": "listening-matching-speakers-opinions",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 (CEFR CV: can follow the essentials of an extended discussion and identify speakers' viewpoints and changes of position): 220–260-word two-speaker discussions with partial agreement, doubt and explicit changes of mind.",
+  "examFidelity": "IELTS Part 3 matching (5 items, 7 options, 2 unused) and 'who says it? A/B/C' match the real task, and the two-question TOEFL Conversations fit the exams.ts description; every item follows the audio order.",
+  "itemsChecked": 29,
+  "fixes": [
+    "Practice 1: Daniel's second 'Same here' (reacting to Maya's 'Even my flatmate could follow it') was ambiguous and repeated his earlier line; changed it to 'I found it really clear too' so that agreement on 'easy to understand' is clear."
+  ],
+  "openConcerns": [
+    "'Who says it?' items depend on learners telling the two TTS voices apart; names are said in the dialogue, but a specialist should check that the browser voices for each pair are clearly different."
+  ],
+  "learnerOutcome": "A learner can track two speakers through a discussion, tell agreement from partial agreement and doubt, and use a speaker's final view to answer IELTS Part 3 matching and TOEFL opinion questions."
+}

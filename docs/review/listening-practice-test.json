@@ -1,0 +1,23 @@
+{
+  "slug": "listening-practice-test",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Appropriate as a C1-capstone mock: it rises from a B1/B2 form-completion call to a C1 lecture with ONE WORD ONLY notes and an academic discussion with rejected ideas, and the score guide maps results to rough B2/C1 ranges.",
+  "examFidelity": "It now mirrors IELTS Listening: 4 parts with 10 questions each (40 in total), answers in audio order, and typical task types per part (Part 1 form completion; Part 2 MCQ including a choose-TWO plus matching; Part 3 MCQ plus matching; Part 4 note completion with no break). The tips on transfer and check time (10 minutes on paper, 2 minutes on computer) and the Part 4 no-break rule were checked against official and secondary sources.",
+  "itemsChecked": 40,
+  "fixes": [
+    "Extended the test from 30 to 40 questions (10 per part) to mirror IELTS Listening, renumbered every question and section, and updated the summary, overview table, learn text and minutes (40 → 45).",
+    "Part 1: added a mobile number (07700 900372, a number reserved for fiction), 'colleague' (with a posters distractor) and 'gloves'. Removed the unsolicited 'advert' line, and removed 'half past eight' from the accepted answers because it breaks the ONE WORD AND/OR A NUMBER limit. Added 'a.m.' variants.",
+    "Part 2: added Q11 (more traders, with distractors for event length and location) and Q16 (bring cash), with matching transcript lines.",
+    "Part 3: added Q22 (the recently retired benefited most; the expected group is a distractor), Q24 (discuss the causation issue in the report; 'collect more data' is a rejected distractor) and matching item 30 (the charts need clearer labels), with matching transcript lines and a seventh option so two remain spare.",
+    "Part 4: added note gaps for 'months' and 'quantity' (both already in the lecture) and restructured the Methods notes.",
+    "Score guide: rescaled to 40, and added a note that the ranges are a rough guide, not IELTS bands, because the test is not trialled.",
+    "Exam tip: 'Part 1 always includes corrections' became 'often includes'."
+  ],
+  "openConcerns": [
+    "The recordings (about 400–460 words each) are shorter than real IELTS recordings, so the total listening time is under the real 30 minutes, and the score ranges are not calibrated.",
+    "TTS reading of the phone number ('oh seven seven oh oh…') and of spelled letters should be checked in the target browsers.",
+    "The Woman/Man and Tutor/Hannah/Leo voices are assigned by TTS and may not match the speakers' genders."
+  ],
+  "learnerOutcome": "A learner who completes the test gets a realistic 40-question, four-part rehearsal of IELTS Listening and a breakdown that shows which part and question type (form, MCQ, matching or notes) needs more work."
+}

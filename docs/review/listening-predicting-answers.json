@@ -1,0 +1,22 @@
+{
+  "slug": "listening-predicting-answers",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 (following extended speech and detailed information on familiar and less familiar topics, using contextual and grammatical cues to anticipate content): clips are 154–241 words with paraphrase and in-topic distractors, and the lesson trains active prediction strategies.",
+  "examFidelity": "IELTS form and note completion with ONE WORD AND/OR A NUMBER and in-order answers, plus a TOEIC Part 3 'Look at the graphic' item using a schedule, are accurate. The TOEFL tip, which stated that questions always come after the audio (not verifiable on ets.org), has been softened.",
+  "itemsChecked": 24,
+  "fixes": [
+    "Model step 3: 'In every gap … a distractor matched the prediction' was false (gap 4 has no distractor) and now says 'In four of the five gaps'",
+    "ex2 key: removed 'text message' (two words under a ONE WORD limit)",
+    "Prediction table: 'student' in 'a student discount' is a noun, not an adjective, so the row was reworded; the 'no ___' row now allows a plural noun as well as an uncountable one",
+    "Learn: a/an depends on a consonant or vowel sound, not a letter",
+    "Beekeeping talk: the general claim 'most urban hives are on roofs' was made local and fictional ('in our city'), and 'a few dozen' hives became 'a few hundred' so that the 60% growth is plausible",
+    "TOEIC tip: 'Look at the graphic means the audio will not say the answer' softened to 'usually'",
+    "TOEFL tip: the unverified claim that questions always come after the audio was softened to 'you may not see the questions until the conversation has finished'"
+  ],
+  "openConcerns": [
+    "The claim that city bees 'often produce more honey' than rural bees is widely reported but was kept as a general statement. A specialist could soften it further if strict sourcing is required.",
+    "Practice audio 1 (241 words) is at the upper end for one B2 clip, but it matches real IELTS Part 1 length."
+  ],
+  "learnerOutcome": "A learner who does this lesson well can use preview time to predict the word class, meaning and form of each gap, expect paraphrases, and still reject distractors that fit the prediction."
+}

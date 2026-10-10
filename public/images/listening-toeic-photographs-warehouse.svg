@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">A worker pushing a cart in a warehouse</title>
+  <desc id="desc">Tall shelves full of boxes on the left. On the right, a worker in a yellow safety vest and a hard hat pushes a flat cart with four boxes on it.</desc>
+  <rect width="800" height="500" fill="#ffffff"/>
+  <!-- Floor -->
+  <rect x="0" y="420" width="800" height="80" fill="#f3f4f6"/>
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- Shelving unit -->
+  <g fill="#6b7280">
+    <rect x="40" y="50" width="8" height="370"/>
+    <rect x="196" y="50" width="8" height="370"/>
+    <rect x="352" y="50" width="8" height="370"/>
+    <rect x="40" y="130" width="320" height="8"/>
+    <rect x="40" y="240" width="320" height="8"/>
+    <rect x="40" y="350" width="320" height="8"/>
+  </g>
+  <!-- Boxes on shelves -->
+  <g fill="#e0b98a" stroke="#a47148" stroke-width="2">
+    <rect x="58" y="72" width="60" height="58"/>
+    <rect x="124" y="88" width="62" height="42"/>
+    <rect x="212" y="78" width="66" height="52"/>
+    <rect x="284" y="70" width="60" height="60"/>
+    <rect x="56" y="186" width="70" height="54"/>
+    <rect x="132" y="196" width="56" height="44"/>
+    <rect x="214" y="180" width="60" height="60"/>
+    <rect x="280" y="196" width="64" height="44"/>
+    <rect x="58" y="296" width="62" height="54"/>
+    <rect x="126" y="300" width="62" height="50"/>
+    <rect x="212" y="292" width="70" height="58"/>
+    <rect x="288" y="306" width="56" height="44"/>
+  </g>
+  <g stroke="#a47148" stroke-width="2">
+    <line x1="58" y1="90" x2="118" y2="90"/>
+    <line x1="212" y1="96" x2="278" y2="96"/>
+    <line x1="56" y1="204" x2="126" y2="204"/>
+    <line x1="214" y1="198" x2="274" y2="198"/>
+    <line x1="126" y1="318" x2="188" y2="318"/>
+    <line x1="212" y1="310" x2="282" y2="310"/>
+  </g>
+
+  <!-- Cart -->
+  <rect x="440" y="392" width="150" height="10" fill="#4b5563"/>
+  <circle cx="458" cy="412" r="9" fill="#111827"/>
+  <circle cx="572" cy="412" r="9" fill="#111827"/>
+  <rect x="586" y="290" width="7" height="110" fill="#4b5563"/>
+  <rect x="580" y="286" width="20" height="7" rx="3" fill="#4b5563"/>
+  <!-- Boxes on cart -->
+  <g fill="#e0b98a" stroke="#a47148" stroke-width="2">
+    <rect x="452" y="334" width="70" height="58"/>
+    <rect x="528" y="348" width="52" height="44"/>
+    <rect x="462" y="286" width="52" height="48"/>
+    <rect x="532" y="312" width="44" height="36"/>
+  </g>
+  <g stroke="#a47148" stroke-width="2">
+    <line x1="452" y1="352" x2="522" y2="352"/>
+    <line x1="462" y1="302" x2="514" y2="302"/>
+  </g>
+
+  <!-- Worker -->
+  <rect x="628" y="322" width="16" height="96" fill="#374151"/>
+  <rect x="650" y="322" width="16" height="96" fill="#374151"/>
+  <ellipse cx="634" cy="418" rx="13" ry="5" fill="#111827"/>
+  <ellipse cx="658" cy="418" rx="13" ry="5" fill="#111827"/>
+  <rect x="618" y="208" width="58" height="120" rx="12" fill="#3b82f6"/>
+  <rect x="624" y="214" width="46" height="96" rx="6" fill="#fbbf24"/>
+  <line x1="626" y1="262" x2="668" y2="262" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="647" cy="184" r="22" fill="#c68c5a"/>
+  <path d="M623 180 A24 24 0 0 1 671 180 Z" fill="#facc15"/>
+  <rect x="619" y="176" width="56" height="6" rx="3" fill="#eab308"/>
+  <!-- Arms to the handle -->
+  <line x1="626" y1="228" x2="598" y2="292" stroke="#3b82f6" stroke-width="11" stroke-linecap="round"/>
+  <line x1="636" y1="236" x2="600" y2="300" stroke="#3b82f6" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="595" cy="292" r="7" fill="#c68c5a"/>
+  <circle cx="597" cy="301" r="7" fill="#c68c5a"/>
+</svg>

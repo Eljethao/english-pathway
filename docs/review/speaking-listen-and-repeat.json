@@ -1,0 +1,21 @@
+{
+  "slug": "speaking-listen-and-repeat",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Suits B1: sentences of 3–18 words in predictable campus or service settings, and the teaching covers chunking, weak forms and basic intonation, which matches B1 phonological control and sustained repetition.",
+  "examFidelity": "TOEFL Listen and Repeat is now described from exams.ts and the ETS practice test (a campus or academic situation, 7 sentences heard once, no prep, about 8–12 s to respond, getting longer). TOEIC Read a text aloud uses 45 s prep and 45 s reading, as in exams.ts.",
+  "itemsChecked": 26,
+  "fixes": [
+    "Removed the unverified claim that TOEFL shows 'a picture of a place, such as a library or a museum'. The task description now follows ETS: a short scenario description, campus or academic settings, 7 sentences, no prep, about 8–12 s, sentences getting longer and more complex.",
+    "The TOEFL tip now says to read the scenario description, not 'look at the picture'.",
+    "Moved the ex2 museum tour into a university science museum, because ETS says the scenarios are academic or campus-related.",
+    "The ex4 shadowing line about the rooftop café now matches the ex5 read-aloud text (it was missing the opening hours). Renamed ex4 from 'chunks' to 'sentences' to say what it actually contains.",
+    "Softened the ex1 Q5 explanation ('You get credit for what you say accurately'): scoring details are not confirmed; it now says a mostly accurate repetition is better than silence.",
+    "The walkthrough now marks 'NOT CASH', matching the table's rule that negatives are strong, and says 'mental picture' so it is not confused with an on-screen picture."
+  ],
+  "openConcerns": [
+    "The real TOEFL response window per sentence comes only from exams.ts ('about 8–12 seconds'). The shadow exercise does not time responses, so learners do not practise under that limit.",
+    "Intonation practice (lists rising and falling) depends on how browser TTS reads the lists. Someone should check them with common voices."
+  ],
+  "learnerOutcome": "A learner can repeat campus-style sentences of up to about 18 words by remembering chunks and rhythm, and can read a short announcement aloud with sensible pauses, weak forms and list intonation."
+}

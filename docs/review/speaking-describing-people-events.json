@@ -1,0 +1,14 @@
+{
+  "slug": "speaking-describing-people-events",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 sustained monologue descriptors (clear, detailed descriptions and narratives with relevant supporting detail): relative clauses, past habits with would, and a 267-word two-minute model are at B2.",
+  "examFidelity": "IELTS Part 2 cue card with 60 s preparation and 120 s speaking, matching exams.ts; the follow-up question tip is consistent with exams.ts.",
+  "itemsChecked": 22,
+  "fixes": [
+    "Fixed a tense clash in the model talk (I've worked... when customers were rude) to past simple with a time reference",
+    "Gap fill: added reasonable accepted answers (once / when / as soon as / after for 'by the time', Just as, At the beginning, alternative atmosphere adjectives)"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Can describe a person with evidence instead of adjective lists and tell an event in a clear scene-sequence-highlight-reflection shape for close to two minutes."
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "speaking-causes-effects-solutions",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: cause–effect chains, root cause versus trigger, and testing the feasibility of solutions require the complex, well-structured discourse described for C1 spoken production, with precise verbs and prepositions (stem from, give rise to, attribute… to).",
+  "examFidelity": "IELTS Part 3 (no prep, 60 s) and TOEIC Express an opinion (45 s prep, 60 s) match exams.ts; the TOEIC prompt format (choose one of three options, give reasons and examples) is faithful and original.",
+  "itemsChecked": 19,
+  "fixes": [
+    "Trimmed the Part 3 model (ex4) from 147 to 140 words so it fits 60 s at about 140 wpm",
+    "Corrected the ex3 Q2 explanation: options B and C reverse cause and effect and D conflates trigger and root cause; the old text wrongly said all three 'mix up the order of events'"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can explain why a social problem happens as a chain of causes and knock-on effects, propose one solution and test whether it would really work, in both IELTS Part 3 and a TOEIC opinion task."
+}

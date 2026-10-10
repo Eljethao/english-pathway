@@ -1,0 +1,36 @@
+{
+  "slug": "practice",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "All 12 sets are pitched at B2 as the file says: audio is 75–247 words of clear standard speech, the passages are 94–419 words of general-academic or workplace text, items need paraphrase recognition and some inference, and the model answers show B2+ range (complex sentences, hedging, cohesive devices) with no errors.",
+  "examFidelity": "Task types, option counts, timings and word counts match exams.ts for each section. Checked: IELTS Listening Parts 1/2/4, IELTS Reading headings/TFNG/summary, Writing 20/40 min and 150/250 words, Speaking 60 s prep and 120 s talk; TOEFL Choose a Response (4 options), Conversation (2 Qs), Announcement (75 words), Academic Talk (227 words, 4 Qs), Complete the Words, Daily Life (2 Qs), Academic Passage (~200 words, 5 Qs), Email 7 min, Discussion 10 min/100 words, Listen and Repeat (7 sentences), Interview (4 x 45 s, no prep); TOEIC Parts 2–7, Speaking 45/45, 3 s prep + 15/15/30 s, 45/60, Writing 10 and 30 min/300 words. Sets are deliberately shortened, and each says so.",
+  "itemsChecked": 117,
+  "fixes": [
+    "ielts-listening-1 Q5: removed accepted answer 'bottle of water' (3 words, which breaks the NO MORE THAN TWO WORDS limit).",
+    "ielts-listening-1 Q4: added '£95' as an accepted answer (learners often retype the printed £ sign, and the checker does not strip it).",
+    "ielts-listening-1 Q7–10: reordered the options. The key ran A, B, C, D in recording order, which is a pattern clue. The new key is C, F, E, B.",
+    "ielts-reading-1: 'Ten years ago' changed to 'Twenty years ago'. Rooftop hives were already well known in cities such as London and Paris by 2016, so the old claim was doubtful. TFNG statement 5 and its explanation updated to match.",
+    "ielts-reading-1 Q1–4: the headings list now uses i–vi (labels: 'roman'), as IELTS does, so heading letters no longer clash with paragraph letters A–F.",
+    "ielts-speaking-1 Part 1 Q2: the model answer now uses its own target phrases (used to, these days, have become, compared with).",
+    "ielts-speaking-1 Part 2 and Part 3 Q1: target phrases and model answers now match ('Later on', 'The reason this skill is so useful is', 'The most obvious reason is').",
+    "toefl-listening-1: removed gendered references that the TTS voice may contradict (option 'Change her class schedule' and the explanations 'She says' / 'She tells'). TTS gives each speaker a voice in list order, not by gender.",
+    "toefl-reading-1 Complete the Words: added 'whereas'/'ereas' for wh__ and 'thorny'/'orny' for th__. Both fit the meaning and grammar, and the UI gives no letter-count cue.",
+    "toefl-reading-1 academic passage: Poulton described countershading in insects in the late 1880s, so Thayer did not 'first describe it in detail'. Changed to 'The general principle was first explained by … Abbott Thayer in the 1890s' (checked with WebSearch).",
+    "toefl-speaking-1: the intro no longer says 'what she says' (voice gender is not fixed). Listen and Repeat sentence 7 was cut from 24 to 18 words so it fits the 8–12 s response window and keeps a steady 5→18-word progression.",
+    "toeic-listening-1 Conversations 1 and 2: the stems now name the speakers instead of saying 'the man'. Kevin was already named in the audio; 'Sam' was added to the conversation 2 audio. TTS voices are not gender-matched and speaker labels are not spoken, so 'the man' could not be reliably identified by ear. The Q1 graphic explanation now also says why Rooms A and B are wrong.",
+    "toeic-listening-1 Part 4: added 'she won't be available' to the voicemail so the options' 'She…' pronoun is grounded in the audio.",
+    "toeic-reading-1 Part 7 Q2: the stem 'What is NOT included in the standard package?' was ambiguous, because the projector is provided 'as requested' and never stated to be standard. Changed to 'What does the booking NOT include?' and rewrote the explanation.",
+    "toeic-speaking-1 schedule task: the model answer now uses the sequencing words the checklist asks for (First, Then, Finally).",
+    "No changes were needed in ielts-writing-1 (Task 1 model figures all checked against the chart data), toefl-writing-1 (Build a Sentence items each have exactly one grammatical order) or toeic-writing-1. Their model answers meet the word counts (171/275, 124/140, 118/318 words) and are error-free."
+  ],
+  "openConcerns": [
+    "Component, not content: TOEFL Choose a Response and TOEIC Part 2 options are printed on screen. In the real TOEIC Part 2 the three replies are only heard, so on-screen text makes the task easier than the exam.",
+    "Component: Complete the Words gaps show no number of missing letters, so extra defensible words have to be accepted. Consider per-letter boxes.",
+    "TTS: transcripts still label speakers 'Man'/'Woman', but voices are assigned by order, not gender. Stems now use names, but a specialist should listen to the TTS output (pace, the spelled surname 'M, A, R, S, T, O, N', and prices and times) on the main browsers.",
+    "Audio can be replayed, so 'hear each recording once' depends on the learner.",
+    "ielts-reading-1: one 419-word passage with a 20-minute timer is much shorter than a real IELTS passage (about 700–900 words), so the timing will feel generous. The description already says this is one passage.",
+    "Fictional dates such as 'Monday 3 March' and 'Monday 9 June' fall on those weekdays in 2025, not 2026/27. This is harmless but could be noticed.",
+    "ielts-listening-1 Part 1 and Part 4 and toefl-reading-1 Complete the Words accept only the transcript or passage words. Check the analytics for any other common correct variants learners type."
+  ],
+  "learnerOutcome": "A learner who completes these sets well can work through each section format of IELTS, TOEFL iBT and TOEIC under time pressure. They can handle word limits, distractors, graphic-based and inference questions, and the timing of speaking and writing tasks, and they can compare their output with model answers at the target band."
+}

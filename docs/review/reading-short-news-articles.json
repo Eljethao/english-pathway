@@ -1,0 +1,15 @@
+{
+  "slug": "reading-short-news-articles",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 (CEFR CV reading for information: can identify the main conclusions and significant points in straightforward newspaper articles on familiar subjects): 204–211-word local news reports. Headline grammar and reporting verbs are taught at an accessible level.",
+  "examFidelity": "The articles and main-idea, detail and purpose questions fit TOEIC Part 7. The short answers follow the IELTS 'NO MORE THAN THREE WORDS AND/OR A NUMBER' format, and every key fits the limit. The tips are consistent with exams.ts.",
+  "itemsChecked": 25,
+  "fixes": [
+    "ex2: the keys for q1–q5 were all in position B; I moved the correct option in q2, q3, q5 and q6 so the positions vary",
+    "ex4 q5: moved the correct option from A to D (four of five keys were A)",
+    "ex3: added accepted answers for the snow depth ('over 40 centimeters', '40cm', etc.) and the flight count ('120 flights', 'around 120 flights')"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can decode headline grammar, find who, what, when, where and why in the lead, separate the main point from quotes and details, and choose a suitable headline."
+}

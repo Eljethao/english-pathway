@@ -1,0 +1,16 @@
+{
+  "slug": "writing-academic-discussion-advanced",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1: learners evaluate others' reasoning, qualify their position and elaborate one idea concisely in a semi-formal academic register.",
+  "examFidelity": "The TOEFL Academic Discussion facts (10 minutes, professor's question plus two posts, at least 100 words recommended) match exams.ts, and the summary of the ETS top-score rubric (relevant and very clearly expressed; well-elaborated explanations; variety of syntactic structures; precise, idiomatic word choice; almost no errors beyond those of a competent writer under time pressure) was checked against the official ETS rubric wording.",
+  "itemsChecked": 16,
+  "fixes": [
+    "Corrected the ex5 model answer, which claimed Marcus had said that 'the way the course is assessed matters' (he did not); it now concedes his actual point about anxious students",
+    "Added the gap-fill variants 'tradeoff', 'trade off' and 'counter-productive'"
+  ],
+  "openConcerns": [
+    "TOEFL iBT has reported 1–6 band scores since January 2026; the lesson paraphrases the descriptive rubric and gives no score numbers, but whether ETS has changed the rubric wording for the new format should be rechecked periodically."
+  ],
+  "learnerOutcome": "Learners can write a 120–160-word discussion post in 10 minutes that takes a qualified position, engages critically with a classmate's reasoning and develops one idea in depth."
+}

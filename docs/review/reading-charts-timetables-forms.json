@@ -1,0 +1,18 @@
+{
+  "slug": "reading-charts-timetables-forms",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 (CEFR CV reading for orientation: can find and understand relevant information in everyday material such as timetables, price lists, forms and short official documents): short tables with notes and symbols, and a form compared with an email. The arithmetic (10–15% discounts, doubled fares) is suitable for B1.",
+  "examFidelity": "Timetable, price-list and form-plus-email tasks match TOEIC Part 7 and TOEFL Read in Daily Life text types. The short-answer and form-completion word limits are applied correctly. I checked every table-based answer against the table data: the times, the 65- and 30-minute journeys, £11.70, £178.50 and £51.00 are all correct.",
+  "itemsChecked": 27,
+  "fixes": [
+    "Learn text: changed 'Questions then check whether the details match' to 'Some questions…' (overstated a TOEIC format claim)",
+    "ex2: added accepted answers 'Business English course', 'Japanese course', '6 weeks'/'six weeks', 'your student card', '26th of October' and 'Oct 26'",
+    "ex4: added accepted answers 'veggie', '9:00' and '9.00'",
+    "ex3: moved the correct option in q1–q3; before this, all of the first five keys were in position B"
+  ],
+  "openConcerns": [
+    "The lesson has 4 exercises, the minimum for lessons 5–12. Its 27 items probably fill 25 minutes, but a fifth short task would make that safer."
+  ],
+  "learnerOutcome": "A learner can read across rows and down columns, use symbols and notes to change an answer, calculate simple fares and discounts, and spot details that differ between a form and an email."
+}

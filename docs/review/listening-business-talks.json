@@ -1,0 +1,13 @@
+{
+  "slug": "listening-business-talks",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 (CEFR CV: can understand announcements and messages on concrete and abstract topics at normal speed, and recorded material in professional life): 140–195-word adverts, a news report and meeting talks with paraphrased options.",
+  "examFidelity": "TOEIC Part 4 single-speaker talks with three questions (purpose/speaker, detail, next action), including a 'Why does the speaker say…?' item, follow exams.ts and real item styles; all questions follow the audio order.",
+  "itemsChecked": 22,
+  "fixes": [
+    "Talk 2 explanation called the unnamed speaker 'she'; changed it to 'the speaker' so that nothing depends on the TTS voice's gender."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can use the typical structure of adverts, news reports and meeting talks to predict when each answer comes, and avoid word-match and wrong-person distractors in TOEIC Part 4."
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "reading-sentence-summary-completion",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2 fits: the two passages (about 390 and 420 words) are clear, well-organised expository texts on familiar-academic topics, and the tasks ask learners to find specific information through paraphrase, as the B2 reading descriptors expect.",
+  "examFidelity": "Sentence completion, summary completion (word box) and matching sentence endings follow IELTS conventions, the questions keep passage order, and every accepted answer is within its stated word limit.",
+  "itemsChecked": 21,
+  "fixes": [
+    "Ebbinghaus paragraph corrected: he measured forgetting with relearning savings, not recall, and the spacing effect is now attributed to his finding that spread-out repetitions beat massed ones (checked against his 1885 data).",
+    "Removed an unverifiable claim ('a study in one European capital' found pollen per hive fell by almost half in a decade). It is replaced by the verified Paris finding (Ropars et al. 2019) that wild pollinators visit flowers less where hives are dense. Also changed 'registered hives doubled in ten years' to 'within a few years' (Paris: about 300 to 687 colonies, 2013–2015).",
+    "Rewrote the second model walkthrough item to match the new passage (ONE WORD ONLY → 'often'). It keeps the same trap: copying a word that is already in the sentence.",
+    "Word-box summary: four gaps now need synonyms or paraphrase (immediate, retrieve, longer, automate) instead of words copied from the passage, so the practice matches the strategy taught in Learn and ex3 Q4. The distractors were rechecked so each gap has exactly one answer.",
+    "Fixed the 'word limit' vocabulary example, which wrongly said a two-word answer broke a two-word limit."
+  ],
+  "openConcerns": [
+    "The Paris hive-density finding is correlational. The passage only says pollinators 'visited flowers less often', which matches the study, but a specialist may want to check the wording."
+  ],
+  "learnerOutcome": "Learners can predict the word class a gap needs, respect IELTS word limits, and find synonyms in a word box instead of matching surface words."
+}

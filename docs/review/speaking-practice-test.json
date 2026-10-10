@@ -1,0 +1,22 @@
+{
+  "slug": "speaking-practice-test",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1-level mock: the Part 2/3 models show sustained, well-organised discourse with complex structures, hedging and less common vocabulary, and the Part 1 models are appropriately short and natural; the self-assessment table now paraphrases the public IELTS band 7 descriptors accurately.",
+  "examFidelity": "IELTS Part 1/2/3 timings (4–5 min, 1 min prep + up to 2 min, 4–5 min), TOEFL interview (no prep, 45 s) and TOEIC opinion (45/60 s) match exams.ts. Parts 1 and 3 now have enough questions (6 and 4) to approach real timing, and every model fits its timer.",
+  "itemsChecked": 13,
+  "fixes": [
+    "Added two Part 1 questions (ex12, ex13) and one Part 3 question (ex14), each with a model answer and checklist. With only 4 × 30 s Part 1 answers and 3 × 60 s Part 3 answers, the mock fell well short of the 4–5 minutes per part it claimed. Updated the overview table and minutes (30 → 35)",
+    "Trimmed the TOEFL model from 116 to 98 words (it needed about 155 wpm to fit 45 s) and the TOEIC model from 147 to 124 words (over 60 s at a natural pace, and against the lesson's own 55-second tip); fixed the clumsy 'But overall, that's why…' ending after a concession",
+    "Trimmed the Part 2 model from 275 to 259 words (about 127 s at 130 wpm) and fixed a muddled sentence that seemed to say children gravitate towards kiosks; trimmed Part 3 Q3 from 137 to 132 words",
+    "Corrected the Fluency and Coherence band 7 description: 'hesitation is about ideas, not words' is band 8 wording, and band 7 allows some language-related hesitation. Aligned the Lexical Resource wording with the descriptor",
+    "Removed the unverified claim that notes are allowed during TOEIC preparation; learners now write notes only in IELTS Part 2 and plan in their heads elsewhere",
+    "Changed the objective 'with no extra thinking time' (TOEIC gives 45 s prep) to 'within the official time limits'"
+  ],
+  "openConcerns": [
+    "TOEFL Take an Interview has 4 questions in the real test; the mock includes only 1 (clearly labelled as such)",
+    "TOEIC note-taking rules could not be confirmed from ETS/IIBC sources; a specialist could confirm and, if notes are allowed, restore that advice",
+    "Speak tasks are self-assessed only; learners at the B2/C1 boundary may misjudge their band without teacher or examiner feedback"
+  ],
+  "learnerOutcome": "A learner can complete an IELTS-style speaking test with realistic timing for each part, plus TOEFL and TOEIC opinion tasks, and judge their recordings against the four IELTS criteria before comparing with strong models."
+}

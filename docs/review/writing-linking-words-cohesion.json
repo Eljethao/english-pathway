@@ -1,0 +1,17 @@
+{
+  "slug": "writing-linking-words-cohesion",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 Coherence and Cohesion ('can link a series of shorter elements into a connected sequence'; uses the most frequent connectors). The reference-word focus and the 120-word paragraph task sit at B1 and stretch towards B1+.",
+  "examFidelity": "IELTS (Coherence and Cohesion is a quarter of the Task 2 score), TOEFL Academic Discussion and TOEIC opinion-essay tips are accurate and consistent with exams.ts.",
+  "itemsChecked": 20,
+  "fixes": [
+    "Model paragraph: changed the awkward phrase 'sizes are different in every brand' to 'sizes are not the same in every brand'.",
+    "Walkthrough: it said 'Although and but show contrast inside one sentence', which suggested they appear together and so contradicted the lesson's own rule. It now says they are in different sentences (sentence 9 and the last sentence) and are never used together.",
+    "Gap ex2: changed the unnatural 'the noise of their family' to 'noise at home'. Added accepted answers 'What is more', 'What's more' and 'Besides' (gap 2), 'Nevertheless' (gap 3), and 'due to' and 'owing to' (gap 5).",
+    "MCQ ex3 q5: the key used a relative clause ('which'), which the lesson does not teach. The key now uses the reference word 'They', and the explanation is updated so the practice matches the strategy taught.",
+    "TOEFL tip: changed the model phrase '; however,' to '. However, …' to match the punctuation rule taught in the lesson."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "The learner can choose linking words by meaning and punctuate however, therefore, although, because (of) and despite correctly. They can also use it, they, this and these to avoid repeating nouns in a paragraph."
+}

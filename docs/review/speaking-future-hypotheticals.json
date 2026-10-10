@@ -1,0 +1,16 @@
+{
+  "slug": "speaking-future-hypotheticals",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2 grammar for speaking (future forms by certainty, second conditional sustained across an answer, contrast of real vs imagined conditionals) matches B2 grammatical accuracy and range descriptors.",
+  "examFidelity": "IELTS Parts 1 and 3 and TOEFL Take an Interview (no prep, 45 s) timings match exams.ts; exam tips are hedged ('may include').",
+  "itemsChecked": 22,
+  "fixes": [
+    "MCQ Q3: replaced the defensible distractor 'would probably' (a tentative prediction) with the clearly wrong 'will probable' and expanded the explanation",
+    "Gap fill: added 'will be visiting' / ''ll be visiting' for the real-plan gap"
+  ],
+  "openConcerns": [
+    "Contraction pronunciation (I'd, it'll) depends on TTS quality in the shadowing exercise"
+  ],
+  "learnerOutcome": "Can choose the right future form for plans, arrangements and predictions and stay in the second conditional through an imagined-situation answer."
+}

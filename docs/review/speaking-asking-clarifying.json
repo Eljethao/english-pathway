@@ -1,0 +1,17 @@
+{
+  "slug": "speaking-asking-clarifying",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the B1 interaction descriptors for asking for repetition and clarification and for checking understanding ('Asking for clarification' scale) with polite, high-frequency formulas.",
+  "examFidelity": "The task framing is accurate; claims about IELTS examiner behaviour (repeat in Part 1, rephrase in Part 3) are widely reported by teachers but not on an official page I could find, so they are now softened to 'normally'.",
+  "itemsChecked": 26,
+  "fixes": [
+    "Softened unverified IELTS format claims ('You don't lose marks', 'the examiner will not / can only') to 'asking is allowed and not marked down' and 'normally just repeats', in the learn text, objective, quick-check explanation, exam tip and key point",
+    "Respond item 1: replaced the distractor 'Yes, I've been to that room before' (a natural, defensible reply) with 'Yes, I moved there last year' so only one option is defensible"
+  ],
+  "openConcerns": [
+    "The Part 1 'repeat only' and Part 3 'can rephrase' rule should be confirmed against current official IELTS examiner guidance if one is available",
+    "TTS cannot show the polite rising intonation that the lesson teaches"
+  ],
+  "learnerOutcome": "Can politely ask for repetition, word meanings, spelling or slower speech, and check understanding before giving a full answer, instead of staying silent or answering the wrong question."
+}

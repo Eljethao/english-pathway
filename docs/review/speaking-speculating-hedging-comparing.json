@@ -1,0 +1,23 @@
+{
+  "slug": "speaking-speculating-hedging-comparing",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1 descriptors for speculating about causes, consequences and hypothetical situations and for qualifying opinions precisely ('degrees of certainty/uncertainty, belief/doubt, likelihood'); the modal perfects, 'the more…, the more…' and degree modifiers are C1-appropriate.",
+  "examFidelity": "The IELTS Part 3 task (no prep, about 60 s) is accurate and the 129-word model fits; the TOEFL tag is supported only by a tip (no 45 s TOEFL practice task), and that tip now follows exams.ts (later interview questions move to wider issues) instead of making an unverified claim about question content.",
+  "itemsChecked": 13,
+  "fixes": [
+    "Comparison gap '{{2}} lower' (previously flagged) now also accepts dramatically, vastly, noticeably and 'way'; the 'whereas' gap now also accepts 'but'",
+    "Fixed faulty comparisons: 'on a par with the public sector' → 'with pay in the public sector', and the gap text 'on a par with the city' → 'with those in the city'",
+    "Order exercise was ambiguous: 'It would seem that more younger workers are willing to change careers' was also a valid order. Replaced 'more willing' with 'keener', so only one order is possible",
+    "Certainty table: 'can't have' (almost certainly not) was listed as 'Unlikely'. Added an 'Almost certainly not' row (can't have / couldn't have / There's no way…), gave 'Unlikely' past forms 'probably didn't / I doubt that', and labelled 'could well' (a real possibility) and 'an outside chance' (a small one)",
+    "Replaced the double hedge 'may arguably be' (the lesson warns against piling up hedges) and paired the sweeping and hedged examples so they make the same claim",
+    "Model audio: 'The more people work remotely, arguably the more they value somewhere…' → 'Arguably, the more people work remotely, the more they value having somewhere…' so the structure being taught stays intact",
+    "Fixed the vocab example 'Their friendship was friendly but fairly superficial' (redundant) → 'Our conversations were polite but fairly superficial'",
+    "Reworded the TOEFL tip to follow exams.ts"
+  ],
+  "openConcerns": [
+    "There is no TOEFL-timed (45 s, no prep) speaking task despite the TOEFL tag; consider adding one or dropping the tag",
+    "Model audio is TTS"
+  ],
+  "learnerOutcome": "A learner can signal how certain they are about future, past and hypothetical claims, hedge unprovable generalisations without sounding evasive, and say precisely how big a difference is."
+}

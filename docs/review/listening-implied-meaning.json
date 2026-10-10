@@ -1,0 +1,15 @@
+{
+  "slug": "listening-implied-meaning",
+  "level": "C1",
+  "verdict": "meets",
+  "cefrAlignment": "C1: interpreting indirect answers, hints, tactful criticism and polite refusals from relevance and context matches the C1 descriptors for recognising implicit attitudes and relationships between speakers.",
+  "examFidelity": "The TOEFL Listen and Choose a Response items have 4 replies, as in exams.ts. Each TOEFL conversation is followed by 2 questions. The IELTS Part 3 tutorial uses three-option MCQ.",
+  "itemsChecked": 24,
+  "fixes": [
+    "Changed 'writing center' to 'writing centre' in the transcript and the walkthrough table, so the lesson uses British spelling throughout (it already used 'learnt' and 'colour')."
+  ],
+  "openConcerns": [
+    "Several Listen and Choose a Response keys depend on pragmatic inference, for example 'The light's on in that office'. They are standard and defensible, but a native-speaker pilot would confirm that no distractor is also acceptable."
+  ],
+  "learnerOutcome": "Learners can work out what a speaker means from an indirect reply and choose the response that answers the speaker's real purpose, not just the words they heard."
+}

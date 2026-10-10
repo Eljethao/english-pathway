@@ -1,0 +1,14 @@
+{
+  "slug": "listening-accents-speed",
+  "level": "B2",
+  "verdict": "meets",
+  "cefrAlignment": "Matches B2 (CEFR CV: can understand standard spoken language at normal speed, with some difficulty from strong accents or very idiomatic speech): short messages and 180–215-word talks in British and American voices, with UK/US vocabulary contrasts.",
+  "examFidelity": "IELTS Part 1-style messages and TOEIC Part 4-style talks with detail MCQs are realistic, and the accent tips match ielts.org ('British, Australian, New Zealand and North American') and ETS's description of TOEIC accents.",
+  "itemsChecked": 29,
+  "fixes": [],
+  "openConcerns": [
+    "Browser TTS may not produce real weak forms or linking, and only US and UK voices exist (no Australian or New Zealand voice). A specialist should listen to check that the weak-form gap exercise and the dictation really practise weak forms; real recordings would be better.",
+    "The lesson has a TOEFL exam tip but no TOEFL exam tag. This is harmless, but you could add 'Listening – Announcement'."
+  ],
+  "learnerOutcome": "A learner can follow British and American voices, recognise floor, time, date and vocabulary differences, and use stressed content words and grammar to recover weak words they miss."
+}

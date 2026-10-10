@@ -1,0 +1,17 @@
+{
+  "slug": "speaking-fluency-discourse-markers",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 fluency and coherence descriptors (can produce stretches of language at a fairly even tempo, uses a limited number of cohesive devices to link utterances into clear, coherent discourse). The markers and models are spoken B2 register.",
+  "examFidelity": "IELTS Part 3 (no prep, 45–60 s guidance), TOEFL Take an Interview (no prep) and TOEIC Express an opinion (45 s prep, 60 s speaking) match exams.ts. The 137-word model fits 60 s.",
+  "itemsChecked": 25,
+  "fixes": [
+    "Replaced 'Like,…' as a recommended example marker with 'A good example is…'. The lesson and checklist warn against 'like' as a filler, so recommending it was contradictory.",
+    "'TOEFL and TOEIC raters' became 'TOEFL and TOEIC speaking scores also reward a natural pace…', because TOEFL speaking is scored automatically. This matches ETS's own wording.",
+    "Changed 'video call… which wasn't really possible twenty years ago' to 'much harder', because video calling did exist in 2006.",
+    "Lengthened model answer 1 by one sentence so it is closer to the 45–60 s Part 3 length the lesson recommends.",
+    "Softened the IELTS tip from 'should be about 45–60 seconds' to 'aim for about 45–60 seconds'. It is guidance, not an official rule."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can fill thinking time with natural phrases instead of silence or repeated 'um', and link a 45–60 second spoken answer with markers for adding, contrasting, examples, rephrasing and summing up."
+}

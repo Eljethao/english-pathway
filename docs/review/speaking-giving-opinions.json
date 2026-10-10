@@ -1,0 +1,20 @@
+{
+  "slug": "speaking-giving-opinions",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 spoken production ('can develop a clear argument, supporting points of view with subsidiary points and relevant examples') and B2 interaction (polite partial agreement/disagreement); models use B2 range without C1-only structures.",
+  "examFidelity": "TOEFL Take an Interview (no prep, 45 s) and TOEIC Express an opinion (45 s prep, 60 s) timings match exams.ts; models now fit those limits at a natural pace and the TOEIC tip no longer assumes note-taking is permitted.",
+  "itemsChecked": 12,
+  "fixes": [
+    "Trimmed the TOEFL interview model from 120 to 100 words (it needed about 160 wpm to fit 45 s) and changed its opening from 'I agree up to a point' (nothing had been stated to agree with) to 'It's a good idea up to a point'; updated the target phrase to match",
+    "Trimmed the TOEIC practice model from 135 to 130 words and fixed the illogical ending 'But overall, that's why I'd say…' that followed a concession",
+    "Trimmed the TOEIC model audio from 144 to 130 words so it fits 60 s at a natural pace; tidied 'it wouldn't work for every job, like nurses' and updated the walkthrough quote",
+    "TOEIC tip: 'write key words' changed to 'plan key words' (note-taking in TOEIC Speaking could not be verified) and the unsupported 'raters reward…' claim reworded around ETS's published criteria (relevance and completeness of content as well as language)",
+    "Walkthrough: 'only needs to note' changed to 'only needs to plan a few key words'"
+  ],
+  "openConcerns": [
+    "Model audio is browser TTS; a human recording would model natural pausing and emphasis much better for an opinion task",
+    "Whether notes may be written during TOEIC Speaking preparation could not be confirmed from an official source; advice is worded neutrally ('plan')"
+  ],
+  "learnerOutcome": "A learner can open a 45–60 second answer with a clear position, support it with one or two reasons and a specific example, acknowledge the other side, and finish with a conclusion inside the TOEFL/TOEIC time limit."
+}

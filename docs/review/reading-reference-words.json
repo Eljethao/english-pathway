@@ -1,0 +1,15 @@
+{
+  "slug": "reading-reference-words",
+  "level": "B1",
+  "verdict": "meets",
+  "cefrAlignment": "Matches B1 (CEFR CV overall reading comprehension and reading for information: straightforward factual texts on familiar topics, with enough understanding to follow how sentences link): 264–269-word passages in plain English, and pronoun and whole-idea reference (this, such, which) at a level B1 readers can manage.",
+  "examFidelity": "Reference questions fit TOEFL Read an Academic Passage ('connection between ideas' in exams.ts). The email gap task is a sensible reference-word version of TOEIC Part 6. The sentence-completion gaps use a clear IELTS-style word limit, and every answer fits it.",
+  "itemsChecked": 26,
+  "fixes": [
+    "Moved the correct option in four reference MCQs (ex1 q3 and q5, ex2 q4 and q5). Before this, most keys sat in position B, so learners could spot a pattern."
+  ],
+  "openConcerns": [
+    "ex2 q6: 'most of them' grammatically follows 'emails'. The key (customers) depends on the meaning test the lesson teaches, and the explanation says so. This is fine, but it is a harder item."
+  ],
+  "learnerOutcome": "A learner can trace it, they, this, which and such back to the right noun or idea, use them to order sentences, and choose the right pronoun or determiner in a text-completion gap."
+}

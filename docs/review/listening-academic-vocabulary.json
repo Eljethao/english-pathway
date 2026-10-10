@@ -1,0 +1,16 @@
+{
+  "slug": "listening-academic-vocabulary",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: recognising academic collocations and word-family stress shifts at natural speed, and spelling academic words accurately, matches C1 lexical range and lecture comprehension.",
+  "examFidelity": "The IELTS Part 4 note completion uses ONE WORD ONLY with spelling checked. The TOEFL Academic Talk is 229 words (within 100–250) and has 5 four-option questions. The exam tips match exams.ts.",
+  "itemsChecked": 35,
+  "fixes": [
+    "Ex4 Q5: shortened the key, which was noticeably longer than the distractors."
+  ],
+  "openConcerns": [
+    "Facts checked: Robert Paine proposed 'keystone species' in 1969 after removing the predatory starfish Pisaster, and the mussels then took over. The sea otter, urchin and kelp cascade is well documented. Also accurate: the Norman Conquest in 1066 and French as the language of the court and the law; the cow/beef and pig/pork pattern; 'tsunami' from Japanese; and 'algebra' from Arabic via Latin.",
+    "The stress-shift table relies on learners reading capital letters. TTS in the dictation will not show stress explicitly."
+  ],
+  "learnerOutcome": "Learners can recognise academic chunks from their first word, follow stress changes within word families, and spell common academic terms correctly in note completion."
+}

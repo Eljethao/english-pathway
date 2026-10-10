@@ -1,0 +1,19 @@
+{
+  "slug": "speaking-describing-a-picture",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the B1 descriptor for simple descriptions of familiar scenes: present continuous, there is/are, position prepositions and simple speculation (It looks like…, Maybe…), all controlled and level-appropriate.",
+  "examFidelity": "TOEIC Describe a picture (45 s prep, 30 s speaking) and the Write a sentence based on a picture and Listening Part 1 tips match exams.ts. I checked every item and both alt texts against the SVG source: clock hands at 9:00 and 10:00, positions, objects and actions all match.",
+  "itemsChecked": 15,
+  "fixes": [
+    "Removed a full written description of the office picture from the ex4 speaking prompt. It handed learners the answer to read aloud. The prompt now uses only the TOEIC instruction, and the image is on the same step.",
+    "Gap 3 ('The barista is standing ___ the counter') now also accepts 'at', which is true of the picture as well.",
+    "Model answer ex4: replaced 'The bars are getting taller' (present continuous for a static state, a poor model) with 'The bars go up', added 'In the middle' to match the taught position phrases and the checklist, and trimmed it to about 70 words to fit 30 seconds.",
+    "Office alt text now says 'dark blue jacket' instead of 'suit', because the SVG has a dark blue jacket and dark grey trousers.",
+    "Reworded the clock question 'What time is it probably?' as 'What time is it, most likely?'."
+  ],
+  "openConcerns": [
+    "The café model audio (73 words) runs about 27–34 seconds depending on TTS speed. This is fine at a normal rate, but a slow voice would run past the 30 s exam limit."
+  ],
+  "learnerOutcome": "A learner can give an organised 30-second description of a scene: the place, the main people and their actions in the present continuous, where things are, and a short guess."
+}

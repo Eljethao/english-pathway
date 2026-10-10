@@ -1,0 +1,14 @@
+{
+  "slug": "speaking-schedules-documents",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2 interaction on factual information: reformulating notes into accurate full sentences, polite correction and a structured 30-second summary go beyond the B1 'answering from a schedule' lesson.",
+  "examFidelity": "TOEIC Questions 8-10 format matches exams.ts and ETS (45 s reading, 3 s preparation, 15/15/30 s, question 10 heard twice); all model answers were checked against both tables and are exact.",
+  "itemsChecked": 18,
+  "fixes": [
+    "Gap fill: added between / and as accepted alternatives to from / to",
+    "Replaced target phrases containing numbers (twenty-first of May, from one to two, there are two sessions), which speech recognition usually transcribes as digits so they could never be credited"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Can read a schedule in 45 seconds and answer fact, correction and summary questions accurately in full spoken sentences within 15-30 seconds."
+}

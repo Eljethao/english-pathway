@@ -1,0 +1,16 @@
+{
+  "slug": "listening-sentence-completion-word-limits",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 (CEFR CV: can follow the essentials of lectures and talks on academic and familiar topics): 210–255-word lectures, discussion and talk, with paraphrased sentence stems and distractors.",
+  "examFidelity": "IELTS sentence completion with ONE WORD ONLY, NO MORE THAN TWO WORDS and ONE WORD AND/OR A NUMBER limits is accurate; every accepted answer fits its limit and the grammar of the sentence, and the hyphenation rule now matches ielts.org.",
+  "itemsChecked": 38,
+  "fixes": [
+    "Learn 'Five checks': replaced the unverified 'part-time is generally treated as one word' with the official rule (ielts.org: hyphenated words such as 'check-in' count as single words).",
+    "Learn grammar examples gave away four practice answers (two children, reserve, patience, blind); replaced them with new examples (three groups, cancel, reliability, poisonous) and changed the warm-up question to match.",
+    "Word-limit table: 'two large rooms' was ambiguous (is 'two' a word or the number?); changed to '2 large rooms' / '2 very large rooms'.",
+    "Model task: the sentence said 'Peat bogs store more carbon…' but the lecture says 'Peatlands…'; changed the sentence to 'Peatlands'. The claim itself matches UNEP (peatlands store about twice as much carbon as all the world's forests)."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can match paraphrased sentences to the recording, write an answer that fits the grammar and the word limit exactly, and avoid losing marks for repeated printed words, wrong plurals and spelling."
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "reading-speed-techniques",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: two timed passages of about 570–580 words, plus strategy work on varying reading speed while keeping comprehension, which matches the C1 descriptor for reading with a large degree of independence and adapting reading style and speed.",
+  "examFidelity": "Matching headings, sentence completion (NO MORE THAN TWO WORDS) and True/False/Not Given follow IELTS conventions, and the IELTS timing facts match exams.ts. The reading-rate claim of 200–300 words per minute is consistent with published meta-analyses.",
+  "itemsChecked": 29,
+  "fixes": [
+    "Q22, the item the writer flagged, was ambiguous. The statement 'Most restoration projects have achieved their aims' was keyed Not Given, but 'mixed results' could reasonably be read as contradicting it. It was replaced with a clear False item: 'Planting the seedlings is the most difficult part…', which contradicts 'Planting seedlings is straightforward'.",
+    "Swapped the order of Q22 and Q23 so that the True/False/Not Given statements follow the passage order (honey comes before restoration in paragraph E).",
+    "Corrected the word count in the reading-rate table (about 580 words, not 590) and the rate it gives.",
+    "Checked the Ideal X facts with WebSearch: 26 April 1956, Newark to Houston, 58 containers, a converted tanker, Malcolm McLean. All are accurate."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Learners can preview a passage, change their speed according to what each sentence does, and measure their reading rate against their comprehension score."
+}

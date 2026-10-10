@@ -1,0 +1,20 @@
+{
+  "slug": "reading-practice-test",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1 fits: three passages of about 560–570 words on history, sociolinguistics and psychology, with argument, concession and hedging, plus mixed tasks including Yes/No/Not Given on the writer's claims, suit a C1 mock (slightly shorter than real IELTS texts).",
+  "examFidelity": "Question types, instructions and word limits follow IELTS conventions. All 29 keys were checked: each has one defensible answer, Not Given items are truly absent, and No/False items contradict the text. Timers total 45 minutes.",
+  "itemsChecked": 29,
+  "fixes": [
+    "Corrected 'about two-thirds of a full IELTS test' to about three-quarters (29 of 40 questions).",
+    "Softened 'The passages get harder, like the real test' to 'as they usually do'.",
+    "The TOEFL tip now notes that real Read an Academic Passage texts are about 200 words with 5 questions.",
+    "The heading options for Passage 2 now use roman numerals (IELTS style).",
+    "Checked the flagged facts, which are accurate as written: Conté's graphite-clay kiln process was patented in 1795 at Carnot's request during the war with Britain; Lipman's eraser-pencil patent was granted on 30 March 1858; Te Kōhanga Reo began in 1982 and inspired Hawaiian Pūnana Leo; the 2014 study (Wilson et al., Science) used a 15-minute thinking period with self-shocks, among participants who had said they would pay to avoid a shock. Also checked: the Borrowdale 1752 theft law, the 40% endangered-languages figure and the telephone-directory boredom study (Mann and Cadman)."
+  ],
+  "openConcerns": [
+    "The score-to-level table (25–29 = strong C1, etc.) is a rough guide, not a calibrated conversion. A specialist should check it against trial data.",
+    "Joseph Hardtmuth developed a similar graphite-clay process in Vienna around 1790. The passage calls Conté's work 'the decisive breakthrough' without claiming he was first, which is defensible but could be noted."
+  ],
+  "learnerOutcome": "Learners can sit a 45-minute mixed-format mock under realistic time pressure and use their results by question type to choose what to practise next."
+}

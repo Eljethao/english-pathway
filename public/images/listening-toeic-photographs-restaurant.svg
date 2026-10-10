@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">An empty restaurant with chairs on the tables</title>
+  <desc id="desc">An empty restaurant. There are no people. Three tables each have two chairs placed upside down on top. A mop and a bucket stand in the corner on the right. A window with a Closed sign and a clock are on the wall.</desc>
+  <rect width="800" height="500" fill="#ffffff"/>
+  <!-- Floor -->
+  <rect x="0" y="420" width="800" height="80" fill="#f3f4f6"/>
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- Window with Closed sign -->
+  <rect x="60" y="50" width="240" height="150" fill="#e0f2fe"/>
+  <line x1="180" y1="50" x2="180" y2="200" stroke="#9ca3af" stroke-width="4"/>
+  <rect x="60" y="50" width="240" height="150" fill="none" stroke="#9ca3af" stroke-width="4"/>
+  <line x1="215" y1="50" x2="240" y2="88" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="275" y1="50" x2="250" y2="88" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="205" y="88" width="80" height="30" rx="3" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <text x="245" y="109" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#b91c1c" text-anchor="middle">CLOSED</text>
+
+  <!-- Clock -->
+  <circle cx="460" cy="110" r="28" fill="#ffffff" stroke="#6b7280" stroke-width="3"/>
+  <line x1="460" y1="110" x2="460" y2="92" stroke="#374151" stroke-width="3" stroke-linecap="round"/>
+  <line x1="460" y1="110" x2="474" y2="116" stroke="#374151" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Three tables, each with two upside-down chairs -->
+  <g id="table1">
+    <rect x="40" y="330" width="170" height="12" fill="#a47148"/>
+    <rect x="52" y="342" width="10" height="78" fill="#a47148"/>
+    <rect x="188" y="342" width="10" height="78" fill="#a47148"/>
+    <!-- Chair left: seat on table, legs up, back hanging down -->
+    <rect x="50" y="320" width="56" height="10" fill="#4b5563"/>
+    <rect x="54" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="96" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="36" y="320" width="14" height="62" fill="#4b5563"/>
+    <!-- Chair right -->
+    <rect x="144" y="320" width="56" height="10" fill="#4b5563"/>
+    <rect x="148" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="190" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="200" y="320" width="14" height="62" fill="#4b5563"/>
+  </g>
+  <g id="table2">
+    <rect x="270" y="330" width="170" height="12" fill="#a47148"/>
+    <rect x="282" y="342" width="10" height="78" fill="#a47148"/>
+    <rect x="418" y="342" width="10" height="78" fill="#a47148"/>
+    <rect x="280" y="320" width="56" height="10" fill="#4b5563"/>
+    <rect x="284" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="326" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="266" y="320" width="14" height="62" fill="#4b5563"/>
+    <rect x="374" y="320" width="56" height="10" fill="#4b5563"/>
+    <rect x="378" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="420" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="430" y="320" width="14" height="62" fill="#4b5563"/>
+  </g>
+  <g id="table3">
+    <rect x="500" y="330" width="170" height="12" fill="#a47148"/>
+    <rect x="512" y="342" width="10" height="78" fill="#a47148"/>
+    <rect x="648" y="342" width="10" height="78" fill="#a47148"/>
+    <rect x="510" y="320" width="56" height="10" fill="#4b5563"/>
+    <rect x="514" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="556" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="496" y="320" width="14" height="62" fill="#4b5563"/>
+    <rect x="604" y="320" width="56" height="10" fill="#4b5563"/>
+    <rect x="608" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="650" y="262" width="6" height="58" fill="#4b5563"/>
+    <rect x="660" y="320" width="14" height="62" fill="#4b5563"/>
+  </g>
+
+  <g transform="translate(-24,0)">
+  <!-- Mop and bucket in the corner -->
+  <line x1="752" y1="190" x2="736" y2="380" stroke="#a16207" stroke-width="6" stroke-linecap="round"/>
+  <path d="M716 380 L756 380 L762 404 L710 404 Z" fill="#9ca3af"/>
+  <polygon points="712,370 784,370 776,420 720,420" fill="#60a5fa" stroke="#2563eb" stroke-width="2"/>
+  <path d="M722 370 Q748 340 774 370" fill="none" stroke="#2563eb" stroke-width="3"/>
+  </g>
+</svg>

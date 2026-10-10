@@ -1,0 +1,17 @@
+{
+  "slug": "writing-spelling-common-mistakes",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B1-appropriate: the B1 orthographic control descriptor says spelling and punctuation are accurate enough to be followed most of the time, and the common learner errors targeted are typical of B1.",
+  "examFidelity": "Exam statements are accurate: IELTS accepts British or American spelling, spelling counts under Lexical Resource and grammar under GRA, and TOEFL Build a Sentence provides the words.",
+  "itemsChecked": 34,
+  "fixes": [
+    "ex2 item 3 ('My brother (study) engineering at university'): added 'studied' and 'is studying', which are both grammatical.",
+    "ex4 item 6: added 'Most of the'.",
+    "ex4 item 7: added 'even better'.",
+    "ex4 item 10: added 'upon'.",
+    "Checked that the first draft contains exactly 17 mistakes, as stated."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can apply four core spelling rules, choose correctly between common homophones, use capitals correctly and proofread an email in three passes."
+}

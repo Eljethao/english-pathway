@@ -1,0 +1,13 @@
+{
+  "slug": "writing-general-training-letters",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "B2-appropriate: writing personal, semi-formal and formal letters with consistent register and developed content matches the CEFR B2 correspondence descriptors.",
+  "examFidelity": "Consistent with exams.ts: a letter of at least 150 words in about 20 minutes, personal, semi-formal or formal tone; the three bullet points, 'Begin your letter as follows' and 'no addresses' instructions match the real prompt format, and the band-descriptor tip paraphrases (does not quote) the purpose and tone criteria.",
+  "itemsChecked": 21,
+  "fixes": [
+    "ex3 gaps: accepted 'disappointed'/'upset' (I'm really … that I couldn't come) and 'Anyhow'/'Still' (… , I'd love to celebrate) as grammatical alternatives"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can identify the register from a GT Task 1 prompt, keep tone consistent from greeting to closing and develop all three bullet points into a 150+ word letter."
+}

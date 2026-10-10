@@ -1,0 +1,14 @@
+{
+  "slug": "reading-fact-or-opinion",
+  "level": "B1",
+  "verdict": "meets",
+  "cefrAlignment": "Matches B1 (CEFR CV reading for information and argument: can recognise significant points and the line of argument in straightforward newspaper articles, and tell the writer's view from reported views): 205–240-word opinion column and advert/review texts with clear opinion signals.",
+  "examFidelity": "The Yes/No/Not Given items are rigorous: each No contradicts a stated view of the writer, and each Not Given is truly absent. The variant is set correctly ('ynng'). The advert and review pair is a fair TOEIC Part 7 double passage, and the tips agree with exams.ts.",
+  "itemsChecked": 26,
+  "fixes": [],
+  "openConcerns": [
+    "The fact/opinion/claim categories are simplified for B1. For example, 'Experts say this is the healthiest diet' is keyed as a claim, although it also contains an evaluative word. This is consistent with the lesson's own table, but a teacher may want to discuss it.",
+    "The TOEFL tag (Read an Academic Passage) fits the newspaper texts only loosely."
+  ],
+  "learnerOutcome": "A learner can separate checkable facts, opinions and unsupported claims, tell the writer's view from quoted views, and answer simple Yes/No/Not Given questions."
+}

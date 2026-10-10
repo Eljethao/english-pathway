@@ -1,0 +1,16 @@
+{
+  "slug": "writing-c1-mock-test",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "A C1 (IELTS 7–8) mock: the Task 1 and Task 2 models are band 8 quality, accurate and above the minimum word counts (176 and 351 words).",
+  "examFidelity": "Faithful to IELTS Academic Writing (60 minutes, Task 1 at 20 minutes/150 words, Task 2 at 40 minutes/250 words, Task 2 double weighted); chart data and every model figure verified, and the band 7/8 summary table was corrected against the May 2023 descriptors.",
+  "itemsChecked": 9,
+  "fixes": [
+    "Rewrote the band 7/8 descriptor table, which had been written from memory: band 7 Task Response now reads 'a clear and developed position' (the old pre-2023 'clear position throughout' wording was removed); the band 9 feature 'cohesion rarely noticeable' was removed from band 8; band 7 Lexical Resource now says 'awareness of style and collocation, though inappropriacies occur'; band 8 Lexical Resource now says 'occasional' (not 'rare') inaccuracies; the paraphrases are now closer to the official text",
+    "Corrected the Task 1 model's 'health grew the most' (it was the only one of the four to grow)"
+  ],
+  "openConcerns": [
+    "Only 2 auto-checked planning exercises (7 items); the time is filled by the two timed writing tasks, which is appropriate for a writing mock."
+  ],
+  "learnerOutcome": "Learners can sit a full 60-minute IELTS Academic Writing test, then self-assess both answers criterion by criterion against accurate band 7/8 descriptors and band 8 models."
+}

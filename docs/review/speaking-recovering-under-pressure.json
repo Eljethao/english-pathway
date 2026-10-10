@@ -1,0 +1,19 @@
+{
+  "slug": "speaking-recovering-under-pressure",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: content-led time-buying, reformulation, smooth self-correction and getting back on track match the C1 descriptors for compensating strategies and monitoring/repair ('can backtrack when encountering a difficulty and reformulate without fully interrupting the flow').",
+  "examFidelity": "IELTS Part 2 (60 s prep, 120 s), Part 3 (no prep, 60 s) and, now, a TOEFL Take an Interview task (no prep, 45 s) match exams.ts; the band 7, 8 and 9 Fluency and Coherence quotes and the band 5 Grammatical Range and Accuracy quote are verbatim and correctly attributed.",
+  "itemsChecked": 25,
+  "fixes": [
+    "The lesson was tagged TOEFL Take an Interview but had no TOEFL speaking task. Added ex6: a TOEFL interview question with no preparation and 45 seconds, a 98-word model with two in-flow repairs (or rather, What I mean is), target phrases and a checklist",
+    "Fixed a subject–verb agreement error in the Part 3 model ('anyone who works in emergencies, are trained' → 'people who work in emergencies generally, are trained')",
+    "Changed the target phrase 'I could have…, I suppose' to 'I could have argued, I suppose', which the app's phrase matcher can credit",
+    "Corrected the walkthrough: 'who tend to get' hedges the claim but is not 'three words'. Reworded the band 7 reference so it says exactly what the descriptor allows",
+    "Rewrote the Part 2 cue card ('Describe an occasion when you had to do something in a hurry' is a widely circulated IELTS topic) as an original task about having much less time than expected; the model answer still fits all four points"
+  ],
+  "openConcerns": [
+    "With six exercises the lesson is at the upper limit for 25 minutes; a learner who repeats the Part 2 task will need longer"
+  ],
+  "learnerOutcome": "A learner can buy thinking time with content, upgrade or restart a sentence, correct slips without apologising and get back on track under exam pressure, in IELTS and in the no-restart TOEFL interview."
+}

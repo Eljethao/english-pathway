@@ -1,0 +1,17 @@
+{
+  "slug": "reading-word-forms-tenses",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 (CEFR CV grammatical accuracy and reading: uses the words around a gap to decide word class and tense in routine texts): common derivational endings and core tenses. The one past perfect item is at the top of the B1 range.",
+  "examFidelity": "The Part 5 items each have exactly one correct option, and the Part 6 email has four gaps, one of them a full sentence, as in exams.ts. The Complete the Words paragraph follows the TOEFL format: the first sentence is intact, then the second half of every second word is removed, 10 words in all. Each removed half is the larger half, and the paragraph is about 70 words.",
+  "itemsChecked": 45,
+  "fixes": [
+    "Model walkthrough gap 1: noted that 'opens' is also correct for a fixed timetable, so the walkthrough no longer suggests that only 'will open' is right",
+    "ex5: added accepted answers 'was closed', 'was opened' and 'moves' (all grammatical in context)",
+    "TOEFL tip: softened 'a word with one wrong letter is not correct' to 'a spelling mistake can make your answer wrong' (scoring detail not in exams.ts)"
+  ],
+  "openConcerns": [
+    "The gap UI does not show how many letters are missing, but the real Complete the Words task does. Learners lose that clue, although every key here is still unambiguous from grammar and meaning."
+  ],
+  "learnerOutcome": "A learner can choose a noun, verb, adjective or adverb from the words around a gap, match tenses to time words and to the wider text, and complete half-words in a short paragraph."
+}

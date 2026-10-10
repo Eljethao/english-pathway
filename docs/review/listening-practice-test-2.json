@@ -1,0 +1,18 @@
+{
+  "slug": "listening-practice-test-2",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "A suitable C1 capstone: the test moves from a B1/B2 form-completion phone call to a dense C1 lecture with ONE WORD ONLY notes and a three-speaker tutorial, and the score guide is a rough guide, not a band score.",
+  "examFidelity": "The test mirrors IELTS Listening: 4 parts with 10 questions each (40 in total), answers in audio order, and typical task types for each part. The topics (rowing club, outdoor centre, calorie labels, biomimicry) differ from the first practice test (volunteering, food festival, community gardens, soundscape ecology). The TOEFL and TOEIC tips correctly say that Part 4 is longer than an Academic Talk.",
+  "itemsChecked": 40,
+  "fixes": [
+    "Part 1: replaced the mobile number 07911 482630, which could belong to a real subscriber, with 07700 900481 from Ofcom's range reserved for drama, and updated the transcript and the accepted answers.",
+    "Learn text: the cross-reference to the 'statistics and figures' lesson now uses its real title, 'statistics and trends'."
+  ],
+  "openConcerns": [
+    "Facts checked: George de Mestral, burrs and Velcro in the 1940s; the kingfisher-beak nose on the Shinkansen (an engineer who was a birdwatcher; quieter in tunnels and using less electricity); the Eastgate Centre in Harare, inspired by termite mounds, with later research suggesting that mounds work differently from the original model. All are stated accurately.",
+    "The Part 3 and Part 4 recordings (about 500 words each) are still shorter than real IELTS recordings, and the score ranges are not calibrated.",
+    "Check that the TTS reads 'oh seven seven oh oh' and the spelled surname clearly."
+  ],
+  "learnerOutcome": "Learners get a second full 40-question IELTS-format rehearsal on new topics and can compare it with the first test to see which part and question type still needs work."
+}

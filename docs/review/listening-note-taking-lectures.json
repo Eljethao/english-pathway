@@ -1,0 +1,21 @@
+{
+  "slug": "listening-note-taking-lectures",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 (CEFR CV: can follow the essentials of lectures and talks that are propositionally and linguistically complex): the 210–260-word talks have a clear causes/effects/solutions structure, and the task asks for key-word notes and inference about purpose (why the professor describes an experiment).",
+  "examFidelity": "The note completion (ONE WORD AND/OR A NUMBER, answers in order, exact spoken words) matches IELTS Part 4, and the questions asked after the talk (main idea, detail, purpose, advice) match the TOEFL Academic Talk focus listed in exams.ts.",
+  "itemsChecked": 20,
+  "fixes": [
+    "Urban heat island: replaced the precise 'up to seven degrees' (real values can exceed this) with 'five degrees or more on a calm summer night', and updated the model notes and walkthrough to match.",
+    "Green roofs: changed 'studies suggest… up to three degrees cooler' to the more defensible 'some studies have found… two or three degrees cooler in summer', and updated the notes.",
+    "Shipping container: the 1956 McLean ship (New Jersey to Texas, verified) is now 'the first successful container ship', because there were earlier container experiments. The gap-fill notes are updated.",
+    "Sleep lecture: 'in many studies' became 'in several studies' (the non-recovery finding comes from a limited set of studies). The Q4 key option now paraphrases this instead of repeating it ('They still remembered less after a few nights of normal sleep').",
+    "Replaced the real-place example 'Utrecht' in the speech-to-notes examples with a general 'the old town'.",
+    "Learn text: changed the unverified 'about four minutes' for IELTS Part 4 to 'a talk on an academic subject with no break in the middle' (the no-break rule is confirmed by British Council material). The handwriting speed is now a range (20 to 30 words a minute).",
+    "Vocabulary: changed the example 'Memory consolidation happens mainly during sleep' (overstated) to 'Sleep plays an important part in memory consolidation'."
+  ],
+  "openConcerns": [
+    "Practice 2 has 5 questions, while the real TOEFL Academic Talk has 4. This is acceptable for practice but not a 1:1 format copy."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can take structured, abbreviated notes on a 4–5-minute talk and use them to fill IELTS-style note gaps and answer main-idea and purpose questions without rereading."
+}

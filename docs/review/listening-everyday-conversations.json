@@ -1,0 +1,19 @@
+{
+  "slug": "listening-everyday-conversations",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 overall listening comprehension (following the main points and key details of clear standard speech on familiar everyday matters): the clips are 105–136 words of slow, clear service dialogues, the vocabulary is high-frequency, and the tasks are gist, detail and one-step self-corrections.",
+  "examFidelity": "IELTS Part 1-style note completion with a ONE OR TWO WORDS AND/OR A NUMBER limit and in-order answers, plus TOEIC Part 3-style gist, detail and next-action MCQs, are accurate to exams.ts; the IELTS tip wrongly said Part 1 starts with an example, which IELTS removed in 2020, and it is now corrected.",
+  "itemsChecked": 21,
+  "fixes": [
+    "IELTS tip in Learn: removed the outdated claim that Part 1 starts with an example (IELTS dropped it in 2020); it now says there is no example and the recording is heard once, as exams.ts states",
+    "ex2 gap 1 (time): added the accepted answers 'half five', '5.30 p.m.' and '5:30 p.m.'",
+    "ex2 gap 4: added 'my umbrella' as an accepted answer",
+    "ex4 dictation sentence 1: removed the number 'four', because learners who typed '4' were marked wrong by the word-by-word checker"
+  ],
+  "openConcerns": [
+    "The answer key accepts 'half past five' (three words) under a ONE OR TWO WORDS AND/OR A NUMBER limit, on the basis that it is the number written in words. A specialist may prefer a stricter key.",
+    "Browser TTS gives each speaker a different voice, but the prosody of corrections such as 'No, wait …' was not checked by ear."
+  ],
+  "learnerOutcome": "A learner who does this lesson well can work out who, where and why in a short service conversation, write down key details, and ignore information that the speaker later corrects."
+}

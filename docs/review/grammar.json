@@ -1,0 +1,37 @@
+{
+  "slug": "grammar",
+  "level": "B1–C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Topic levels match common grammar profiles (English Grammar Profile and mainstream course syllabuses): the tense, conditional and quantifier topics are B1, articles, passive, relative clauses, modals of deduction, reported speech and verb patterns are B2, and inversion and clefts are C1; mixed conditionals sit at the B2/C1 boundary and are reasonable at C1 here because the topic also teaches conditional inversion (Had I known…, Were it not for…).",
+  "examFidelity": "examUse notes use the exact task names in exams.ts (IELTS Speaking Parts 1–3, Writing Task 1/2, TOEFL Take an Interview/Academic Discussion/Write an Email/Build a Sentence/Complete the Words, TOEIC Reading Parts 5–6, Describe a picture). Unsupported claims about specific IELTS band thresholds (\"band 6.5 upwards\", \"band 7 and above\", \"bands 7 to 9\", article errors keeping candidates at band 6) were removed or rewritten as general statements.",
+  "itemsChecked": 14,
+  "fixes": [
+    "Present perfect vs past simple: added that *for* also goes with the past simple for a finished period (I lived in Paris for two years), so the signal-word rule is no longer over-general.",
+    "Future forms: the present continuous rule no longer says arrangements must be 'with other people' (it contradicted the table example 'She's flying to Seoul on Friday').",
+    "Future forms: replaced the questionable mistake 'I see my dentist tomorrow at ten' (present simple is possible for scheduled appointments) with the clear error 'What do you do this weekend?' → 'What are you doing this weekend?'.",
+    "Future forms: made the will vs going to note more precise, and changed 'IELTS Part 1 often asks about plans' to 'may ask'.",
+    "Narrative tenses: replaced the over-simplified rule 'use the past perfect only when the order is not clear' (the topic's own example 'I had never flown before' broke it) with an accurate explanation plus the 'the train left / had left' meaning contrast.",
+    "Narrative tenses: softened 'often test' to 'can test' for TOEIC Part 5.",
+    "Conditionals: replaced the third-conditional mistake 'If I had known, I would help you', which can be a valid mixed conditional (taught in the C1 topic), with 'If I had seen the sign, I wouldn't make → wouldn't have made that mistake'.",
+    "Conditionals: the comma after a fronted if-clause is now 'usually', not compulsory.",
+    "Quantifiers: corrected 'a few / a little = some, enough' (they do not mean 'enough') and clarified few/little = not many/not much.",
+    "Articles: replaced the unverified claim that article errors keep IELTS candidates 'around band 6' with a general statement.",
+    "Passive: replaced the unsourced example '40% of food is wasted' with the widely cited estimate 'about a third of the food produced worldwide is lost or wasted'.",
+    "Relative clauses: removed the inaccurate 'from band 6.5 upwards' (IELTS descriptors exist only for whole bands).",
+    "Modals of deduction: added that American English uses 'must not' for negative deduction (He must not be home), and that 'mustn't = prohibition' applies to British English; 'can't' is the safe choice in all varieties. Updated the matching mistake note.",
+    "Modals of deduction: softened 'rewards' / 'often signal' claims about TOEIC Describe a picture and listening inference items.",
+    "Reported speech: past simple → past perfect is now shown as optional when the order of events is clear (He said he had seen her / he saw her).",
+    "Mixed conditionals: replaced 'IELTS rewards at band 7 and above' with a general reference to the range described in the higher bands.",
+    "Inversion: replaced the factually doubtful example 'Not until the 1960s did most homes have a television' (most US and UK homes had TV by the late 1950s) with a non-factual example.",
+    "Inversion: replaced 'IELTS describes at bands 7 to 9' with 'the higher IELTS bands'.",
+    "Cleft sentences: clarified the it-cleft note (use *that* after a focused phrase such as *in Rome* / *in 2008*)."
+  ],
+  "openConcerns": [
+    "Mixed conditionals are placed at C1, but many syllabuses introduce them at B2. A specialist may want to move the topic to B2 or keep it at C1 because of the inversion forms.",
+    "Narrative tenses (B1) includes the past perfect continuous, which is often taught at B1+/B2. It is fine as reference content, but B1 learners may need extra support.",
+    "Statements about how often TOEIC Part 5/6 tests a structure come from general knowledge of the item types, not from official ETS item statistics.",
+    "IELTS band descriptor content is paraphrased rather than quoted. Check it against the current public descriptors if exact wording is wanted.",
+    "scripts/validate-content.mts only covers lessons and practice sets, so it does not check grammar.ts. The file was checked with tsc only."
+  ],
+  "learnerOutcome": "A learner who studies these topics can choose tenses, conditionals, articles and verb patterns accurately and use B2–C1 structures (passive reporting, mixed conditionals, inversion, clefts) in IELTS, TOEFL and TOEIC writing and speaking without the common errors listed."
+}

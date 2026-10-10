@@ -1,0 +1,15 @@
+{
+  "slug": "listening-form-completion-bookings",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 listening (CEFR CV: can understand straightforward factual information on everyday topics and follow clearly articulated transactional exchanges): 80–150-word booking calls at moderate pace, with one distractor per gap (child vs adult price, Monday class full, shower block vs lake).",
+  "examFidelity": "Faithful to IELTS Listening Part 1 form/note completion (answers in form order, word limits ONE WORD AND/OR A NUMBER and NO MORE THAN TWO WORDS AND/OR A NUMBER respected by every accepted answer) and to TOEIC Part 3 question types (purpose, suggestion, next action); tips match exams.ts.",
+  "itemsChecked": 30,
+  "fixes": [
+    "Learn table 'Keep to the word limit': the 'wrong' example for NO MORE THAN TWO WORDS AND/OR A NUMBER was 'eight weeks long', which is actually two words plus a number and so within the limit; replaced with 'for 8 weeks in total (four words and a number)'."
+  ],
+  "openConcerns": [
+    "TTS should be spot-checked for the spelled surnames (B, R, E, double N …; K, O, W, A, L, S, K, I) and for 'seven fifteen'."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can follow a booking call heading by heading, recognise paraphrased questions for form headings, and fill a form within the word limit while ignoring nearby distractor prices, days and places."
+}

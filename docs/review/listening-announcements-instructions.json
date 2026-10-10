@@ -1,0 +1,19 @@
+{
+  "slug": "listening-announcements-instructions",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the B1 descriptors for announcements and instructions (understanding simple technical information and detailed directions, and following announcements on familiar topics): the monologues are 79–134 words in clear standard speech with a predictable structure.",
+  "examFidelity": "TOEIC Part 4-style purpose, detail and action questions and IELTS Part 2-style note completion are accurate. The TOEFL tip now matches exams.ts (40–85 word classroom or campus announcements). The practice campus announcement (122 words) is longer than a real TOEFL announcement, which is acceptable for B1 practice.",
+  "itemsChecked": 22,
+  "fixes": [
+    "ex2 audio: 'an hour and a half' became 'one and a half hours', so the notes gap 'about ___ hours' can be answered with what is heard instead of a conversion; added '1 ½' to the key",
+    "TOEFL tip in Learn: rewritten to match exams.ts (Listen to an Announcement, about 40–85 words, classroom or campus setting, schedules, rules and events) instead of unverified claims about question focus",
+    "TOEFL exam tip: removed the unsupported claim that two questions 'cover most of what you will be asked'",
+    "Spelling consistency: 'Student Center' changed to 'Student Centre' to match the lesson's UK spelling (apologise, programme)"
+  ],
+  "openConcerns": [
+    "Practice audio 4 uses US vocabulary (elevators, parking lot) with a US voice, while the rest of the lesson is British. This is intentional dialect exposure, but a specialist may want a note for learners.",
+    "'eleven a.m.' depends on the TTS sentence chunker not splitting at 'a.'. It works at the current length, but it is fragile if the text is edited."
+  ],
+  "learnerOutcome": "A learner who does this lesson well can pick out the purpose, the changed time or place, and the required action in a public or workplace announcement, and follow multi-step instructions even when 'before' or 'once' reverses the order."
+}

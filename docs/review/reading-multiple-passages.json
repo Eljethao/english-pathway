@@ -1,0 +1,13 @@
+{
+  "slug": "reading-multiple-passages",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 (CEFR CV: can read correspondence and synthesise information from several sources): business emails, schedules, notices, order forms and adverts, where answers depend on linking details across texts and noticing later changes.",
+  "examFidelity": "Matches TOEIC Part 7 multiple passages (double and triple sets of about 5 questions, a mix of single-text and cross-reference questions, 54 Part 7 questions with 25 on multiple passages per exams.ts); I solved all 22 items and confirmed that each cross-reference question genuinely needs the texts it claims (e.g. Room 3 needs email + programme + notice; 15.00 needs all three).",
+  "itemsChecked": 22,
+  "fixes": [
+    "ex1 Q3: the correct total ($240) was the same as the Suite price, so a learner who chose the Suite by mistake would still be marked correct; changed the Suite price to $250 and rewrote the explanation (the $120 trap is the price for one night)"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can map two or three related business texts quickly, find the bridging detail, and check whether a later text changes or limits an earlier one."
+}

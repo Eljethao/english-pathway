@@ -1,0 +1,14 @@
+{
+  "slug": "speaking-examples-analogies",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: choosing the right kind of support (hypothetical example, anecdote, analogy, counter-example) and linking it back matches the C1 descriptors for supporting points with relevant examples in sustained discourse; the language (a case in point, it just goes to show, counter-example) is C1.",
+  "examFidelity": "IELTS Part 3 (no prep, 60 s) and TOEFL Take an Interview (no prep, 45 s, early experience-type question) match exams.ts and its description of early versus later interview questions.",
+  "itemsChecked": 12,
+  "fixes": [
+    "Trimmed the TOEFL model (ex5) from 108 to 99 words; at 108 words it needed about 145 wpm to fit 45 s",
+    "Changed the last sentence in the ex3 ordering task from a fragment starting 'Which just goes to show…' to the full sentence 'That just goes to show…'"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can back up abstract Part 3 claims with a brief, relevant example, anecdote or analogy and link it back to the question, instead of drifting into long stories or invented statistics."
+}

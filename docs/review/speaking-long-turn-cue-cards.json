@@ -1,0 +1,19 @@
+{
+  "slug": "speaking-long-turn-cue-cards",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B2 sustained monologue (clear, systematically developed descriptions with relevant supporting detail): the models use a range of past tenses, relative clauses and signposting, and learners must organise two minutes of speech.",
+  "examFidelity": "IELTS Part 2 is accurate: cue card with bullet points, 1 minute prep with notes, 1–2 minutes speaking, the examiner stops at 2 minutes and may ask follow-up questions. The Porto facts (Douro hillside, bridges boat trip, bookshop famous for its staircase) are correct.",
+  "itemsChecked": 12,
+  "fixes": [
+    "Fixed broken markup in the 'Ways to extend an idea' examples: nested ***…** */* rendered stray asterisks in the app's Inline parser. They now use plain bold for the key phrases.",
+    "Both 2-minute models were about 250 words (about 94–115 s at 130–160 wpm), short of the 'use the full two minutes' advice. I added natural detail: a sardine meal in the Porto model (now 278 words) and a sea-swimming moment in the skill model (now 269 words). The notes table and walkthrough were updated to match.",
+    "Softened the unsupported claim that 'most candidates who get a low score… run out of things to say' to 'many candidates…'.",
+    "Rewrote the exam tip that said stopping early 'lowers your Fluency and Coherence score' to an accurate one: speaking at length is part of the criterion and gives the examiner more evidence, and being stopped at two minutes is normal.",
+    "Corrected the walkthrough: the explain section has two developed reasons and a future plan, not 'three reasons'.",
+    "ex2 Q4 explanation no longer says examiners 'stop every candidate at two minutes'.",
+    "Removed a comma splice in the skill model ('wasn't the technique, it was the fear')."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can turn one minute of keyword notes into an organised talk of up to two minutes that covers every bullet and develops the 'explain' point with reasons, a short story and feelings."
+}

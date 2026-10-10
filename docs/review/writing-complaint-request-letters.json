@@ -1,0 +1,13 @@
+{
+  "slug": "writing-complaint-request-letters",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 written production and correspondence descriptors (can write letters giving information, describing a problem and asking for action in simple connected text); language and task demand are B1.",
+  "examFidelity": "IELTS GT Task 1 (150 words, about 20 minutes, three bullet points), TOEIC Respond to a written request (10 minutes) and TOEFL Write an Email (7 minutes) are described in line with exams.ts.",
+  "itemsChecked": 22,
+  "fixes": [
+    "Model coffee-machine letter was 152 words including greeting and signature (about 145 of body text) for a task that says 'at least 150 words': added a relevant sentence ('I still have the original box and the receipt.') so it clearly meets the limit (161)."
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can plan and write a polite but firm complaint or request letter that states the purpose, gives factual details, asks for a specific action and covers every bullet point."
+}

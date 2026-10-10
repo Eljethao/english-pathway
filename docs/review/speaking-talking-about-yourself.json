@@ -1,0 +1,20 @@
+{
+  "slug": "speaking-talking-about-yourself",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B1 spoken production and interaction (can give straightforward descriptions of familiar topics and briefly give reasons and explanations). The language is everyday and the tenses are core B1: present simple, present perfect and used to.",
+  "examFidelity": "IELTS Part 1 (no prep, 20–30 s answers) and TOEFL Take an Interview (no prep, 45 s, research-study interviewer, as in the ETS sample) match exams.ts.",
+  "itemsChecked": 16,
+  "fixes": [
+    "ex1 (order): rewrote the reason and example lines ('The main reason is…', and an example that illustrates that reason) so only one order is defensible. Before, the example line could come before or after the reason.",
+    "The model Part 1 answers were 33–37 words (about 13–17 s), but the walkthrough said 20–25 s and the lesson teaches 20–30 s. I added one natural sentence to each answer and changed the claim to 'about 20 seconds'.",
+    "The ex4 model answer now uses 'because', which is one of its target phrases and was missing.",
+    "ex3 now also accepts the contracted answers 've lived and 'd love to.",
+    "The TOEIC tip now matches exams.ts: 3 questions, almost no prep time, 15 or 30 seconds per answer.",
+    "Changed 'she' to 'the candidate' in the walkthrough, because the TTS voice gender is not fixed."
+  ],
+  "openConcerns": [
+    "The lesson has a TOEIC Respond to questions tip but no TOEIC exam tag (the plan lists IELTS and TOEFL only). It is harmless, but the curriculum owner should decide whether to tag it."
+  ],
+  "learnerOutcome": "A learner can answer familiar personal questions with a direct answer, a reason and an example, in the right tense, for 20–45 seconds instead of one-line replies."
+}

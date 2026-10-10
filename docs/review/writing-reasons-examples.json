@@ -1,0 +1,19 @@
+{
+  "slug": "writing-reasons-examples",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches the B1 descriptor 'can write short, simple essays on topics of interest… giving reasons', with a supported 100-word paragraph and B1 cohesive devices.",
+  "examFidelity": "The IELTS Task 2 rubric wording, the TOEFL Academic Discussion (about 10 minutes) and the TOEIC opinion-essay scoring focus (reasons and/or examples) are all accurate.",
+  "itemsChecked": 19,
+  "fixes": [
+    "The model task and paragraph (part-time jobs for students: café skills, a second reason about money, about ten hours a week) almost duplicated the model in lesson 2 (writing-clear-paragraph). They were replaced with a new task ('Should schools teach students how to manage money?') and a new 165-word model paragraph. The walkthrough and the stated word count were rewritten to match.",
+    "The learn table example also used the part-time-job topic. It now uses a new topic (learning a musical instrument), and the warm-up question about part-time jobs was replaced.",
+    "Vocabulary: replaced 'part-time job' and 'career' (no longer used) with 'manage' and 'debt', which the new model uses.",
+    "ex3: the sentence '[Because of] the high cost of living, many families cannot buy new books every month' broke the paragraph's logic. It now reads 'these free services are more important than ever'.",
+    "ex3 gap 6: added 'Therefore' and 'So' as accepted answers."
+  ],
+  "openConcerns": [
+    "Some overlap with lesson 4 on because / because of / so remains. It is short and is used here to support examples, so it was kept."
+  ],
+  "learnerOutcome": "A learner can support an opinion paragraph with two reasons, each explained and backed by a specific, believable example, using reason and example language correctly."
+}

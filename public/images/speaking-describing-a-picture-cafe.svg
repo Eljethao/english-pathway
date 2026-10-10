@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">A busy café in the morning</title>
+  <desc id="desc">A barista makes coffee behind a counter while a customer pays. At a round table by the window, a woman uses a laptop and a man reads a newspaper.</desc>
+  <rect width="800" height="500" fill="#ffffff"/>
+
+  <!-- Floor -->
+  <rect x="0" y="400" width="800" height="100" fill="#f3f4f6"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- Menu board -->
+  <rect x="50" y="40" width="190" height="110" rx="6" fill="#374151"/>
+  <text x="145" y="72" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">MENU</text>
+  <line x1="70" y1="92" x2="220" y2="92" stroke="#d1d5db" stroke-width="3"/>
+  <line x1="70" y1="108" x2="200" y2="108" stroke="#d1d5db" stroke-width="3"/>
+  <line x1="70" y1="124" x2="210" y2="124" stroke="#d1d5db" stroke-width="3"/>
+  <line x1="70" y1="138" x2="190" y2="138" stroke="#d1d5db" stroke-width="3"/>
+
+  <!-- Clock showing nine o'clock -->
+  <circle cx="330" cy="85" r="28" fill="#ffffff" stroke="#6b7280" stroke-width="3"/>
+  <line x1="330" y1="85" x2="313" y2="85" stroke="#374151" stroke-width="4" stroke-linecap="round"/>
+  <line x1="330" y1="85" x2="330" y2="63" stroke="#374151" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Window with tree and sun -->
+  <rect x="500" y="40" width="260" height="190" fill="#e0f2fe"/>
+  <circle cx="715" cy="85" r="20" fill="#fcd34d"/>
+  <rect x="568" y="150" width="12" height="80" fill="#a16207"/>
+  <circle cx="574" cy="132" r="38" fill="#86efac"/>
+  <line x1="630" y1="40" x2="630" y2="230" stroke="#9ca3af" stroke-width="4"/>
+  <line x1="500" y1="135" x2="760" y2="135" stroke="#9ca3af" stroke-width="4"/>
+  <rect x="500" y="40" width="260" height="190" fill="none" stroke="#9ca3af" stroke-width="4"/>
+
+  <!-- Coffee machine -->
+  <rect x="60" y="190" width="85" height="72" rx="6" fill="#9ca3af" stroke="#6b7280" stroke-width="2"/>
+  <rect x="95" y="228" width="14" height="10" fill="#4b5563"/>
+  <rect x="92" y="244" width="20" height="16" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+
+  <!-- Barista -->
+    <circle cx="210" cy="176" r="22" fill="#c68c5a"/>
+  <path d="M188 176 A22 22 0 0 1 232 176 Q210 160 188 176 Z" fill="#1f2937"/>
+  <circle cx="210" cy="148" r="9" fill="#1f2937"/>
+  <rect x="180" y="198" width="60" height="80" rx="12" fill="#60a5fa"/>
+  <rect x="192" y="212" width="36" height="60" rx="4" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="186" y1="210" x2="142" y2="234" stroke="#60a5fa" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="140" cy="235" r="7" fill="#c68c5a"/>
+
+  <!-- Counter -->
+  <rect x="30" y="262" width="290" height="14" fill="#a47148"/>
+  <rect x="40" y="276" width="270" height="124" fill="#d6b48c" stroke="#a47148" stroke-width="2"/>
+  <line x1="130" y1="276" x2="130" y2="400" stroke="#a47148" stroke-width="2"/>
+  <line x1="220" y1="276" x2="220" y2="400" stroke="#a47148" stroke-width="2"/>
+
+  <!-- Takeaway cups on the counter -->
+  <rect x="250" y="242" width="16" height="20" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <rect x="248" y="238" width="20" height="5" fill="#6b7280"/>
+  <rect x="274" y="242" width="16" height="20" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <rect x="272" y="238" width="20" height="5" fill="#6b7280"/>
+
+  <!-- Customer paying at the counter -->
+  <rect x="340" y="310" width="17" height="88" fill="#1e3a8a"/>
+  <rect x="363" y="310" width="17" height="88" fill="#1e3a8a"/>
+  <ellipse cx="346" cy="398" rx="13" ry="5" fill="#374151"/>
+  <ellipse cx="372" cy="398" rx="13" ry="5" fill="#374151"/>
+  <rect x="335" y="212" width="50" height="102" rx="10" fill="#f59e0b"/>
+  <circle cx="360" cy="190" r="22" fill="#8d5524"/>
+  <path d="M338 190 A22 22 0 0 1 382 190 Q360 172 338 190 Z" fill="#111827"/>
+  <line x1="342" y1="226" x2="306" y2="252" stroke="#f59e0b" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="304" cy="254" r="7" fill="#8d5524"/>
+  <rect x="288" y="246" width="15" height="10" rx="1" fill="#ef4444"/>
+
+  <!-- Woman's chair -->
+  <rect x="416" y="250" width="10" height="90" fill="#a47148"/>
+  <rect x="416" y="330" width="64" height="10" fill="#a47148"/>
+  <line x1="422" y1="340" x2="422" y2="400" stroke="#a47148" stroke-width="5"/>
+  <line x1="474" y1="340" x2="474" y2="400" stroke="#a47148" stroke-width="5"/>
+
+  <!-- Woman with laptop -->
+  <rect x="431" y="222" width="48" height="50" rx="14" fill="#7c2d12"/>
+  <circle cx="455" cy="235" r="22" fill="#f1c7a3"/>
+  <path d="M433 235 A22 22 0 0 1 477 235 Q455 219 433 235 Z" fill="#7c2d12"/>
+  <rect x="430" y="257" width="50" height="78" rx="12" fill="#f472b6"/>
+  <rect x="455" y="324" width="50" height="14" rx="5" fill="#374151"/>
+  <rect x="491" y="330" width="14" height="66" fill="#374151"/>
+
+  <!-- Man's chair -->
+  <rect x="714" y="250" width="10" height="90" fill="#a47148"/>
+  <rect x="660" y="330" width="64" height="10" fill="#a47148"/>
+  <line x1="666" y1="340" x2="666" y2="400" stroke="#a47148" stroke-width="5"/>
+  <line x1="718" y1="340" x2="718" y2="400" stroke="#a47148" stroke-width="5"/>
+
+  <!-- Man reading a newspaper (body) -->
+  <circle cx="690" cy="235" r="22" fill="#e0ac69"/>
+  <path d="M668 235 A22 22 0 0 1 712 235 Q690 217 668 235 Z" fill="#4b5563"/>
+  <rect x="665" y="257" width="50" height="78" rx="12" fill="#34d399"/>
+  <rect x="640" y="324" width="50" height="14" rx="5" fill="#6b7280"/>
+  <rect x="636" y="330" width="14" height="66" fill="#6b7280"/>
+
+  <!-- Round table -->
+  <rect x="562" y="334" width="16" height="62" fill="#a47148"/>
+  <ellipse cx="570" cy="398" rx="40" ry="6" fill="#a47148"/>
+  <ellipse cx="570" cy="320" rx="110" ry="16" fill="#c8a27a" stroke="#a47148" stroke-width="2"/>
+
+  <!-- Laptop -->
+  <line x1="485" y1="312" x2="535" y2="312" stroke="#4b5563" stroke-width="5" stroke-linecap="round"/>
+  <line x1="535" y1="312" x2="546" y2="272" stroke="#4b5563" stroke-width="6" stroke-linecap="round"/>
+  <line x1="466" y1="282" x2="500" y2="306" stroke="#f472b6" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="503" cy="308" r="6" fill="#f1c7a3"/>
+
+  <!-- Cup of coffee on the table -->
+  <rect x="560" y="296" width="18" height="18" rx="2" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <path d="M578 300 a5 5 0 0 1 0 10" fill="none" stroke="#6b7280" stroke-width="2"/>
+
+  <!-- Newspaper -->
+  <rect x="606" y="252" width="62" height="66" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <line x1="614" y1="264" x2="660" y2="264" stroke="#374151" stroke-width="4"/>
+  <line x1="614" y1="276" x2="660" y2="276" stroke="#d1d5db" stroke-width="2"/>
+  <line x1="614" y1="284" x2="660" y2="284" stroke="#d1d5db" stroke-width="2"/>
+  <line x1="614" y1="292" x2="660" y2="292" stroke="#d1d5db" stroke-width="2"/>
+  <line x1="614" y1="300" x2="645" y2="300" stroke="#d1d5db" stroke-width="2"/>
+  <line x1="676" y1="276" x2="666" y2="290" stroke="#34d399" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="665" cy="292" r="6" fill="#e0ac69"/>
+
+  <!-- Plant in the corner -->
+  <ellipse cx="750" cy="330" rx="10" ry="26" fill="#22c55e" transform="rotate(-25 750 330)"/>
+  <ellipse cx="770" cy="330" rx="10" ry="26" fill="#16a34a" transform="rotate(25 770 330)"/>
+  <ellipse cx="760" cy="322" rx="10" ry="30" fill="#4ade80"/>
+  <polygon points="738,360 782,360 777,400 743,400" fill="#c2410c"/>
+</svg>

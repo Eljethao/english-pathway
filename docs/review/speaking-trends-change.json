@@ -1,0 +1,16 @@
+{
+  "slug": "speaking-trends-change",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "C1: describing direction, speed and degree of change with idiomatic collocations, the grammar of change (present perfect continuous, would, the more… the more) and evaluating whether a trend will last matches C1 spoken production and vocabulary range.",
+  "examFidelity": "IELTS Part 3 (no prep, 60 s) and TOEFL Take an Interview (no prep, 45 s, later opinion-type question) match exams.ts; the band 7 Lexical Resource quote ('an awareness of style and collocation') is verbatim; noun/verb stress pairs (INcrease/inCREASE, PROgress/proGRESS, REcord/reCORD) are correct.",
+  "itemsChecked": 26,
+  "fixes": [
+    "Changed the target phrase 'whereas… would' to 'whereas my parents would'. The app's phrase matcher removes punctuation, so a phrase with an ellipsis could never be credited",
+    "Trimmed the Part 3 model (ex4) from 143 to 140 words to fit 60 s"
+  ],
+  "openConcerns": [
+    "TTS may not show the noun/verb stress shift in the shadowing sentences; the instructions correctly tell learners to follow the marked versions"
+  ],
+  "learnerOutcome": "A learner can describe how something has changed (then, now, driver, next) with precise trend verbs, collocations and tenses, and end with a hedged evaluation or forecast instead of invented statistics."
+}

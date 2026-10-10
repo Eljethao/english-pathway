@@ -1,0 +1,16 @@
+{
+  "slug": "reading-multiple-choice-strategies",
+  "level": "B1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches B1 (CEFR CV reading for information: can find and understand relevant information in everyday material): 166–211-word notices, emails and web pages with distractor analysis that B1 readers can apply.",
+  "examFidelity": "The texts are realistic for IELTS General Training Section 1, TOEFL Read in Daily Life (texts of about 85–90 words with 3 questions each, matching exams.ts) and TOEIC Part 7, with NOT and choose-TWO questions. Every MCQ has one defensible key, and the choose-TWO item has exactly two.",
+  "itemsChecked": 25,
+  "fixes": [
+    "Moved the correct option in ex2 q2, ex3 q1, ex3 q4 and ex4 q4 to break a heavy position-B pattern, and updated the option letters named in the explanations"
+  ],
+  "openConcerns": [
+    "Spelling and date conventions vary between texts (£ and UK spelling in the IELTS and ferry texts; $, 'Dr.' and '3.30' in the TOEFL-style email). Each text is consistent with itself, which is acceptable, but '3:30' would be more natural in the American email.",
+    "ex5 item 2 ('A bowl from the ferry café') could be argued as 'wrong detail' as well as 'word trap'. The 'use each reason once' rule makes the key unique."
+  ],
+  "learnerOutcome": "A learner can locate the answer before reading the options and reject distractors for a stated reason (not in the text, wrong detail, word trap, true but not the answer, too strong), including in NOT and choose-TWO questions."
+}

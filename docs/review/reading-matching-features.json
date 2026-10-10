@@ -1,0 +1,13 @@
+{
+  "slug": "reading-matching-features",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Fits B2 (CEFR CV: can understand articles in which writers adopt particular stances and viewpoints): passages report several experts' or theories' positions, and learners follow reporting verbs (argues, concedes, doubts, dismisses) across paragraphs.",
+  "examFidelity": "Matches IELTS Matching features (people, theories or groups as options, letters reusable when stated, statements paraphrased and not in passage order); I solved all 29 items independently and each has exactly one defensible option.",
+  "itemsChecked": 29,
+  "fixes": [
+    "Practice passage 'Who travels after midnight?' was 331 words, below the B2 range of 350–550; added a neutral sentence about how the survey was carried out (now 359 words) without adding any answerable detail"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "A learner can anchor on names and follow each person's view across a text, separating who found, argued, conceded or rejected an idea."
+}

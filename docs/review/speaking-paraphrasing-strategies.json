@@ -1,0 +1,16 @@
+{
+  "slug": "speaking-paraphrasing-strategies",
+  "level": "B2",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Directly targets the CEFR B2 compensating descriptor ('can use circumlocution and paraphrase to cover gaps in vocabulary and structure'), correctly quoted; the IELTS LR paraphrase references match the public descriptors (band 6 'generally... successfully', band 7 'effective use').",
+  "examFidelity": "IELTS Part 2 (60/120 s), TOEFL interview (45 s) and TOEIC Describe a picture (30 s) references match exams.ts.",
+  "itemsChecked": 27,
+  "fixes": [
+    "Match item 4 rewritten ('I mean things like tents...') so it no longer also fits 'general word plus detail'",
+    "MCQ Q1: removed the length clue 'a lift (an elevator)'; US term moved to the explanation",
+    "Gap fill: added accepted answers (made to, like, a little like, far from, not at all, someone that, the place, a place where, for instance, etc.)",
+    "TOEFL tip: replaced the exaggerated 'a quarter of your time' with 'five or ten seconds'"
+  ],
+  "openConcerns": [],
+  "learnerOutcome": "Can keep talking when a word is missing by describing purpose, shape, role, category, comparison or examples, with a short bridging phrase."
+}

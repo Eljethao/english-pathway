@@ -1,0 +1,18 @@
+{
+  "slug": "listening-attitude-opinion-inference",
+  "level": "C1",
+  "verdict": "meets-after-fixes",
+  "cefrAlignment": "Matches C1 (CEFR CV: can recognise implicit attitudes and relationships between speakers, and understand idiomatic expressions and register shifts): the discussions rely on concession, hedging, understatement and changes of plan, and every item requires inference about the speaker's final position.",
+  "examFidelity": "The 3-option MCQ and speaker–opinion matching with two spare options reflect IELTS Part 3, and the implied-meaning reply items now use four options, as exams.ts specifies for TOEFL Listen and Choose a Response.",
+  "itemsChecked": 18,
+  "fixes": [
+    "Respond items (TOEFL Listen and Choose a Response): added a plausible fourth wrong reply to each of the 4 items, to match the four-option format in exams.ts.",
+    "Q3 key: changed 'a management failure rather than a problem with the idea itself' to 'a failure of organisation, not a reason to reject the scheme'. The old wording copied the transcript too closely.",
+    "Q6: removed the give-away word 'only' from a distractor and paraphrased the key ('whether they would convince a doubtful farmer') so that it no longer repeats the transcript's words.",
+    "Exam tips: softened 'all three options are usually mentioned' to 'often mentioned' (IELTS), and 'Conversation questions often ask…' to 'can ask…' (TOEFL); neither is backed by exams.ts."
+  ],
+  "openConcerns": [
+    "TTS: Mia/Owen and Priya/Daniel get alternating voices that may not match the speakers' genders, and synthetic intonation may flatten cues such as 'Hmm, maybe' or 'Now that I like'. A specialist should listen."
+  ],
+  "learnerOutcome": "A learner who completes the lesson can separate a concession from a speaker's real view, track partial agreement and changes of plan across a discussion, and choose replies that respond to implied rather than literal meaning."
+}
