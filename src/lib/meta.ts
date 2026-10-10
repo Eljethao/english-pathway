@@ -108,5 +108,5 @@ export const SITE = {
   name: "English Pathway",
   description:
     "Free structured English lessons from B1 to C1 for IELTS, TOEFL iBT and TOEIC. Listening, reading, writing and speaking with instant feedback.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://english-pathway.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://english.ljthao.com",
 };

@@ -1,4 +1,5 @@
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
+import { SITE } from "./meta";
 import {
   getProgress,
   mergeProgress,
@@ -175,7 +176,8 @@ export async function sendMagicLink(email: string) {
   if (!supabase) throw new Error("Cloud sync is not configured.");
   const { error } = await supabase.auth.signInWithOtp({
     email,
-    options: { emailRedirectTo: `${window.location.origin}/auth/callback`, shouldCreateUser: true },
+    // Links always open the live site, even when requested from a local copy.
+    options: { emailRedirectTo: `${SITE.url}/auth/callback`, shouldCreateUser: true },
   });
   if (error) throw error;
 }
