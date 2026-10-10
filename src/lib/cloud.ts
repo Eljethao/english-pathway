@@ -182,6 +182,81 @@ export async function sendMagicLink(email: string) {
   if (error) throw error;
 }
 
+/** Minimum password length (Supabase's own minimum is 6). */
+export const MIN_PASSWORD = 8;
+
+function authError(error: { message: string; code?: string }) {
+  const m = error.message;
+  if (error.code === "invalid_credentials" || /invalid login credentials/i.test(m))
+    return new Error("Wrong email or password. If you used to sign in with an email link, choose “Forgot password?” to set one.");
+  if (error.code === "email_not_confirmed" || /email not confirmed/i.test(m))
+    return Object.assign(new Error("Please confirm your email first: open the link we sent when you created your account."), {
+      unconfirmed: true,
+    });
+  if (/rate limit/i.test(m)) return new Error("Too many attempts. Please wait a few minutes and try again.");
+  return new Error(m);
+}
+
+export async function signInWithPassword(email: string, password: string) {
+  const supabase = getSupabase();
+  if (!supabase) throw new Error("Cloud sync is not configured.");
+  const { error } = await supabase.auth.signInWithPassword({ email, password });
+  if (error) throw authError(error);
+}
+
+/**
+ * Creates an account. Returns "signed-in" when the project does not require email confirmation,
+ * otherwise "confirm" (a confirmation email was sent).
+ */
+export async function signUpWithPassword(email: string, password: string): Promise<"signed-in" | "confirm"> {
+  const supabase = getSupabase();
+  if (!supabase) throw new Error("Cloud sync is not configured.");
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: { emailRedirectTo: `${SITE.url}/auth/callback` },
+  });
+  if (error) {
+    if (error.code === "user_already_exists" || /already registered/i.test(error.message))
+      throw new Error("An account with this email already exists. Sign in instead, or reset your password.");
+    throw authError(error);
+  }
+  // With confirmation on, Supabase hides whether the email is taken: an existing user comes back with no identities.
+  if (data.user && data.user.identities?.length === 0)
+    throw new Error("An account with this email already exists. Sign in instead, or reset your password.");
+  return data.session ? "signed-in" : "confirm";
+}
+
+export async function resendConfirmation(email: string) {
+  const supabase = getSupabase();
+  if (!supabase) throw new Error("Cloud sync is not configured.");
+  const { error } = await supabase.auth.resend({
+    type: "signup",
+    email,
+    options: { emailRedirectTo: `${SITE.url}/auth/callback` },
+  });
+  if (error) throw authError(error);
+}
+
+/** Emails a link that opens /auth/reset, where a new password can be chosen. */
+export async function sendPasswordReset(email: string) {
+  const supabase = getSupabase();
+  if (!supabase) throw new Error("Cloud sync is not configured.");
+  const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo: `${SITE.url}/auth/reset` });
+  if (error) throw authError(error);
+}
+
+/** Sets a new password for the signed-in user. */
+export async function updatePassword(password: string) {
+  const supabase = getSupabase();
+  if (!supabase) throw new Error("Cloud sync is not configured.");
+  const { error } = await supabase.auth.updateUser({ password });
+  if (error) {
+    if (error.code === "same_password") throw new Error("Choose a password that is different from your current one.");
+    throw authError(error);
+  }
+}
+
 export async function signOut({ sync = true } = {}) {
   const supabase = getSupabase();
   if (!supabase) return;

@@ -1,14 +1,15 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useId, useState, type FormEvent } from "react";
 import { useCloud } from "@/hooks/useCloud";
-import { cloudConfigured, deleteCloudProgress, sendMagicLink, signOut, syncNow } from "@/lib/cloud";
+import { cloudConfigured, deleteCloudProgress, MIN_PASSWORD, signOut, syncNow, updatePassword } from "@/lib/cloud";
 import { cn } from "@/lib/utils";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { Modal } from "@/components/ui/Modal";
 import { IconCheck, IconRefresh } from "@/components/ui/icons";
 import type { LessonSummary } from "@/lib/types";
 import { ProfileSummary } from "./ProfileSummary";
+import { PasswordInput, SignInForm } from "./SignInForm";
 
 const STATUS_TEXT = {
   off: "Not syncing",
@@ -34,11 +35,9 @@ export function AccountPanel({ lessons }: { lessons: LessonSummary[] }) {
 
 function SyncPanel() {
   const cloud = useCloud();
-  const [email, setEmail] = useState("");
-  const [sent, setSent] = useState(false);
-  const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [confirmDelete, setConfirmDelete] = useState(false);
+  const [changePassword, setChangePassword] = useState(false);
 
   if (!cloudConfigured)
     return (
@@ -50,64 +49,10 @@ function SyncPanel() {
 
   if (!cloud.ready) return <div className="h-48 max-w-xl animate-pulse rounded-xl bg-surface" aria-busy="true" />;
 
-  const submit = async (e: FormEvent) => {
-    e.preventDefault();
-    setBusy(true);
-    setError(null);
-    try {
-      await sendMagicLink(email.trim());
-      setSent(true);
-    } catch (err) {
-      const msg = err instanceof Error ? err.message : "Could not send the email.";
-      setError(/rate limit/i.test(msg) ? "Too many emails were sent recently. Please wait a few minutes and try again." : msg);
-    } finally {
-      setBusy(false);
-    }
-  };
-
   if (!cloud.user)
     return (
       <div className="max-w-xl">
-        {sent ? (
-          <div className="rounded-lg border border-line p-6" role="status">
-            <h2 className="text-lg font-semibold">Check your email</h2>
-            <p className="mt-2 text-zinc-600">
-              We sent a sign-in link to <strong className="text-ink">{email}</strong>. Open it in this browser to finish
-              signing in. It can take a minute to arrive, so check your spam folder too.
-            </p>
-            <Button variant="ghost" className="mt-4 -ml-3" onClick={() => setSent(false)}>
-              Use a different email
-            </Button>
-          </div>
-        ) : (
-          <form onSubmit={submit} className="rounded-lg border border-line p-6">
-            <h2 className="text-lg font-semibold">Sign in to sync your progress</h2>
-            <p className="mt-1 text-sm text-zinc-500">
-              No password needed. We email you a one-time link. New here? The same link creates your account.
-            </p>
-            <label htmlFor="email" className="mt-5 block text-sm font-medium text-ink">
-              Email
-            </label>
-            <input
-              id="email"
-              type="email"
-              required
-              autoComplete="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="mt-1.5 h-11 w-full rounded-lg border border-zinc-300 px-3 outline-none focus:border-accent"
-              placeholder="you@example.com"
-            />
-            {error && (
-              <p className="mt-2 text-sm text-error" role="alert">
-                {error}
-              </p>
-            )}
-            <Button type="submit" size="lg" className="mt-4 w-full" disabled={busy}>
-              {busy ? "Sending…" : "Email me a sign-in link"}
-            </Button>
-          </form>
-        )}
+        <SignInForm />
         <ul className="mt-6 space-y-2 text-sm text-zinc-600">
           {[
             "Keep your lessons, scores, saved words and streak on every device",
@@ -158,6 +103,9 @@ function SyncPanel() {
         <ButtonLink href="/progress" variant="secondary">
           View progress
         </ButtonLink>
+        <Button variant="secondary" onClick={() => setChangePassword(true)}>
+          Set or change password
+        </Button>
         <Button variant="secondary" onClick={() => signOut()}>
           Sign out
         </Button>
@@ -165,10 +113,18 @@ function SyncPanel() {
           Delete cloud copy
         </Button>
       </div>
+      {error && (
+        <p className="rounded-lg bg-rose-50 px-3 py-2 text-sm text-rose-700" role="alert">
+          {error}
+        </p>
+      )}
       <p className="text-xs text-zinc-500">
         Signing out keeps your progress on this device. Your progress is stored in your own private row; only you can read
         it.
       </p>
+      <Modal open={changePassword} onClose={() => setChangePassword(false)} title="Set or change your password">
+        <ChangePasswordForm onDone={() => setChangePassword(false)} />
+      </Modal>
       <Modal open={confirmDelete} onClose={() => setConfirmDelete(false)} title="Delete your cloud progress?">
         <p className="text-sm text-zinc-600">
           This removes the copy stored online and signs you out. Progress in this browser is not deleted, and other devices
@@ -194,5 +150,61 @@ function SyncPanel() {
         </div>
       </Modal>
     </div>
+  );
+}
+
+/** Sets a new password for the signed-in learner (also for accounts that only used email links). */
+export function ChangePasswordForm({ onDone }: { onDone: () => void }) {
+  const id = useId();
+  const [password, setPassword] = useState("");
+  const [confirm, setConfirm] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [done, setDone] = useState(false);
+
+  const submit = async (e: FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    if (password.length < MIN_PASSWORD) return setError(`Use at least ${MIN_PASSWORD} characters.`);
+    if (password !== confirm) return setError("The two passwords don't match.");
+    setBusy(true);
+    try {
+      await updatePassword(password);
+      setDone(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Could not save the password.");
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  if (done)
+    return (
+      <div role="status">
+        <p className="text-sm text-zinc-600">Your password is saved. Next time, sign in with your email and this password.</p>
+        <div className="mt-5 flex justify-end">
+          <Button onClick={onDone}>Done</Button>
+        </div>
+      </div>
+    );
+
+  return (
+    <form onSubmit={submit}>
+      <PasswordInput id={`${id}-new`} value={password} onChange={setPassword} autoComplete="new-password" label="New password" />
+      <PasswordInput id={`${id}-confirm`} value={confirm} onChange={setConfirm} autoComplete="new-password" label="Repeat the new password" />
+      {error && (
+        <p className="mt-3 text-sm text-error" role="alert">
+          {error}
+        </p>
+      )}
+      <div className="mt-5 flex justify-end gap-2">
+        <Button variant="secondary" onClick={onDone}>
+          Cancel
+        </Button>
+        <Button type="submit" disabled={busy}>
+          {busy ? "Saving…" : "Save password"}
+        </Button>
+      </div>
+    </form>
   );
 }

@@ -22,7 +22,7 @@ export function AuthCallback() {
   }, []);
 
   useEffect(() => {
-    if (cloud.user) router.replace("/account");
+    if (cloud.user) router.replace("/");
   }, [cloud.user, router]);
 
   if (urlError || (slow && !cloud.user))
