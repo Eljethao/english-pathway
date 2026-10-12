@@ -155,6 +155,8 @@ export function startCloud() {
     setState({ ready: true, user, status: user ? (state.status === "off" ? "idle" : state.status) : "off" });
     // Supabase recommends not awaiting other calls inside this callback.
     if (user && (changed || event === "SIGNED_IN")) setTimeout(syncNow, 0);
+    // A reset link can land on any page (Supabase falls back to the Site URL); always finish on /auth/reset.
+    if (event === "PASSWORD_RECOVERY" && window.location.pathname !== "/auth/reset") window.location.replace("/auth/reset");
   });
 
   let timer: ReturnType<typeof setTimeout> | undefined;
