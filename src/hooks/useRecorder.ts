@@ -11,6 +11,7 @@ export function useRecorder() {
   const hydrated = useHydrated();
   const [status, setStatus] = useState<RecorderStatus>("idle");
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
+  const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const [finalText, setFinalText] = useState("");
   const [interim, setInterim] = useState("");
   const [duration, setDuration] = useState(0);
@@ -38,6 +39,7 @@ export function useRecorder() {
     if (urlRef.current) URL.revokeObjectURL(urlRef.current);
     urlRef.current = null;
     setAudioUrl(null);
+    setAudioBlob(null);
     setFinalText("");
     setInterim("");
     setDuration(0);
@@ -53,9 +55,11 @@ export function useRecorder() {
     const rec = new MediaRecorder(stream);
     rec.ondataavailable = (e) => e.data.size && chunks.push(e.data);
     rec.onstop = () => {
-      const url = URL.createObjectURL(new Blob(chunks, { type: rec.mimeType || "audio/webm" }));
+      const blob = new Blob(chunks, { type: rec.mimeType || "audio/webm" });
+      const url = URL.createObjectURL(blob);
       urlRef.current = url;
       setAudioUrl(url);
+      setAudioBlob(blob);
     };
     mediaRef.current = rec;
     rec.start();
@@ -119,6 +123,7 @@ export function useRecorder() {
     if (urlRef.current) URL.revokeObjectURL(urlRef.current);
     urlRef.current = null;
     setAudioUrl(null);
+    setAudioBlob(null);
     setFinalText("");
     setInterim("");
     setDuration(0);
@@ -138,6 +143,8 @@ export function useRecorder() {
     recognitionSupported: hydrated && getRecognitionCtor() !== null,
     status,
     audioUrl,
+    /** The finished recording, for AI feedback. */
+    audioBlob,
     transcript: (finalText + " " + interim).trim(),
     finalTranscript: finalText,
     duration,

@@ -123,6 +123,11 @@ export const IconRefresh = (p: IconProps) => (
     <path d="M21 12a9 9 0 1 1-3-6.7L21 8M21 3v5h-5" />
   </Icon>
 );
+export const IconSparkle = (p: IconProps) => (
+  <Icon {...p}>
+    <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z" />
+  </Icon>
+);
 export const IconVolume = (p: IconProps) => (
   <Icon {...p}>
     <path d="M11 5 6 9H2v6h4l5 4zM15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14" />

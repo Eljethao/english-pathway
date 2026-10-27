@@ -3,7 +3,7 @@
 import { createContext, useCallback, useContext, type ReactNode } from "react";
 import { useProgress } from "@/hooks/useProgress";
 import { setExerciseScore } from "@/lib/progress";
-import type { Exercise } from "@/lib/types";
+import type { Exercise, Level } from "@/lib/types";
 import { cn, percent } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
 import { IconCheck, IconRefresh, IconX } from "@/components/ui/icons";
@@ -11,13 +11,23 @@ import { Inline } from "@/components/lesson/RichText";
 
 /** Where exercise scores are stored: a lesson slug, or "practice/<set id>". */
 const ScopeContext = createContext("misc");
+/** Level of the lesson the exercises belong to (used to pitch AI feedback). */
+const LevelContext = createContext<Level | undefined>(undefined);
 
-export function ExerciseScope({ scope, children }: { scope: string; children: ReactNode }) {
-  return <ScopeContext.Provider value={scope}>{children}</ScopeContext.Provider>;
+export function ExerciseScope({ scope, level, children }: { scope: string; level?: Level; children: ReactNode }) {
+  return (
+    <ScopeContext.Provider value={scope}>
+      <LevelContext.Provider value={level}>{children}</LevelContext.Provider>
+    </ScopeContext.Provider>
+  );
 }
 
 export function useExerciseScope() {
   return useContext(ScopeContext);
+}
+
+export function useExerciseLevel() {
+  return useContext(LevelContext);
 }
 
 /** Saves a 0–100 score for an exercise and returns the saved best. */

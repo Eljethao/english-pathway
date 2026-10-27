@@ -7,12 +7,14 @@ import { cn, percent } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
 import { IconMic, IconStop } from "@/components/ui/icons";
 import { PlayButton, SpeedAccent } from "@/components/media/TtsPlayer";
+import { AiFeedback } from "@/components/media/AiFeedback";
 import { RecorderNotice, RecordingDot } from "@/components/media/Recorder";
 import { diffWords } from "./DictationExercise";
-import { ExerciseShell } from "./ExerciseShell";
+import { ExerciseShell, useExerciseLevel } from "./ExerciseShell";
 
 function SentenceRow({ sentence, index, accent, rate }: { sentence: string; index: number; accent: Voice; rate: number }) {
   const rec = useRecorder();
+  const level = useExerciseLevel();
   const recording = rec.status === "recording";
   const diff = rec.finalTranscript ? diffWords(sentence, rec.transcript) : null;
   return (
@@ -55,6 +57,16 @@ function SentenceRow({ sentence, index, accent, rate }: { sentence: string; inde
         )}
       </div>
       {recording && rec.transcript && <p className="pl-6 text-sm text-zinc-500 italic">{rec.transcript}</p>}
+      {rec.status === "stopped" && (
+        <div className="pl-6">
+          <AiFeedback
+            key={rec.audioUrl}
+            compact
+            recording={rec.audioBlob}
+            request={{ mode: "shadow", text: sentence, level, accent }}
+          />
+        </div>
+      )}
       {rec.status === "denied" && (
         <div className="pl-6">
           <RecorderNotice recordingSupported recognitionSupported status="denied" />

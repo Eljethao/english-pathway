@@ -10,8 +10,9 @@ import { ProgressBar } from "@/components/ui/ProgressBar";
 import { IconMic, IconRefresh, IconStop } from "@/components/ui/icons";
 import { RichText } from "@/components/lesson/RichText";
 import { PlayButton } from "@/components/media/TtsPlayer";
+import { AiFeedback } from "@/components/media/AiFeedback";
 import { RecorderNotice, RecordingDot, SpeechStats } from "@/components/media/Recorder";
-import { ExerciseShell } from "./ExerciseShell";
+import { ExerciseShell, useExerciseLevel } from "./ExerciseShell";
 
 type Phase = "ready" | "prep" | "speaking" | "done";
 
@@ -22,12 +23,18 @@ const DEFAULT_CHECKLIST = [
   "I used linking words (because, for example, however…).",
 ];
 
+/** The task as the learner saw it: prompt plus cue-card points. */
+function speakTaskText(exercise: SpeakType) {
+  return [exercise.prompt, ...(exercise.cueCard ?? []).map((c) => `- ${c}`)].join("\n");
+}
+
 export function SpeakExercise({ exercise }: { exercise: SpeakType }) {
   const [phase, setPhase] = useState<Phase>("ready");
   const [notes, setNotes] = useState("");
   const [showModel, setShowModel] = useState(false);
   const [checks, setChecks] = useState<Record<number, boolean>>({});
   const rec = useRecorder();
+  const level = useExerciseLevel();
 
   const speak = useTimer({
     seconds: exercise.speakSeconds,
@@ -175,6 +182,12 @@ export function SpeakExercise({ exercise }: { exercise: SpeakType }) {
                 </div>
               )
             )}
+
+            <AiFeedback
+              key={rec.audioUrl}
+              recording={rec.audioBlob}
+              request={{ mode: "speak", text: speakTaskText(exercise), level }}
+            />
 
             <fieldset className="rounded-lg border border-line p-4">
               <legend className="px-1 text-sm font-medium text-ink">Self-check</legend>

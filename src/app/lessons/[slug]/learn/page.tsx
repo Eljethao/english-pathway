@@ -152,7 +152,7 @@ async function Learn({ params }: { params: Promise<{ slug: string }> }) {
   }));
 
   return (
-    <ExerciseScope scope={lesson.slug}>
+    <ExerciseScope scope={lesson.slug} level={lesson.level}>
       <LessonTracker slug={lesson.slug} />
       <h1 className="sr-only">{lesson.title}</h1>
       <LessonPlayer
