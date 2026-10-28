@@ -76,6 +76,7 @@ const lesson: Lesson = {
         questions: [
           {
             prompt: "A: “Did you buy a red jacket?” B: “No, I bought a blue jacket.” Which word should B stress most?",
+            say: "No, I bought a blue jacket.",
             options: ["bought", "blue", "jacket", "I"],
             answer: 1,
             explanation: "*Blue* is the new, contrasting information (red vs. blue), so it becomes the focus word.",
@@ -94,6 +95,7 @@ const lesson: Lesson = {
           },
           {
             prompt: "In “I want to go and see it”, how are *to* and *and* usually pronounced in natural speech?",
+            say: "I want to go and see it.",
             options: ["/tuː/ and /ænd/, clearly and fully", "/tə/ and /ən/, short and weak", "They are stressed because they connect ideas", "They are completely silent"],
             answer: 1,
             explanation: "Function words use weak forms with the schwa sound /ə/. They are short but not silent.",

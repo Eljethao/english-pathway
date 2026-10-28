@@ -138,18 +138,21 @@ const lesson: Lesson = {
         questions: [
           {
             prompt: "A: “Did you say the meeting starts at ten?” B: “No, it finishes at ten.” Which word should B stress most?",
+            say: "No, it finishes at ten.",
             options: ["it", "finishes", "at", "ten"],
             answer: 1,
             explanation: "*Ten* has already been said (given information). The new, contrasting idea is *finishes* (versus *starts*), so it carries the main stress.",
           },
           {
             prompt: "A: “Is your brother older than you?” B: “No, I'm older than him.” Which word should B stress most?",
+            say: "No, I'm older than him.",
             options: ["No", "I'm", "older", "him"],
             answer: 1,
             explanation: "*Older* is given. The contrast is about *who* is older, so the stress moves to *I'm*.",
           },
           {
             prompt: "A: “I hear you've stopped eating meat.” B: “I've stopped eating red meat. I still eat chicken.” Which word in “I've stopped eating red meat” should B stress most?",
+            say: "I've stopped eating red meat.",
             options: ["stopped", "eating", "red", "meat"],
             answer: 2,
             explanation: "*Meat* is given; B is correcting A by narrowing it down, so the contrasting word *red* carries the stress.",

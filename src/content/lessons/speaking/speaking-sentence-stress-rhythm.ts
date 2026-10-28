@@ -78,24 +78,28 @@ const lesson: Lesson = {
         questions: [
           {
             prompt: "Which words are stressed in “I'm going to the shop for some bread”?",
+            say: "I'm going to the shop for some bread.",
             options: ["going, shop, bread", "I'm, to, the, for", "the, some"],
             answer: 0,
             explanation: "Going (main verb), shop and bread (nouns) carry the meaning. The small grammar words are weak.",
           },
           {
             prompt: "In “I need to go”, how is “to” usually said?",
+            say: "I need to go.",
             options: ["Strong, like the number two", "Weak, like tuh /tə/", "It is not pronounced at all"],
             answer: 1,
             explanation: "In the middle of a sentence, to is usually weak: I need tuh go.",
           },
           {
             prompt: "In “Where are you from?”, how is “from” said?",
+            say: "Where are you from?",
             options: ["Weak: frəm", "Strong: from, because it is the last word"],
             answer: 1,
             explanation: "Small words at the end of a sentence keep their strong form.",
           },
           {
             prompt: "“Can you swim?” “Yes, I can.” How is “can” said in the answer?",
+            say: "Yes, I can.",
             options: ["Weak: kən", "Strong: can"],
             answer: 1,
             explanation: "In short answers, small words like can are strong.",
@@ -150,36 +154,42 @@ const lesson: Lesson = {
         questions: [
           {
             prompt: "A: “Do you live in London?” B: “No, I work in London.”",
+            say: "No, I work in London.",
             options: ["I", "work", "London"],
             answer: 1,
             explanation: "London is old information (A already said it). The new information is work, so it gets the main stress: No, I WORK in London.",
           },
           {
             prompt: "A: “Is the meeting at ten?” B: “No, it's at eleven.”",
+            say: "No, it's at eleven.",
             options: ["it's", "at", "eleven"],
             answer: 2,
             explanation: "Eleven is the corrected information: No, it's at ELEVEN.",
           },
           {
             prompt: "A: “Did you buy the red bag?” B: “No, I bought the black one.”",
+            say: "No, I bought the black one.",
             options: ["bought", "black", "one"],
             answer: 1,
             explanation: "The contrast is red / black, so black gets the main stress. One is a small word that replaces bag.",
           },
           {
             prompt: "A: “Is this your phone?” B: “No, it's her phone.”",
+            say: "No, it's her phone.",
             options: ["it's", "her", "phone"],
             answer: 1,
             explanation: "The contrast is your / her. Phone is old information, so the stress moves to her.",
           },
           {
             prompt: "A: “Is the letter from the bank?” B: “No, it's to the bank.”",
+            say: "No, it's to the bank.",
             options: ["it's", "to", "bank"],
             answer: 1,
             explanation: "A small word becomes strong when it shows a contrast: from / TO.",
           },
           {
             prompt: "A TOEIC caller says: “The workshop is in Room A, right?” You answer: “Actually, it's in Room B.”",
+            say: "Actually, it's in Room B.",
             options: ["Actually", "Room", "B"],
             answer: 2,
             explanation: "B is the corrected information, so it gets the strongest stress: Actually, it's in Room B.",

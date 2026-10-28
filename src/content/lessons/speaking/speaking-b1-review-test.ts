@@ -134,24 +134,28 @@ const lesson: Lesson = {
         questions: [
           {
             prompt: "Which syllable is stressed in “restaurant”?",
+            say: "restaurant",
             options: ["RES-taurant", "res-TAU-rant", "restau-RANT"],
             answer: 0,
             explanation: "Restaurant is stressed on the first syllable: RES-tuh-ront.",
           },
           {
             prompt: "Which syllable is stressed in “important”?",
+            say: "important",
             options: ["IM-portant", "im-POR-tant", "impor-TANT"],
             answer: 1,
             explanation: "The stress is on the second syllable: im-POR-tant.",
           },
           {
             prompt: "A: “Is your English class on Monday?” B: “No, it's on Wednesday.” Which word in B's answer gets the strongest stress?",
+            say: "No, it's on Wednesday.",
             options: ["it's", "on", "Wednesday"],
             answer: 2,
             explanation: "Wednesday is the new, corrected information, so it gets the main stress.",
           },
           {
             prompt: "In “I can't come tomorrow”, how is “can't” usually said?",
+            say: "I can't come tomorrow.",
             options: [
               "Weak and short, like “kn”",
               "Strong and clear, because it is negative",
@@ -162,6 +166,7 @@ const lesson: Lesson = {
           },
           {
             prompt: "Where is the most natural place to pause? “When I finish work I usually go to the gym.”",
+            say: "When I finish work I usually go to the gym.",
             options: [
               "After “When I”",
               "After “I usually go”",
