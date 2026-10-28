@@ -83,12 +83,23 @@ const SCHEMA = {
     strengths: { type: "ARRAY", items: { type: "STRING" } },
     tips: { type: "ARRAY", items: { type: "STRING" } },
     taskComment: { type: "STRING" },
+    targetMatched: { type: "BOOLEAN" },
   },
   required: ["speechDetected", "transcript", "scores", "accent", "words", "strengths", "tips", "taskComment"],
-  propertyOrdering: ["speechDetected", "transcript", "scores", "accent", "words", "strengths", "tips", "taskComment"],
+  propertyOrdering: ["speechDetected", "transcript", "scores", "accent", "words", "strengths", "tips", "taskComment", "targetMatched"],
 };
 
-function instructions(mode: string, text: string, level: Level, accent: string) {
+function instructions(mode: string, text: string, level: Level, accent: string, target: string, context: string) {
+  if (mode === "say")
+    return `Pronunciation check. Level: ${level}. The learner is doing this exercise:
+${context}
+They recorded themselves saying: "${text}"
+The correct pattern is: "${target}". CAPITAL letters mark the stressed syllable; a single word means that word
+should carry the main stress; sounds in slashes (like /t/) are the target sound.
+Listen carefully to where the learner actually put the stress (or which sound they actually made). Set targetMatched
+to true only if they clearly produced the correct pattern. In taskComment, write one short sentence that says what
+they did and what is correct, e.g. "You stressed the first syllable (HO-tel), but the stress is on TEL: ho-TEL." or
+"Correct: you stressed WORK clearly." In "words", only list real problems. Keep tips to one or two.`;
   if (mode === "shadow")
     return `Listen-and-repeat task. Level: ${level}. The learner heard a ${accent === "uk" ? "British" : "American"} English
 model and tried to repeat this sentence exactly:
@@ -125,6 +136,7 @@ function clean(raw: Record<string, unknown>, model: string): SpeakingFeedback {
     strengths: strList(raw.strengths, 3),
     tips: strList(raw.tips, 3),
     taskComment: str(raw.taskComment, 400),
+    targetMatched: null,
     model,
   };
 }
@@ -201,25 +213,28 @@ export async function POST(request: Request) {
     return fail("no-audio", 400);
   }
   const audio = form.get("audio");
-  const mode = form.get("mode") === "shadow" ? "shadow" : "speak";
+  const mode = (["shadow", "say"] as const).find((m) => m === form.get("mode")) ?? "speak";
+  const target = String(form.get("target") ?? "").slice(0, 300);
+  const context = String(form.get("context") ?? "").slice(0, 2000);
   const text = String(form.get("text") ?? "").slice(0, 3000);
   const level = (["B1", "B2", "C1"] as const).find((l) => l === form.get("level")) ?? "B2";
   const accent = form.get("accent") === "uk" ? "uk" : "us";
   if (!(audio instanceof Blob) || audio.size < 1000) return fail("no-audio", 400);
   if (audio.size > MAX_UPLOAD_BYTES) return fail("too-long", 413);
-  if (!text.trim()) return fail("failed", 400);
+  if (!text.trim() || (mode === "say" && !target.trim())) return fail("failed", 400);
 
   const mimeType = audio.type.startsWith("audio/") ? audio.type : "audio/wav";
   const data = Buffer.from(await audio.arrayBuffer()).toString("base64");
 
   try {
     const { model, value } = await generateJson<Record<string, unknown>>(
-      [{ inlineData: { mimeType, data } }, { text: instructions(mode, text, level, accent) }],
+      [{ inlineData: { mimeType, data } }, { text: instructions(mode, text, level, accent, target, context) }],
       SCHEMA,
       { system: SYSTEM },
     );
     const feedback = clean(value, model);
-    return Response.json(mode === "shadow" ? addMissed(feedback, text) : feedback);
+    if (mode === "say" && feedback.speechDetected) feedback.targetMatched = value.targetMatched === true;
+    return Response.json(mode === "speak" ? feedback : addMissed(feedback, text));
   } catch (e) {
     console.error("[speaking-feedback]", e instanceof Error ? e.message : e);
     return fail(e instanceof GeminiError && e.kind === "quota" ? "quota" : "failed", 502);

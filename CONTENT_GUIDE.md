@@ -83,7 +83,7 @@ All exercises need a lesson-unique `id` ("ex1", "ex2"…). Optional `title` and 
 
 | kind | Use | Rules |
 |---|---|---|
-| `mcq` | Any skill | `questions[]`, each with `options` and `answer` index (0-based) or index array for "choose TWO" |
+| `mcq` | Any skill | `questions[]`, each with `options` and `answer` index (0-based) or index array for "choose TWO". Pronunciation questions can add `say`: the exact word or sentence to say aloud (e.g. `"hotel"`, `"No, I work in London."`). Learners can then record it and get an AI check against the correct option. Leave `say` out when saying it would read out the answer |
 | `tfng` | Reading | `statements[]` with `answer` "T", "F" or "NG"; `variant: "ynng"` for opinions |
 | `gap` | Note/form/summary/sentence completion, grammar | `text` with `{{0}}`, `{{1}}`…; `answers[i]` = all accepted spellings (e.g. `["15", "fifteen"]`). Matching is case-insensitive and ignores extra spaces/final punctuation. Optional `wordBank` |
 | `match` | Headings, features, speakers, map labels | `answer[i]` = index in `right` for `left[i]`. `right` may include distractors |

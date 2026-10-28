@@ -5,7 +5,8 @@ import type { McqExercise as McqType } from "@/lib/types";
 import { cn, LETTERS } from "@/lib/utils";
 import { displayOrder } from "@/lib/shuffle-options";
 import { Inline } from "@/components/lesson/RichText";
-import { Explanation, ExerciseShell, Mark, useExerciseScore } from "./ExerciseShell";
+import { Explanation, ExerciseShell, Mark, useExerciseLevel, useExerciseScore } from "./ExerciseShell";
+import { SayIt } from "./SayIt";
 
 const answersOf = (a: number | number[]) => (Array.isArray(a) ? a : [a]);
 const sameSet = (a: number[], b: number[]) => a.length === b.length && a.every((x) => b.includes(x));
@@ -14,6 +15,7 @@ export function McqExercise({ exercise }: { exercise: McqType }) {
   const [chosen, setChosen] = useState<Record<number, number[]>>({});
   const [checked, setChecked] = useState(false);
   const { save } = useExerciseScore(exercise.id);
+  const level = useExerciseLevel();
 
   const correct = exercise.questions.filter((q, i) => sameSet(chosen[i] ?? [], answersOf(q.answer))).length;
   const total = exercise.questions.length;
@@ -93,6 +95,21 @@ export function McqExercise({ exercise }: { exercise: McqType }) {
                     );
                   })}
                 </div>
+                {q.say && (
+                  <SayIt
+                    text={q.say}
+                    showModel={checked}
+                    request={{
+                      mode: "say",
+                      text: q.say,
+                      level,
+                      target: answers.map((a) => q.options[a]).join(" / "),
+                      context: [exercise.title, exercise.instructions, `Question: ${q.prompt}`, q.explanation && `Explanation: ${q.explanation}`]
+                        .filter(Boolean)
+                        .join("\n"),
+                    }}
+                  />
+                )}
                 {checked && q.explanation && (
                   <Explanation>
                     <Inline text={q.explanation} />

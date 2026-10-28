@@ -108,6 +108,12 @@ export interface McqQuestion {
   /** Index of the correct option, or several indexes for "choose TWO" questions. */
   answer: number | number[];
   explanation?: string;
+  /**
+   * Pronunciation questions: the exact word or sentence the learner should say aloud, e.g. "hotel" or
+   * "No, I work in London." Adds a recorder with an AI check against the correct option.
+   * Leave it out when saying it would simply read out the answer.
+   */
+  say?: string;
 }
 
 export interface TfngStatement {

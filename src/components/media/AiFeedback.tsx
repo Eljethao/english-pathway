@@ -11,7 +11,7 @@ import {
 } from "@/lib/ai-feedback";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
-import { IconCheck, IconSparkle } from "@/components/ui/icons";
+import { IconCheck, IconSparkle, IconX } from "@/components/ui/icons";
 import { PlayButton } from "./TtsPlayer";
 
 type State =
@@ -42,7 +42,66 @@ function Meter({ label, value }: { label: string; value: number }) {
   );
 }
 
+function WordList({ result, request }: { result: SpeakingFeedback; request: FeedbackRequest }) {
+  if (!result.words.length) return null;
+  return (
+    <div>
+      <div className="mb-1.5 text-sm font-medium text-ink">Words to practise</div>
+      <ul className="divide-y divide-line rounded-lg border border-line">
+        {result.words.map((w, i) => (
+          <li key={`${w.word}-${i}`} className="flex flex-wrap items-start justify-between gap-2 px-3 py-2.5">
+            <div className="min-w-0 flex-1 text-sm">
+              <span className="font-bold text-ink">{w.word}</span>
+              {w.heard && w.heard.toLowerCase() !== w.word.toLowerCase() && (
+                <span className="text-zinc-500"> · sounded like “{w.heard}”</span>
+              )}
+              {w.issue && <span className="text-zinc-500"> · {w.issue}</span>}
+              {w.tip && <p className="mt-0.5 text-zinc-700">{w.tip}</p>}
+            </div>
+            <PlayButton text={w.word} label={`Hear “${w.word}”`} accent={request.accent} rate={0.85} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/** Say mode: did the learner hit the target stress or sound? */
+function SayResult({ result, request }: { result: SpeakingFeedback; request: FeedbackRequest }) {
+  const ok = result.targetMatched === true;
+  return (
+    <div className="space-y-3">
+      <p
+        className={cn(
+          "flex items-start gap-2 rounded-lg px-3 py-2 text-sm",
+          ok ? "bg-emerald-50 text-emerald-900" : "bg-amber-50 text-amber-900",
+        )}
+      >
+        {ok ? <IconCheck className="mt-0.5 shrink-0" /> : <IconX className="mt-0.5 shrink-0" />}
+        <span>{result.taskComment || (ok ? "Well done: that matches the target." : "Not quite yet. Listen to the model and try again.")}</span>
+      </p>
+      {result.transcript && (
+        <p className="text-sm text-zinc-600">
+          <span className="font-medium text-ink">The AI heard:</span> {result.transcript}
+        </p>
+      )}
+      <WordList result={result} request={request} />
+      {result.tips.length > 0 && (
+        <ul className="list-disc space-y-1 pl-5 text-sm text-zinc-700 marker:text-zinc-400">
+          {result.tips.map((t) => (
+            <li key={t}>{t}</li>
+          ))}
+        </ul>
+      )}
+      <p className="text-xs text-zinc-500">
+        Stress is hard for AI to hear, so this check is sometimes wrong. Compare with the model after you check your answers.
+      </p>
+    </div>
+  );
+}
+
 function Result({ result, request }: { result: SpeakingFeedback; request: FeedbackRequest }) {
+  if (result.speechDetected && request.mode === "say") return <SayResult result={result} request={request} />;
   if (!result.speechDetected)
     return (
       <div className="rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-800">
@@ -79,26 +138,7 @@ function Result({ result, request }: { result: SpeakingFeedback; request: Feedba
         </div>
       )}
 
-      {result.words.length > 0 && (
-        <div>
-          <div className="mb-1.5 text-sm font-medium text-ink">Words to practise</div>
-          <ul className="divide-y divide-line rounded-lg border border-line">
-            {result.words.map((w, i) => (
-              <li key={`${w.word}-${i}`} className="flex flex-wrap items-start justify-between gap-2 px-3 py-2.5">
-                <div className="min-w-0 flex-1 text-sm">
-                  <span className="font-bold text-ink">{w.word}</span>
-                  {w.heard && w.heard.toLowerCase() !== w.word.toLowerCase() && (
-                    <span className="text-zinc-500"> · sounded like “{w.heard}”</span>
-                  )}
-                  {w.issue && <span className="text-zinc-500"> · {w.issue}</span>}
-                  {w.tip && <p className="mt-0.5 text-zinc-700">{w.tip}</p>}
-                </div>
-                <PlayButton text={w.word} label={`Hear “${w.word}”`} accent={request.accent} rate={0.85} />
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <WordList result={result} request={request} />
 
       {result.taskComment && <p className="text-sm text-zinc-700">{result.taskComment}</p>}
 
@@ -155,7 +195,8 @@ export function AiFeedback({ recording, request, compact }: { recording: Blob | 
       {(state.status === "idle" || state.status === "error") && (
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
           <Button size="sm" variant={compact ? "secondary" : "primary"} onClick={check}>
-            <IconSparkle /> {state.status === "error" ? "Try AI feedback again" : "Check my pronunciation with AI"}
+            <IconSparkle />{" "}
+            {state.status === "error" ? "Try AI feedback again" : request.mode === "say" ? "Check with AI" : "Check my pronunciation with AI"}
           </Button>
           <span className="text-xs text-zinc-500">Sends this recording to Google Gemini for analysis.</span>
         </div>

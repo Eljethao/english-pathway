@@ -48,6 +48,7 @@ function checkExercise(where: string, ex: Exercise, ids: Set<string>) {
         if (!answers.length || answers.some((a) => !inRange(a, q.options.length)))
           errors.push(`${at} q${i + 1}: answer out of range`);
         if (new Set(q.options).size !== q.options.length) errors.push(`${at} q${i + 1}: duplicate options`);
+        if (q.say !== undefined && !q.say.trim()) errors.push(`${at} q${i + 1}: say must not be empty`);
       });
       break;
     case "tfng":

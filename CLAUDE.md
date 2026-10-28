@@ -63,6 +63,8 @@ There is no unit test framework. The content validator and the type checkers are
 - **Use free-tier models only (project decision).** Never add a Pro model to `GEMINI_MODELS`; the helper also filters "pro" out.
 - None of the approved models can output audio. Listening therefore stays on browser text-to-speech, and Gemini's separate "-tts" models are not used.
 - The browser side lives in `src/lib/ai-feedback.ts` and `src/components/media/AiFeedback.tsx`. Recordings are converted to 16 kHz mono WAV before upload, because MediaRecorder produces WebM or MP4 depending on the browser.
+- Three modes share the route. `speak` handles speaking tasks. `shadow` handles listen-and-repeat. `say` handles multiple-choice questions with a `say` field, and checks the recording against the correct option, such as a stress pattern, a sound or the stressed word.
+- Stress judgements are the weakest part. Telling the model the target works better than asking it to choose among the options, which makes it always pick the dictionary form. Even so, it sometimes marks correct stress as wrong.
 - A recording is uploaded only when the learner presses the AI button, and the About page says so. Keep that statement true.
 - The route has an origin check and an in-memory limit per IP. It needs a server runtime, not a static export.
 

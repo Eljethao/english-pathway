@@ -5,7 +5,8 @@
 
 import type { Level, Voice } from "./types";
 
-export type FeedbackMode = "shadow" | "speak";
+/** shadow: repeat a sentence. speak: answer a task. say: say a word or sentence with a target stress or sound. */
+export type FeedbackMode = "shadow" | "speak" | "say";
 
 export interface FeedbackRequest {
   mode: FeedbackMode;
@@ -14,6 +15,10 @@ export interface FeedbackRequest {
   level?: Level;
   /** shadow: the accent of the model they copied. */
   accent?: Voice;
+  /** say: the correct pattern, e.g. "ho-TEL", "/t/" or "work" (the word that carries the stress). */
+  target?: string;
+  /** say: the exercise and question, so the AI knows what is being practised. */
+  context?: string;
 }
 
 export interface WordIssue {
@@ -34,8 +39,10 @@ export interface SpeakingFeedback {
   words: WordIssue[];
   strengths: string[];
   tips: string[];
-  /** speak mode: one sentence on whether the answer addressed the task. */
+  /** speak mode: whether the answer addressed the task. say mode: what the learner did against the target. */
   taskComment: string;
+  /** say mode: whether the learner produced the target stress or sound. null in other modes. */
+  targetMatched: boolean | null;
   model: string;
 }
 
@@ -122,6 +129,8 @@ export async function requestFeedback(recording: Blob, req: FeedbackRequest): Pr
   form.set("text", req.text);
   if (req.level) form.set("level", req.level);
   if (req.accent) form.set("accent", req.accent);
+  if (req.target) form.set("target", req.target);
+  if (req.context) form.set("context", req.context);
   let res: Response;
   try {
     res = await fetch("/api/speaking-feedback", { method: "POST", body: form });
