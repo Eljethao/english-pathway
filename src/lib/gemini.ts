@@ -48,14 +48,18 @@ const RETRYABLE = new Set([404, 408, 429, 500, 502, 503, 504]);
  * Sends one prompt (text and inline audio) and returns the parsed JSON reply, which must match `schema`
  * (an OpenAPI-style schema, as Gemini's `responseSchema` expects).
  */
-export async function generateJson<T>(parts: GeminiPart[], schema: object, opts: { system?: string; timeoutMs?: number } = {}) {
+export async function generateJson<T>(
+  parts: GeminiPart[],
+  schema: object,
+  opts: { system?: string; timeoutMs?: number; temperature?: number } = {},
+) {
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new GeminiError("GEMINI_API_KEY is not set", "unavailable");
 
   const body = JSON.stringify({
     ...(opts.system && { systemInstruction: { parts: [{ text: opts.system }] } }),
     contents: [{ role: "user", parts }],
-    generationConfig: { responseMimeType: "application/json", responseSchema: schema, temperature: 0.2 },
+    generationConfig: { responseMimeType: "application/json", responseSchema: schema, temperature: opts.temperature ?? 0.2 },
   });
 
   let rateLimited = 0;

@@ -187,8 +187,9 @@ const lesson: Lesson = {
       exercise: {
         id: "ex2",
         kind: "mcq",
+        answerBy: "voice",
         title: "Which word did you hear?",
-        instructions: "Listen to the eight sentences. In each one, both words would make sense, so you have to rely on the sound. Choose the word you hear.",
+        instructions: "Listen to the eight sentences. In each one, both words would make sense, so you have to rely on the sound. Record yourself saying just the word you hear, then check your answers.",
         questions: [
           { prompt: "Sentence 1: We ___ about it for hours.", options: ["fought", "taught", "thought"], answer: 2, explanation: "thought /θɔːt/: the tongue is between the teeth, with air flowing. Fought starts with /f/ (teeth on lip) and taught with /t/ (air blocked)." },
           { prompt: "Sentence 2: Can you pass me the ___ one?", options: ["tin", "thin"], answer: 1, explanation: "thin /θɪn/ starts with air flowing over the tongue; tin /tɪn/ starts with a short burst after the air is blocked." },

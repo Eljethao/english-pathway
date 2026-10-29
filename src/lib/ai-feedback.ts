@@ -68,6 +68,23 @@ export const FEEDBACK_ERROR_TEXT: Record<FeedbackErrorKind, string> = {
   failed: "AI feedback failed. Check your connection and try again.",
 };
 
+/* ---------- voice answers: which option did the learner say? ---------- */
+
+export interface ChoiceRequest {
+  /** The question as shown, e.g. "Look at that big …". */
+  prompt: string;
+  options: string[];
+  level?: Level;
+}
+
+export interface ChoiceResult {
+  speechDetected: boolean;
+  transcript: string;
+  /** Index into options, or null when the AI could not tell. */
+  heardOption: number | null;
+  model: string;
+}
+
 /* ---------- browser: recording → 16 kHz mono WAV ---------- */
 
 const TARGET_RATE = 16_000;
@@ -120,24 +137,29 @@ export async function toWav(blob: Blob): Promise<{ wav: Blob; seconds: number }>
   return { wav: new Blob([buf], { type: "audio/wav" }), seconds: decoded.duration };
 }
 
-/** Sends a recording for AI feedback. Throws FeedbackError. */
-export async function requestFeedback(recording: Blob, req: FeedbackRequest): Promise<SpeakingFeedback> {
+async function post<T>(recording: Blob, fields: Record<string, string | undefined>): Promise<T> {
   const { wav } = await toWav(recording);
   const form = new FormData();
   form.set("audio", wav, "recording.wav");
-  form.set("mode", req.mode);
-  form.set("text", req.text);
-  if (req.level) form.set("level", req.level);
-  if (req.accent) form.set("accent", req.accent);
-  if (req.target) form.set("target", req.target);
-  if (req.context) form.set("context", req.context);
+  for (const [k, v] of Object.entries(fields)) if (v) form.set(k, v);
   let res: Response;
   try {
     res = await fetch("/api/speaking-feedback", { method: "POST", body: form });
   } catch {
     throw new FeedbackError("failed");
   }
-  if (res.ok) return (await res.json()) as SpeakingFeedback;
+  if (res.ok) return (await res.json()) as T;
   const { error } = (await res.json().catch(() => ({}))) as { error?: FeedbackErrorKind };
   throw new FeedbackError(error && error in FEEDBACK_ERROR_TEXT ? error : "failed");
+}
+
+/** Sends a recording for AI feedback. Throws FeedbackError. */
+export function requestFeedback(recording: Blob, req: FeedbackRequest) {
+  const { mode, text, level, accent, target, context } = req;
+  return post<SpeakingFeedback>(recording, { mode, text, level, accent, target, context });
+}
+
+/** Asks which of the options the learner said. Throws FeedbackError. */
+export function requestChoice(recording: Blob, req: ChoiceRequest) {
+  return post<ChoiceResult>(recording, { mode: "choose", text: req.prompt, options: JSON.stringify(req.options), level: req.level });
 }

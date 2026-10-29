@@ -131,7 +131,16 @@ export interface RespondItem {
   explanation?: string;
 }
 
-export type McqExercise = ExerciseBase & { kind: "mcq"; questions: McqQuestion[] };
+export type McqExercise = ExerciseBase & {
+  kind: "mcq";
+  questions: McqQuestion[];
+  /**
+   * "voice": learners answer by recording themselves instead of clicking an option (minimal pairs such as
+   * ship / sheep). AI decides which option they said, and that becomes their answer. The options are still shown
+   * after checking, and as a fallback when recording or AI is not available. Single-answer questions only.
+   */
+  answerBy?: "voice";
+};
 export type TfngExercise = ExerciseBase & {
   kind: "tfng";
   variant?: "tfng" | "ynng";

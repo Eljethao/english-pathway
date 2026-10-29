@@ -6,8 +6,11 @@ import { useHydrated } from "./useProgress";
 
 export type RecorderStatus = "idle" | "recording" | "stopped" | "denied" | "error";
 
-/** Records audio with MediaRecorder and, where supported, a live transcript with SpeechRecognition. */
-export function useRecorder() {
+/**
+ * Records audio with MediaRecorder and, where supported, a live transcript with SpeechRecognition.
+ * `onStop` receives each finished recording.
+ */
+export function useRecorder({ onStop }: { onStop?: (recording: Blob) => void } = {}) {
   const hydrated = useHydrated();
   const [status, setStatus] = useState<RecorderStatus>("idle");
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
@@ -22,6 +25,10 @@ export function useRecorder() {
   const activeRef = useRef(false);
   const startedAt = useRef(0);
   const urlRef = useRef<string | null>(null);
+  const onStopRef = useRef(onStop);
+  useEffect(() => {
+    onStopRef.current = onStop;
+  });
 
   const cleanup = useCallback(() => {
     activeRef.current = false;
@@ -60,6 +67,7 @@ export function useRecorder() {
       urlRef.current = url;
       setAudioUrl(url);
       setAudioBlob(blob);
+      onStopRef.current?.(blob);
     };
     mediaRef.current = rec;
     rec.start();

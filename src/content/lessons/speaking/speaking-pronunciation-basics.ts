@@ -163,8 +163,9 @@ const lesson: Lesson = {
       exercise: {
         id: "ex2",
         kind: "mcq",
+        answerBy: "voice",
         title: "Which word do you hear?",
-        instructions: "Listen to the eight sentences above. For each one, choose the word you hear. Both words make sense, so listen carefully to the sound.",
+        instructions: "Listen to the eight sentences above. For each one, record yourself saying just the word you hear, then check your answers. Both words make sense, so listen carefully, and make the sound clear when you say it.",
         questions: [
           { prompt: "1. Look at that big …", options: ["ship", "sheep"], answer: 0, explanation: "Short /ɪ/: ship." },
           { prompt: "2. I don't want to … here.", options: ["live", "leave"], answer: 1, explanation: "Long /iː/: leave." },

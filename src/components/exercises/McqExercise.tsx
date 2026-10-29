@@ -7,6 +7,7 @@ import { displayOrder } from "@/lib/shuffle-options";
 import { Inline } from "@/components/lesson/RichText";
 import { Explanation, ExerciseShell, Mark, useExerciseLevel, useExerciseScore } from "./ExerciseShell";
 import { SayIt } from "./SayIt";
+import { VoiceAnswer } from "./VoiceAnswer";
 
 const answersOf = (a: number | number[]) => (Array.isArray(a) ? a : [a]);
 const sameSet = (a: number[], b: number[]) => a.length === b.length && a.every((x) => b.includes(x));
@@ -16,6 +17,12 @@ export function McqExercise({ exercise }: { exercise: McqType }) {
   const [checked, setChecked] = useState(false);
   const { save } = useExerciseScore(exercise.id);
   const level = useExerciseLevel();
+  // Voice answers: learners say the word instead of clicking. `fallback` shows the options again
+  // when there is no microphone or AI; `round` remounts the recorders on "Try again".
+  const voice = exercise.answerBy === "voice";
+  const [fallback, setFallback] = useState(false);
+  const [round, setRound] = useState(0);
+  const byVoice = voice && !fallback;
 
   const correct = exercise.questions.filter((q, i) => sameSet(chosen[i] ?? [], answersOf(q.answer))).length;
   const total = exercise.questions.length;
@@ -33,6 +40,7 @@ export function McqExercise({ exercise }: { exercise: McqType }) {
   return (
     <ExerciseShell
       exercise={exercise}
+      label={byVoice ? "Speak your answer" : undefined}
       checked={checked}
       result={{ correct, total }}
       canCheck={Object.keys(chosen).length > 0}
@@ -43,8 +51,21 @@ export function McqExercise({ exercise }: { exercise: McqType }) {
       onReset={() => {
         setChecked(false);
         setChosen({});
+        setRound((r) => r + 1);
       }}
     >
+      {byVoice && !checked && (
+        <p className="mb-4 text-xs text-zinc-500">
+          Your recordings are sent to Google Gemini to recognise the word you said.{" "}
+          <button
+            type="button"
+            className="underline underline-offset-2 hover:text-ink"
+            onClick={() => setFallback(true)}
+          >
+            Choose the words instead
+          </button>
+        </p>
+      )}
       <ol className="space-y-6">
         {exercise.questions.map((q, qi) => {
           const answers = answersOf(q.answer);
@@ -62,39 +83,62 @@ export function McqExercise({ exercise }: { exercise: McqType }) {
                   </span>
                   {checked && <Mark ok={ok} />}
                 </legend>
-                <div className="grid gap-2">
-                  {displayOrder(exercise.id, qi, q.prompt, q.options, q.explanation).map((oi, pos) => {
-                    const opt = q.options[oi];
-                    const selected = mine.includes(oi);
-                    const isAnswer = answers.includes(oi);
-                    return (
-                      <label
-                        key={oi}
-                        className={cn(
-                          "flex cursor-pointer items-start gap-3 rounded-lg border px-3 py-2.5 text-sm transition-colors duration-150",
-                          !checked && (selected ? "border-accent bg-accent-soft" : "border-line hover:border-zinc-300"),
-                          checked && isAnswer && "border-emerald-300 bg-emerald-50",
-                          checked && selected && !isAnswer && "border-rose-300 bg-rose-50",
-                          checked && !selected && !isAnswer && "border-line opacity-70",
-                          checked && "cursor-default",
-                        )}
-                      >
-                        <input
-                          type={multi > 1 ? "checkbox" : "radio"}
-                          name={`${exercise.id}-q${qi}`}
-                          className="mt-0.5 accent-blue-600"
-                          checked={selected}
-                          disabled={checked}
-                          onChange={() => pick(qi, oi, multi)}
-                        />
-                        <span className="font-medium text-zinc-400">{LETTERS[pos]}</span>
-                        <span className="text-zinc-800">
-                          <Inline text={opt} />
-                        </span>
-                      </label>
-                    );
-                  })}
-                </div>
+                {byVoice && !checked ? (
+                  <VoiceAnswer
+                    key={round}
+                    prompt={q.prompt}
+                    options={q.options}
+                    level={level}
+                    onAnswer={(oi) => pick(qi, oi, 1)}
+                    onFallback={() => setFallback(true)}
+                  />
+                ) : (
+                  <div className="grid gap-2">
+                    {displayOrder(exercise.id, qi, q.prompt, q.options, q.explanation).map((oi, pos) => {
+                      const opt = q.options[oi];
+                      const selected = mine.includes(oi);
+                      const isAnswer = answers.includes(oi);
+                      return (
+                        <label
+                          key={oi}
+                          className={cn(
+                            "flex cursor-pointer items-start gap-3 rounded-lg border px-3 py-2.5 text-sm transition-colors duration-150",
+                            !checked &&
+                              (selected ? "border-accent bg-accent-soft" : "border-line hover:border-zinc-300"),
+                            checked && isAnswer && "border-emerald-300 bg-emerald-50",
+                            checked && selected && !isAnswer && "border-rose-300 bg-rose-50",
+                            checked && !selected && !isAnswer && "border-line opacity-70",
+                            checked && "cursor-default",
+                          )}
+                        >
+                          <input
+                            type={multi > 1 ? "checkbox" : "radio"}
+                            name={`${exercise.id}-q${qi}`}
+                            className="mt-0.5 accent-blue-600"
+                            checked={selected}
+                            disabled={checked}
+                            onChange={() => pick(qi, oi, multi)}
+                          />
+                          <span className="font-medium text-zinc-400">{LETTERS[pos]}</span>
+                          <span className="text-zinc-800">
+                            <Inline text={opt} />
+                          </span>
+                        </label>
+                      );
+                    })}
+                  </div>
+                )}
+                {byVoice && checked && (
+                  <p className="mt-2 text-sm text-zinc-600">
+                    {mine.length ? (
+                      <>
+                        You said: <span className="font-bold text-ink">{q.options[mine[0]]}</span>
+                      </>
+                    ) : (
+                      "No answer recorded."
+                    )}
+                  </p>
+                )}
                 {q.say && (
                   <SayIt
                     text={q.say}

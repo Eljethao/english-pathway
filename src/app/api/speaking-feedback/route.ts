@@ -1,4 +1,10 @@
-import { MAX_UPLOAD_BYTES, type FeedbackErrorKind, type SpeakingFeedback, type WordIssue } from "@/lib/ai-feedback";
+import {
+  MAX_UPLOAD_BYTES,
+  type ChoiceResult,
+  type FeedbackErrorKind,
+  type SpeakingFeedback,
+  type WordIssue,
+} from "@/lib/ai-feedback";
 import { GeminiError, generateJson, geminiConfigured } from "@/lib/gemini";
 import type { Level } from "@/lib/types";
 
@@ -192,6 +198,50 @@ function addMissed(fb: SpeakingFeedback, target: string): SpeakingFeedback {
   return { ...fb, words: [...fb.words, ...extra].slice(0, 10) };
 }
 
+/* ---------- voice answers: which option did the learner say? ---------- */
+
+// The model is never told the correct answer: asked to judge against a target, it tends to agree with it.
+// Tested on minimal pairs: the word on its own beats the whole sentence (the model guesses the likelier
+// sentence), and asking for an IPA transcription first made it worse.
+const CHOOSE_SYSTEM =
+  "You are an expert English phonetician. You report exactly which words a learner said, based only on the sounds in the recording.";
+
+const CHOOSE_SCHEMA = {
+  type: "OBJECT",
+  properties: {
+    speechDetected: { type: "BOOLEAN" },
+    transcript: { type: "STRING" },
+    heardOption: { type: "INTEGER" },
+  },
+  required: ["speechDetected", "transcript", "heardOption"],
+  propertyOrdering: ["speechDetected", "transcript", "heardOption"],
+};
+
+function chooseInstructions(options: string[]) {
+  return `The learner said ONE word: one of the words below.
+${options.map((o, i) => `${i}: ${o}`).join("\n")}
+Which word did they actually say? Decide only from the sounds you hear, not from which word is more common.
+Set heardOption to its number, or -1 if you cannot tell or they said something else. transcript: exactly what they said.`;
+}
+
+function parseOptions(raw: FormDataEntryValue | null) {
+  try {
+    const list: unknown = JSON.parse(String(raw ?? ""));
+    if (!Array.isArray(list) || list.length < 2 || list.length > 6) return null;
+    const options = list.map((o) => (typeof o === "string" ? o.trim().slice(0, 80) : ""));
+    return options.every(Boolean) ? options : null;
+  } catch {
+    return null;
+  }
+}
+
+function cleanChoice(raw: Record<string, unknown>, count: number, model: string): ChoiceResult {
+  const speechDetected = raw.speechDetected !== false;
+  const n = raw.heardOption;
+  const heardOption = speechDetected && typeof n === "number" && Number.isInteger(n) && n >= 0 && n < count ? n : null;
+  return { speechDetected, transcript: str(raw.transcript, 300), heardOption, model };
+}
+
 /* ---------- handler ---------- */
 
 export async function POST(request: Request) {
@@ -213,7 +263,7 @@ export async function POST(request: Request) {
     return fail("no-audio", 400);
   }
   const audio = form.get("audio");
-  const mode = (["shadow", "say"] as const).find((m) => m === form.get("mode")) ?? "speak";
+  const mode = (["shadow", "say", "choose"] as const).find((m) => m === form.get("mode")) ?? "speak";
   const target = String(form.get("target") ?? "").slice(0, 300);
   const context = String(form.get("context") ?? "").slice(0, 2000);
   const text = String(form.get("text") ?? "").slice(0, 3000);
@@ -225,6 +275,22 @@ export async function POST(request: Request) {
 
   const mimeType = audio.type.startsWith("audio/") ? audio.type : "audio/wav";
   const data = Buffer.from(await audio.arrayBuffer()).toString("base64");
+
+  if (mode === "choose") {
+    const options = parseOptions(form.get("options"));
+    if (!options) return fail("failed", 400);
+    try {
+      const { model, value } = await generateJson<Record<string, unknown>>(
+        [{ inlineData: { mimeType, data } }, { text: chooseInstructions(options) }],
+        CHOOSE_SCHEMA,
+        { system: CHOOSE_SYSTEM, temperature: 0 },
+      );
+      return Response.json(cleanChoice(value, options.length, model));
+    } catch (e) {
+      console.error("[speaking-feedback]", e instanceof Error ? e.message : e);
+      return fail(e instanceof GeminiError && e.kind === "quota" ? "quota" : "failed", 502);
+    }
+  }
 
   try {
     const { model, value } = await generateJson<Record<string, unknown>>(
